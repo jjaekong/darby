@@ -38,6 +38,7 @@ address, p {
   text-align: center; }
 
 #header {
+  margin-bottom: 66px;
   height: 93px;
   border-bottom: 3px solid #97b74e;
   background-color: #fff; }
@@ -81,6 +82,7 @@ address, p {
 
 #gnb {
   position: absolute;
+  z-index: 9100;
   top: 93px;
   width: 100%;
   height: 66px;
@@ -128,8 +130,53 @@ address, p {
           #gnb .wrapper .container > ul > li.active > ul > li > a, #gnb .wrapper .container > ul > li:hover > ul > li > a {
             color: #fff; }
 
+.page-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  height: 310px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .page-header .breadcrumb {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    background-color: transparent; }
+    .page-header .breadcrumb > li {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.7); }
+      .page-header .breadcrumb > li:first-child a {
+        font-size: 12px;
+        color: #fff; }
+      .page-header .breadcrumb > li + li:before {
+        content: '>'; }
+      .page-header .breadcrumb > li a {
+        color: rgba(255, 255, 255, 0.7); }
+  .page-header hr {
+    margin-bottom: 25px;
+    width: 40px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5); }
+  .page-header h1 {
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 57px;
+    line-height: 60px;
+    font-weight: 400; }
+  .page-header p {
+    display: block;
+    font-size: 17px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300; }
+  .page-header.page-header-1 {
+    background-image: url(/assets/images/bg_page_header_1.jpg); }
+
 #content {
-  margin-top: 66px;
   min-height: 300px;
   background-color: #fff; }
 
