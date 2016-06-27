@@ -1,0 +1,22 @@
+.sub .container section .section-header h3 {
+    font-size: 28px;
+    color: #222;
+    padding-top: 70px;
+}
+
+.sub .container section .section-header hr {
+    width: 27px;
+    border-top-color: #000;
+    text-align: left;
+    display: inline-block;
+}
+.sub .container section .section-content .dot-list li {
+    background-image: url(/assets/images/sub/dot_img.gif);
+    background-size: 4px auto;
+    background-repeat: no-repeat;
+    background-position: 0 9px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #666;
+    padding-left:10px;
+}

@@ -1,0 +1,45 @@
+/* darby-intro */
+.introduce.darby-intro {
+	padding-bottom:150px;
+}
+.introduce.darby-intro .intro .section-header {
+	padding-top:70px;
+	background-image:url(/assets/images/introduce/intro_img.jpg);
+	background-size:512px auto;
+	background-repeat:no-repeat;
+	background-position:632px 70px;
+
+}
+.introduce.darby-intro .intro .section-header h2 img {
+	width:526px;
+}
+
+.introduce.darby-intro .intro .section-header > p {
+	font-size:21px;
+	padding-left:20px;
+	color:#4e4e4e;
+	line-height:34px;
+	border-left:6px solid #249250;
+	margin-top:15px;
+	font-weight:400;
+	font-family: NanumGothic;
+}
+.introduce.darby-intro .intro .section-content {
+	padding-top:77px;
+}
+.introduce.darby-intro .intro .section-content > p {
+	display:inline-block;
+	width:870px;
+	font-size:16px; 
+	color:#4e4e4e;
+	line-height:26px;
+	letter-spacing:0.5px;
+}
+.introduce.darby-intro .intro .section-content > p i {
+	font-style:normal;
+	font-size:16px;
+	color:#249250;
+}
+.introduce.darby-intro .intro .section-content > p:nth-of-type(2) {
+	margin-top:36px;
+}
