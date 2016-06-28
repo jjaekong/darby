@@ -41,6 +41,34 @@
 	margin-top:36px;
 }
 
+
+/* 인사말 공통 */
+.introduce .greeting-text {
+	float:left;
+	width:570px;
+	margin-right:30px;
+}
+.introduce .greeting-text h3 {
+	font-size:20px;
+	color:#4e4e4e;
+	margin:0;
+	margin-bottom:26px;
+	font-weight:bold;
+}
+.introduce .greeting-text > p {
+	font-size:16px;
+	color:#4e4e4e;
+	line-height:26px;
+}
+.introduce .greeting-text > p i {
+	font-style:normal;
+	color:#249250;
+}
+.introduce .greeting-text:last-child {
+	margin-right:0;
+}
+
+
 /* greeting */
 .introduce.greeting .container {
 	padding:80px 15px 150px;
@@ -71,26 +99,11 @@
 	margin-top:86px;
 	overflow:hidden;
 }
-.introduce.greeting .container .intro .section-content .greeting-text {
-	float:left;
-	width:570px;
-	margin-right:30px;
-}
 .introduce.greeting .container .intro .section-content .greeting-text > p {
-	font-size:16px;
-	color:#4e4e4e;
-	line-height:26px;
 	margin-bottom:37px;
 }
 .introduce.greeting .container .intro .section-content .greeting-text > p:last-child {
 	margin-bottom:0;
-}
-.introduce.greeting .container .intro .section-content .greeting-text > p i {
-	font-style:normal;
-	color:#249250;
-}
-.introduce.greeting .container .intro .section-content .greeting-text:last-child {
-	margin-right:0;
 }
 .introduce.greeting .container .intro .section-content .greeting-text:last-child p {
 	margin-bottom:33px;
@@ -109,4 +122,154 @@
 	font-size:16px;
 	color:#222;
 	margin-right:17px;
+	vertical-align:bottom;
+}
+
+
+/* ceo-yoon */
+.introduce.ceo-yoon .container  {
+	padding:80px 15px 150px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-header {
+	position:relative;
+	background-image:url(/assets/images/introduce/ceo_bg.png);
+	background-repeat:no-repeat;
+	background-position:0 70px;
+	height:575px;
+	padding-top:70px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-header img {
+	margin:-3px 0 0 84px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-header h2 {
+	font-size:45px;
+	color:#181818;
+	margin-bottom:30px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-header h2 small {
+	font-size:23px;
+	color:#181818;
+	margin-right:5px;
+	vertical-align:bottom;
+}
+.introduce.ceo-yoon .container .ceo-info .section-header .ceo-text {
+	position:absolute;
+	top:136px;
+	left:483px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-header .ceo-text ul li {
+	font-size:16px;
+	color:#181818;
+	line-height:28px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-content {
+	margin-top:83px;
+}
+.introduce.ceo-yoon .container .ceo-info .section-content .greeting-text:nth-of-type(1) h3:nth-of-type(2) {
+	margin-top:100px;
+}
+
+
+/* ceo-min */
+.introduce.ceo-min .container  {
+	padding:80px 15px 150px;
+}
+.introduce.ceo-min .container .ceo-info .ceo-header {
+	position:relative;
+	background-image:url(/assets/images/introduce/ceo_bg.png);
+	background-repeat:no-repeat;
+	background-position:0 70px;
+	height:575px;
+	padding-top:70px;
+}
+.introduce.ceo-min .container .ceo-info .ceo-header img {
+	margin:-3px 0 0 84px;
+}
+.introduce.ceo-min .container .ceo-info .ceo-header h2 {
+	font-size:45px;
+	color:#181818;
+	margin-bottom:30px;
+}
+.introduce.ceo-min .container .ceo-info .ceo-header h2 small {
+	font-size:23px;
+	color:#181818;
+	margin-right:5px;
+	vertical-align:bottom;
+}
+.introduce.ceo-min .container .ceo-info .ceo-header .ceo-text {
+	position:absolute;
+	top:136px;
+	left:483px;
+}
+.introduce.ceo-min .container .ceo-info .ceo-header .ceo-text ul li {
+	font-size:16px;
+	color:#181818;
+	line-height:28px;
+}
+
+
+/* history */
+.introduce.history .container {
+	padding:80px 15px 150px;
+}
+
+
+/* history 공통 */
+.introduce .container .history-list { 
+	padding-top:70px;
+	overflow:hidden;
+}
+.introduce .container .history-list .history-img {
+	float:left;
+}
+.introduce .container .history-list .history-img > p:nth-of-type(2) { 
+	margin-top:30px;
+}
+.introduce .container .history-list ol {
+	float:left;
+	margin-left:116px;
+}
+.introduce .container .history-list ol li { 
+	position:relative;
+	padding-left:68px;
+	border-left:1px solid #ccc;
+	padding-bottom:70px;
+}
+.introduce .container .history-list ol li:before {
+	position:absolute;
+	top:-18px;
+	left:-9px;
+	content:url(/assets/images/introduce/history_ol.png);
+}
+.introduce .container .history-list ol li:last-child {
+	border-left:0;
+}
+.introduce .container .history-list ol li hr {
+	width:30px;
+	border-color:#249250;
+	margin: 0 0 0 1px;
+}
+.introduce .container .history-list ol li h3 {
+	font-size:30px;
+	color:#222;
+	font-weight:400;
+	margin:13px 0 23px 0;
+}
+.introduce .container .history-list ol li dl {
+	overflow:hidden;
+}
+.introduce .container .history-list ol li dl dt {
+	display:inline;
+	float:left;
+	clear:both;
+	width:40px;
+	font-size:16px;
+	color:#249250;
+	font-weight:300;
+}
+.introduce .container .history-list ol li dl dd {
+	float:left;
+	font-size:16px;
+	color:#4e4e4e;
+	line-height:26px;
 }
