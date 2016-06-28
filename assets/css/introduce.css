@@ -8,12 +8,10 @@
 	background-size:512px auto;
 	background-repeat:no-repeat;
 	background-position:632px 70px;
-
 }
 .introduce.darby-intro .intro .section-header h2 img {
 	width:526px;
 }
-
 .introduce.darby-intro .intro .section-header > p {
 	font-size:21px;
 	padding-left:20px;
@@ -22,7 +20,6 @@
 	border-left:6px solid #249250;
 	margin-top:15px;
 	font-weight:400;
-	font-family: NanumGothic;
 }
 .introduce.darby-intro .intro .section-content {
 	padding-top:77px;
@@ -42,4 +39,74 @@
 }
 .introduce.darby-intro .intro .section-content > p:nth-of-type(2) {
 	margin-top:36px;
+}
+
+/* greeting */
+.introduce.greeting .container {
+	padding:80px 15px 150px;
+}
+.introduce.greeting .container .intro {
+	overflow:hidden;
+}
+.introduce.greeting .container .intro .section-header {
+	background-image:url(/assets/images/introduce/greeting_img01.jpg);
+	background-repeat:no-repeat;
+	background-position:0 70px;
+	height:705px;
+	padding-top:70px;
+}
+.introduce.greeting .container .intro .section-header h2 {
+	text-align:center;
+	font-size:43px;
+	color:#222;
+	line-height:59px;
+	margin-top:526px;
+}
+.introduce.greeting .container .intro .section-header h2 i {
+	font-style:normal;
+	color:#4e4e4e;
+	font-weight:300;
+}
+.introduce.greeting .container .intro .section-content {
+	margin-top:86px;
+	overflow:hidden;
+}
+.introduce.greeting .container .intro .section-content .greeting-text {
+	float:left;
+	width:570px;
+	margin-right:30px;
+}
+.introduce.greeting .container .intro .section-content .greeting-text > p {
+	font-size:16px;
+	color:#4e4e4e;
+	line-height:26px;
+	margin-bottom:37px;
+}
+.introduce.greeting .container .intro .section-content .greeting-text > p:last-child {
+	margin-bottom:0;
+}
+.introduce.greeting .container .intro .section-content .greeting-text > p i {
+	font-style:normal;
+	color:#249250;
+}
+.introduce.greeting .container .intro .section-content .greeting-text:last-child {
+	margin-right:0;
+}
+.introduce.greeting .container .intro .section-content .greeting-text:last-child p {
+	margin-bottom:33px;
+}
+.introduce.greeting .container .intro .section-content .greeting-text:last-child p:last-child {
+	margin-bottom:0px;
+}
+.introduce.greeting .container .intro h3 {
+	float:right;
+	font-size:26px;
+	color:#222;
+	font-weight:400;
+	margin-top:130px;
+}
+.introduce.greeting .container .intro h3 small {
+	font-size:16px;
+	color:#222;
+	margin-right:17px;
 }
