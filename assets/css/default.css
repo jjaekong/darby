@@ -1,9 +1,16 @@
 @charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css");
+@import url("https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothiclight.css");
+@import url("https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothicultralight.css");
 body {
   position: relative;
   min-width: 1200px;
   font-size: 12px;
   font-family: 'Nanum Barun Gothic', sans-serif;
+  /*
+      font-family: 'NanumBarunGothicLight', sans-serif;
+      font-family: 'NanumBarunGothicUltraLight', sans-serif;
+  */
   background-color: #363636;
   overflow-y: scroll; }
 
@@ -156,6 +163,8 @@ address, p {
         color: rgba(255, 255, 255, 0.7); }
   .page-header hr {
     margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
     width: 40px;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.5); }
