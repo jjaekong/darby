@@ -1,20 +1,39 @@
-@import url('https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css');
-
-@import url('https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothiclight.css');
-
-@import url('https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothicultralight.css');
+@font-face { 
+    font-family:'Nanum Barun Gothic';
+    font-style:normal;
+    font-weight:700;
+    src:url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Bold.eot);
+    src:url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Bold.eot?#iefix) format('embedded-opentype'),url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Bold.woff) format('woff'),url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Bold.ttf) format('truetype')
+}
+@font-face {
+    font-family:'Nanum Barun Gothic';
+    font-style:normal;
+    font-weight:400;
+    src:url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Regular.eot);
+    src:url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Regular.eot?#iefix) format('embedded-opentype'),url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Regular.woff) format('woff'),url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Nanum Barun Gothic';
+    src: url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Light.eot');
+    src: url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Light.eot?#iefix') format('embedded-opentype'),url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Light.woff') format('woff'),url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Nanum Barun Gothic';
+    src: url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-UltraLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-UltraLight.eot?#iefix') format('embedded-opentype'),url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-UltraLight.woff') format('woff'),url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/v1/NanumBarunGothic-UltraLight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
 
 body {
+    overflow-y: scroll;
     position: relative;
     min-width: 1200px;
-    font-size: 12px;
-    font-family: 'Nanum Barun Gothic', sans-serif;
-    /*
-        font-family: 'NanumBarunGothicLight', sans-serif;
-        font-family: 'NanumBarunGothicUltraLight', sans-serif;
-    */
+    font-size: 32px;
+    font-weight: 400;
     background-color: #363636;
-    overflow-y: scroll;
 }
 ul, ol {
     margin-bottom: 0;
