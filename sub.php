@@ -46,6 +46,16 @@
 				</div>
 
 				<div style="margin:30px 0;">
+					<ul class="circle-list">
+						<li>content</li>
+						<li>content</li>
+						<li>content</li>
+						<li>content</li>
+						<li>content</li>
+					</ul>
+				</div>
+
+				<div style="margin:30px 0;">
 					<ul class="arrow-list">
 						<li>중부고속국도 일죽IC 진입</li>
 						<li>삼거리에서 좌회전</li>
@@ -160,6 +170,7 @@
 						<button type="submit" class="btn btn-green">확인</button>
 					</p>
 				</div>
+				
 			</section>
 		</div>
 	</main>

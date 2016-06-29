@@ -1,4 +1,10 @@
 /* °øÅë */
+#content p,dt,dd { 
+	font-size:16px;
+	color:#4e4e4e;
+	line-height:26px;
+}
+
 #content .container section .section-header h3 {
 	font-size:28px;
 	color:#222;
@@ -54,6 +60,32 @@
 	line-height:26px;
 	color:#666;
 	padding-left:10px;
+}
+/* circle-list */
+#content .container .circle-list li {
+	position:relative;
+	font-size:16px;
+	padding-left:35px; 
+	counter-increment:my-list-index; 
+
+	margin-bottom:15px;
+}
+#content .container .circle-list li:last-child {
+	margin-bottom:0;
+}
+#content .container .circle-list > li:before {
+	position:absolute; 
+	left:0; 
+	top:0;
+	width:26px; 
+	height:26px; 
+	text-align:center;
+	font-size:16px; 
+	color:#fff;
+	border-radius:50%; 
+	content:counter(my-list-index); 
+	background-color:#249250;
+	line-height:25px; 
 }
 /* arrow-list */
 #content .container .arrow-list li {
