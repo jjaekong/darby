@@ -529,9 +529,6 @@
 .introduce.location .company ul li:last-child {
 	margin-bottom:0;
 }
-.introduce.location .company ul li dl {
-	font-size:0;
-}
 .introduce.location .company ul li dl dt {
 	display:inline-block;
 	font-size:14px;

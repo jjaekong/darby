@@ -1,0 +1,201 @@
+/* 그래프 공통 */
+.business .graph { 
+	display:inline-block;
+}
+.business .graph > p {
+	text-align:left;
+}
+.business .graph > p:nth-of-type(1) {
+	margin-top:25px;
+}
+.business .graph > p:nth-of-type(1):before {
+	content:"●";
+	color:#249250;
+	padding-right:5px;
+}
+.business .graph > p:nth-of-type(2):before {
+	content:"●";
+	color:#97b74e;
+	padding-right:5px;
+}
+.business figure {
+	text-align:center;
+}
+.business figure figcaption {
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	margin-top:16px;
+}
+.business h4 {
+	font-size:18px;
+	font-weight:600;
+	color:#222;
+	margin:40px 0 25px;
+}
+.business .dot-list {
+	margin:0 0 60px 5px;
+}
+.business .dot-list li {
+	line-height:29px !important;
+	background-position:0 12px !important;
+}
+/* breeding-pig */
+.business.breeding-pig .container {
+	padding:80px 15px 150px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort { 
+	margin-top:20px;
+	text-align:center;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort figure {
+	display:inline-block;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort figure:nth-of-type(1) {
+	margin-right:68px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort figure:nth-of-type(1) figcaption {
+	margin-right:70px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > p {
+	text-align:left;
+	letter-spacing:-1px;
+	margin:50px 0 59px 0;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .graph:nth-of-type(1) {
+	margin-right:38px;
+}
+.business.breeding-pig .container .marblur figure {
+	margin-top:20px;
+}
+.business.breeding-pig .container .marblur .section-header {
+	margin-top:50px;
+}
+.business.breeding-pig .container .marblur .graph:last-child {
+	margin-left:30px;
+}
+.business.breeding-pig .container .pietrain .section-header {
+	margin-top:50px;
+}
+.business.breeding-pig .container .pietrain h4:nth-of-type(2) {
+	margin-top:90px;
+}
+.business.breeding-pig .container .pietrain figure {
+	margin-top:20px;
+}
+.business.breeding-pig .container .pietrain > p {
+	letter-spacing:-1px;
+}
+.business.breeding-pig .container .pietrain .table-wrap {
+
+}
+.business.breeding-pig .container .pietrain .table-wrap .table thead tr th {
+	font-weight:300;
+}
+.business.breeding-pig .container .pietrain .table-wrap .table tbody tr td {
+	padding:35px 0 !important;
+}
+.business.breeding-pig .container .pietrain .table-wrap .table tbody tr td:first-child {
+	background-color:#fafafa;
+}
+.business.breeding-pig .container .pietrain dl dt {
+	display:inline;
+	font-size:15px;
+	color:#666;
+	font-weight:300;
+}
+.business.breeding-pig .container .pietrain dl dt:before {
+	content:"※";
+	padding-right:5px;
+}
+.business.breeding-pig .container .pietrain dl dd {
+	display:inline-block;
+	font-size:15px;
+	color:#666;
+}
+.business.breeding-pig .container .pietrain dl dd:before {
+	content:":";
+	padding-right:10px;
+}
+
+
+/* darbyqueen */
+.business.darbyqueen .container {
+	padding:80px 15px 150px;
+}
+.business.darbyqueen .container .darbyqueen-s .graph {
+	display:block;
+	width:640px;
+	margin:0 auto;
+}
+.business.darbyqueen .container .darbyqueen-s .graph p {
+	margin-left:74px;
+}
+.business.darbyqueen .container .darbyqueen-g .section-header {
+	margin-top:50px;
+}
+.business.darbyqueen .container .darbyqueen-g .dot-list {
+	margin-bottom:0;
+}
+
+
+/* x-perm */
+.business.x-perm h4 {
+	margin:20px 0;
+}
+.business.x-perm .dot-list {
+	width:700px;
+}
+.business.x-perm .container {
+	padding:80px 15px 150px;
+}
+.business.x-perm .container .sperm > p {
+	letter-spacing:-1px;
+}
+.business.x-perm .container .sperm .graph {
+	display:block;
+	width:997px;
+	margin:60px auto 0;
+}
+.business.x-perm .container .sperm .graph p {
+	text-align:center;
+}
+.business.x-perm .container .sperm .graph p:before {
+	content:"";
+}
+.business.x-perm .container .xperm-v {
+	position:relative;
+	margin:50px 0 120px 0;
+}
+.business.x-perm .container .xperm-v .xperm-img img {
+	display:block;
+	width:340px;
+	margin:39px auto;
+}
+.business.x-perm .container .xperm-s {
+	position:relative;
+	margin:50px 0 120px 0;
+}
+.business.x-perm .container .xperm-s .xperm-img img {
+	display:block;
+	width:169px;
+	margin:39px auto;
+}
+.business.x-perm .container .xperm-p {
+	position:relative;
+	margin-top:50px;
+}
+.business.x-perm .container section .xperm-img {
+	position:absolute;
+	top:70px;
+	right:0;
+	width:402px;
+	height:240px;
+	border:1px solid #f3f3f3;
+	background-color:#f9f9f9
+}
+.business.x-perm .container .xperm-p .xperm-img img {
+	display:block;
+	width:169px;
+	margin:39px auto;
+}

@@ -22,12 +22,12 @@
                 <li>
                     <a href="#">회사소개</a>
                     <ul>
-                        <li><a href="#">다비육종은</a></li>
-                        <li><a href="#">CEO</a></li>
-                        <li><a href="#">연혁</a></li>
-                        <li><a href="#">비전/CI</a></li>
-                        <li><a href="#">핵심 역량</a></li>
-                        <li><a href="#">오시는 길</a></li>
+                        <li><a href="/introduce/darby_introduce.php">다비육종은</a></li>
+                        <li><a href="/introduce/greeting.php">CEO</a></li>
+                        <li><a href="/introduce/history.php">연혁</a></li>
+                        <li><a href="/introduce/missionware.php">비전/CI</a></li>
+                        <li><a href="/introduce/ability.php">핵심 역량</a></li>
+                        <li><a href="/introduce/location.php">오시는 길</a></li>
                     </ul>
                 </li>
                 <li>

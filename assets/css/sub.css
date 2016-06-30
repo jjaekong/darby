@@ -1,4 +1,4 @@
-/* °øÅë */
+/* ê³µí†µ */
 #content p,dt,dd { 
 	font-size:16px;
 	color:#4e4e4e;
@@ -67,7 +67,6 @@
 	font-size:16px;
 	padding-left:35px; 
 	counter-increment:my-list-index; 
-
 	margin-bottom:15px;
 }
 #content .container .circle-list li:last-child {
