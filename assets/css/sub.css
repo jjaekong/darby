@@ -95,13 +95,13 @@
 	color:#4e4e4e;
 	margin:0 60px 20px 0;
 }
-#content .container .arrow-list li:after {
+#content .container .arrow-list li:before {
 	position:absolute;
 	top:2px;
-	right:-38px;
+	left:-40px;
 	content:url(/assets/images/sub/right_arrow.png);
 }
-#content .container .arrow-list li:last-child:after {
+#content .container .arrow-list li:nth-of-type(1):before {
 	content:"";
 }
 /* table-wrap */

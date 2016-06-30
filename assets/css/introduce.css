@@ -514,3 +514,42 @@
 	line-height:26px;
 	text-align:center;
 }
+
+
+/* location */
+.introduce.location {
+	padding-bottom:150px;
+}
+.introduce.location .company .section-header {
+	margin-top:50px;
+}
+.introduce.location .company ul li {
+	margin-bottom:15px;
+}
+.introduce.location .company ul li:last-child {
+	margin-bottom:0;
+}
+.introduce.location .company ul li dl {
+	font-size:0;
+}
+.introduce.location .company ul li dl dt {
+	display:inline-block;
+	font-size:14px;
+	color:#fff;
+	width:71px;
+	height:25px;
+	background-color:#249250;
+	border-radius:10px;
+	text-align:center;
+}
+.introduce.location .company ul li dl dd {
+	display:inline-block;
+	font-size:16px;
+	padding-left:15px;
+}
+.introduce.location .location-info .section-header {
+	margin-top:50px;
+}
+.introduce.location .location-info .arrow-list li:nth-of-type(5) {
+	margin-left:40px !important;
+}
