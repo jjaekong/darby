@@ -67,9 +67,9 @@
 							Darby에 포함된 d와 b 두 알파벳을 사용하여 돼지의 코와 무한대(infinity)를 형상화한 것으로 국내뿐만 아니라, 세계로 뻗어나가는 무한한 다비육종의 미래를 상징했습니다. 전체적인 타원의 모양은 씨앗의 형태로 종자를 상징함과 동시에, 컬러 분할을 통해 표현한 태극문양은 한국 양돈의 대표주자로서 국내 고급양돈업계의 기초가 되겠다는 의지를 담고 있습니다. 또한, 그린 계열의 컬러는 신선한 먹거리를 제공하겠다는 것을 의미하고 있습니다.
 						</p>
 					</div>
-					<div class="darby-color">
+					<div class="darby-color row">
 						<h4>다비육종의 색상</h4>
-						<div class="green">
+						<div class="green col-xs-6">
 							<span></span>
 							<dl>
 								<dt>녹색</dt>
@@ -78,7 +78,7 @@
 								</dd>
 							</dl>
 						</div>
-						<div class="yellow">
+						<div class="yellow col-xs-6">
 							<span></span>
 							<dl>
 								<dt>노란색</dt>

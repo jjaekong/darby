@@ -162,10 +162,12 @@
 	color:#181818;
 	line-height:28px;
 }
-.introduce.ceo-yoon .container .ceo-info .section-content {
+.introduce.ceo-yoon .container .ceo-info > section {
 	margin-top:83px;
 }
-.introduce.ceo-yoon .container .ceo-info .section-content .greeting-text:nth-of-type(1) h3:nth-of-type(2) {
+
+.introduce.ceo-yoon .container .ceo-info .reward { 
+	clear:both;
 	margin-top:100px;
 }
 
@@ -352,7 +354,7 @@
 }
 .introduce.missionware .container .logo .section-content .darby-color {
 	margin-top:90px;
-	overflow:hidden;
+
 }
 .introduce.missionware .container .logo .section-content .darby-color h4 {
 	font-size:20px;
@@ -364,7 +366,7 @@
 	width:570px;
 	margin-right:30px;
 	display:inline-block;
-	float:left;
+
 }
 .introduce.missionware .container .logo .section-content .darby-color > div span { 
 	width:170px;
@@ -400,4 +402,115 @@
 }
 .introduce.missionware .container .logo .section-content .darby-color .yellow span { 
 	background-color:#fff839;
+}
+
+
+/* ability */
+.introduce.ability {
+	padding-bottom:150px;
+}
+.introduce.ability i { 
+	font-style:normal;
+	font-size:16px;
+	color:#249250;
+}
+.introduce.ability .challenge .row > p { 
+	margin-bottom:40px;
+	letter-spacing:-1px;
+}
+.introduce.ability .challenge .row > div {
+	width:270px;
+	height:180px;
+	border:1px solid #ededed;
+	text-align:center;
+	margin:0 30px 30px 0;
+}
+.introduce.ability .challenge .row {
+	margin:0;
+}
+.introduce.ability .challenge .row > div p {
+	margin-top:95px;
+	font-size:16px;
+	color:#4e4e4e;
+	line-height:26px;
+}
+.introduce.ability .challenge .row > div:nth-of-type(1) {
+	background:url(/assets/images/introduce/ability_img01.gif) 50% 42px no-repeat;
+}
+.introduce.ability .challenge .row > div:nth-of-type(2) {
+	background:url(/assets/images/introduce/ability_img02.gif) 50% 31px no-repeat;
+}
+.introduce.ability .challenge .row > div:nth-of-type(3) {
+	background:url(/assets/images/introduce/ability_img03.gif) 50% 31px no-repeat;
+}
+.introduce.ability .challenge .row > div:nth-of-type(4) {
+	background:url(/assets/images/introduce/ability_img04.gif) 50% 35px no-repeat;
+	margin-right:0;
+}
+.introduce.ability .challenge .row > div:nth-of-type(5) {
+	background:url(/assets/images/introduce/ability_img05.gif) 50% 37px no-repeat;
+	margin-bottom:0;
+}
+.introduce.ability .challenge .row > div:nth-of-type(6) {
+	background:url(/assets/images/introduce/ability_img06.gif) 50% 39px no-repeat;
+	margin-bottom:0;
+}
+.introduce.ability .challenge .row > div:nth-of-type(7) {
+	background:url(/assets/images/introduce/ability_img07.gif) 50% 34px no-repeat;
+	margin-bottom:0;
+}
+.introduce.ability .challenge .row > div:nth-of-type(8) {
+	background:url(/assets/images/introduce/ability_img08.gif) 50% 34px no-repeat;
+	margin-right:0;
+	margin-bottom:0;
+}
+.introduce.ability .guest p:nth-of-type(1) {
+	margin-bottom:40px;
+	letter-spacing:-1px;
+}
+.introduce.ability .guest p:nth-of-type(2) {
+	margin-bottom:30px;
+}
+.introduce.ability .guest p:nth-of-type(2) img:nth-of-type(1) {
+	margin-right:4px;
+}
+.introduce.ability .invest .section-header {
+	margin-top:50px;
+}
+.introduce.ability .invest > p {
+	letter-spacing:-1px;
+	margin-bottom:40px;
+}
+.introduce.ability .invest .dot-list {
+	border:1px solid #ededed;
+	background-color:#fcfcfc;
+	padding:38px;
+}
+.introduce.ability .invest .dot-list li {
+	font-size:15px !important;
+	line-height:30px !important;
+}
+.introduce.ability .company .section-header {
+	margin-top:50px;
+}
+.introduce.ability .company > p {
+	letter-spacing:-1px;
+	margin-bottom:40px;
+}
+.introduce.ability .row { 
+	margin:0;
+}
+.introduce.ability .company .col-xs-4 {
+	padding:0;
+}
+.introduce.ability .company figure hr {
+	border-top:1px solid #000;
+	width:50px;
+	margin:25px auto;
+}
+.introduce.ability .company figure figcaption {
+	font-size:16px;
+	color:#4e4e4e;
+	line-height:26px;
+	text-align:center;
 }
