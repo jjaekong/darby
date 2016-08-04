@@ -139,53 +139,53 @@
 }
 
 
-/* x-perm */
-.business.x-perm h4 {
+/* xperm */
+.business.xperm h4 {
 	margin:20px 0;
 }
-.business.x-perm .dot-list {
+.business.xperm .dot-list {
 	width:700px;
 }
-.business.x-perm .container {
+.business.xperm .container {
 	padding:80px 15px 150px;
 }
-.business.x-perm .container .sperm > p {
+.business.xperm .container .sperm > p {
 	letter-spacing:-1px;
 }
-.business.x-perm .container .sperm .graph {
+.business.xperm .container .sperm .graph {
 	display:block;
 	width:997px;
 	margin:60px auto 0;
 }
-.business.x-perm .container .sperm .graph p {
+.business.xperm .container .sperm .graph p {
 	text-align:center;
 }
-.business.x-perm .container .sperm .graph p:before {
+.business.xperm .container .sperm .graph p:before {
 	content:"";
 }
-.business.x-perm .container .xperm-v {
+.business.xperm .container .xperm-v {
 	position:relative;
 	margin:50px 0 120px 0;
 }
-.business.x-perm .container .xperm-v .xperm-img img {
+.business.xperm .container .xperm-v .xperm-img img {
 	display:block;
 	width:340px;
 	margin:39px auto;
 }
-.business.x-perm .container .xperm-s {
+.business.xperm .container .xperm-s {
 	position:relative;
 	margin:50px 0 120px 0;
 }
-.business.x-perm .container .xperm-s .xperm-img img {
+.business.xperm .container .xperm-s .xperm-img img {
 	display:block;
 	width:169px;
 	margin:39px auto;
 }
-.business.x-perm .container .xperm-p {
+.business.xperm .container .xperm-p {
 	position:relative;
 	margin-top:50px;
 }
-.business.x-perm .container section .xperm-img {
+.business.xperm .container section .xperm-img {
 	position:absolute;
 	top:70px;
 	right:0;
@@ -194,7 +194,7 @@
 	border:1px solid #f3f3f3;
 	background-color:#f9f9f9
 }
-.business.x-perm .container .xperm-p .xperm-img img {
+.business.xperm .container .xperm-p .xperm-img img {
 	display:block;
 	width:169px;
 	margin:39px auto;

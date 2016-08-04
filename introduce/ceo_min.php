@@ -28,16 +28,17 @@
 			<div class="ceo-info">
 				<div class="ceo-header">
 					<img src="/assets/images/introduce/ceo_img02.png" alt="ceo 윤희진" />
-					<div class="ceo-text">
+					<div class="ceo-history">
 						<h2><small>CEO</small>민동수</h2>
 						<ul>
 							<li>서울대학교 수의학과 졸업</li>
-							<li>한국바이엘화학㈜ 근무</li>
-							<li>(사)한국양돈연구회 회장</li>
-							<li>한국양돈수의사회 부회장 </li>
+							<li>前 한국바이엘화학㈜ 근무</li>
+							<li>前 (사)한국양돈연구회 회장</li>
+							<li>前 한국양돈수의사회 부회장 </li>
 							<li>(사)한국종축개량협회 종돈이사</li>
 							<li>한국동물자원과학회 동물유전육종연구회 부회장</li>
 							<li>골든시드프로젝트 운영위원</li>
+							<li>(주)다비육종 대표이사 (사장) </li>
 						</ul>
 					</div>
 				</div>

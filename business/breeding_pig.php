@@ -22,8 +22,8 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="/business/breeding_pig.php">종동</a></li>
 					<li><a href="/business/darbyqueen.php">F1</a></li>
-					<li><a href="/business/x_perm.php">엑스펌</a></li>
-					<li><a href="#">한돈</a></li>
+					<li><a href="/business/xperm.php">엑스펌</a></li>
+					<li><a href="/business/han_don.php">한돈</a></li>
 					<li><a href="#">구입문의</a></li>
 				</ul>
 			</nav>
