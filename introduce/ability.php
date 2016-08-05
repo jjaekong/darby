@@ -20,35 +20,98 @@
 		<div class="container">
 			<section class="challenge">
 				<div class="section-header">
-					<h3>다비육종의 도정신</h3>
+					<h3>다비육종의 도전정신</h3>
 					<hr>
 				</div>
-				<div class="row">
-					<p>다비육종은 한국 양돈산업 발전의 산 증인으로서 아무도 가려 하지 않은 길을 용기 내어 앞장섰습니다.</p>
-					<div class="col-xs-3">
-						<p>국내최초<br>농장단위의 HACCP 인증</p>
-					</div>
-					<div class="col-xs-3">
-						<p>국내최초<br>상업 S.P.(인공t수정)센터의 설립</p>
-					</div>
-					<div class="col-xs-3">
-						<p>국내최초 MEW, SEW 등의<br>선진 양돈생산시스템 도입</p>
-					</div>
-					<div class="col-xs-3">
-						<p>국내최초<br>GP농장 종돈계약 생산체계 적용</p>
-					</div>
-					<div class="col-xs-3">
-						<p>국내최초<br>액상정액 택배서비스 실시</p>
-					</div>
-					<div class="col-xs-3">
-						<p>국내최초 CQM 프로젝트 추진<br>(PSY27두 목표 달성)</p>
-					</div>
-					<div class="col-xs-3">
-						<p>분단 이후 최초 북한에 종돈 분양</p>
-					</div>
-					<div class="col-xs-3">
-						<p>국내 종돈업계 최초 베트남 진출</p>
-					</div>
+				<div class="section-content">
+					<p>다비육종은 국내 한돈산업의 발전을 선도해 온 기업으로서 끊임없이 새로운 도전을 시도하고 있습니다.</p>
+					<ul class="row">
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img01.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초<br>농장단위의 <i>HACCP<sup>1</sup></i> 인증
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img02.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초<br>상업 S.P.(인공수정)센터의 설립
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img03.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초 <i>MEW<sup>2</sup>, SEW<sup>3</sup></i> 등의<br>선진 양돈생산시스템 도입
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img04.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초<br>GP농장 종돈계약 생산체계 적용
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img05.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초<br>액상정액 택배서비스 실시
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img06.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초 <i>CQM<sup>4</sup></i> 프로젝트 추진<br>(PSY27두 목표 달성)
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img07.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    분단 이후 최초 북한에 종돈 분양
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="/assets/images/introduce/ability_img08.gif" alt="">
+                                </p>
+                                <p class="details">
+                                    국내 종돈업계 최초 베트남 진출
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+					<p class="account">HACCP<sup>1</sup> (Hazard Analysis and Critical Control Point, 식품위해요소 중점관리기준)</p>
+					<p class="account">MEW<sup>2</sup> (Medicated Early Weaning, 투약조기이유)</p>
+					<p class="account">SEW<sup>3</sup> (Segregated Early Weaning, 격리조기이유)</p>
+					<p class="account">CQM<sup>4</sup> (Challenge 27 Quality Management Committee)</p>
 				</div>
 			</section>
 			<section class="guest">
@@ -57,7 +120,7 @@
 					<hr>
 				</div>
 				<p>
-					다비육종은 함께 발전하자는 이념 아래 고개농장의 경쟁력 향상을 목표로 생산성을 높이고, 우수한 종돈을 개발 공급한다는 한결같은 마음으로 고객 여러분의 든든한 동행이 되어드리겠습니다.
+					다비육종은 함께 발전하자는 이념 아래 고객농장의 생산성 향상을 위해 우수한 종돈을 지속적으로 공급하고 있습니다. 늘 한결같은 마음으로 고객 여러분의 든든한 동행이 되어드리겠습니다.
 				</p>
 				<p>
 					<img src="/assets/images/introduce/guest_img01.jpg" alt="">
@@ -77,18 +140,94 @@
 					<hr>
 				</div>
 				<p>
-					다비육종은 보유하고 있는 우수한 유전자원을 바탕으로 고객농가 소득증대 및 돈육소비자에게 안전하고 맛있는 제품을 생산, 공급하기 위한 신제품 개발 등 새로운 가치를 창조하기 위한 투자와 노력을 아끼지 않고 있습니다.
+					다비육종은 우수한 유전자원을 바탕으로 새로운 가치를 창조하기 위한 투자와 노력을 아끼지 않고 있습니다.
 				</p>
-				<ul class="dot-list">
-					<li>세계적인 육종회사<i>Nucleus 와 기술제휴</i></li>
-					<li>PRRS 음성 GGP 돈군과<i>국내최대 규모의 S.P. 센터</i>를 보유</li>
-					<li>전 돈군의 PSS 유전인자 제거</li>
-					<li>국내최초 BLUP에 의한 등지방 두께 및 산자수 육종가를 추정하여 과학적으로 선발</li>
-					<li>산자수 증가와 등지방 감소를 위한<i>프리미엄급 액상정액 개발</i></li>
-					<li>산·학·연과 공동으로 종자개량, 사료, 돈육 및 정액 등의 품질 개선</li>
-					<li>육종연구소 설립</li>
-					<li>다비육종만의 우수한 유전자원 활용,<i>프리미엄 YBD 돈육 ‘웰팜한돈’ 생산</i></li>
+				<ul class="row">
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img01.png" alt="">
+                            </p>
+                            <p class="details">
+                                세계적인 육종회사<br>Nucleus 와 기술제휴
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img02.png" alt="">
+                            </p>
+                            <p class="details">
+                                <i>PRRS<sup>1</sup> 음성 GGP 돈군과</i><br>국내 최대 규모의 S.P.센터를 보유
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img03.png" alt="">
+                            </p>
+                            <p class="details">
+                               전 돈군의 <i>PSS<sup>2</sup></i> 유전인자 제거
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img04.png" alt="">
+                            </p>
+                            <p class="details">
+                                국내 최초 BLUP에 의한 등지방 두께<br>
+                                및 산자수 육종가를 추정하여<br>
+                                과학적으로 선발
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img05.png" alt="">
+                            </p>
+                            <p class="details">
+                                산자수 증가와 등지방 감소를 위한<br>프리미엄급 액상정액 개발
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img06.png" alt="">
+                            </p>
+                            <p class="details">
+                                산·학·연과 공동으로 종자개량,<br>사료, 돈육 및 정액 등의 품질 개선
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img07.png" alt="">
+                            </p>
+                            <p class="details">
+                                육종연구소 설립
+                            </p>
+                        </div>
+                    </li>
+                    <li class="col-xs-3">
+                        <div>
+                            <p class="icon">
+                                <img src="/assets/images/introduce/invest_img08.png" alt="">
+                            </p>
+                            <p class="details">
+                               다비육종만의 우수한 유전자원 활용,<br> 프리미엄 YBD 돈육 ‘얼룩도야지’ 생산
+                            </p>
+                        </div>
+                    </li>
 				</ul>
+				<p class="account">PRRS<sup>1</sup> (Porcine Reproductive and Respiratory Syndrome, 돼지 생식기 호흡기 증후군), </p>
+				<p class="account">PSS<sup>2</sup> (porcine stress syndrome, 돼지스트레스증후군) </p>
 			</section>
 			<section class="company row">
 				<div class="section-header">
@@ -96,7 +235,7 @@
 					<hr>
 				</div>
 				<p>
-					다비육종은 직원들의 창의적인 능력발휘를 위해 즐겁게 일하는 회사 분위기를 조성, 직원과 가족 모두의 사기진작을 도모하고 이로 인해 제품과 고객서비스의 품질 또한 높이고자 노력합니다.
+					다비육종은 직원들의 창의적인 능력발휘를 위해 즐겁게 일하는 회사 분위기를 만들어가고 있습니다.
 				</p>
 				<figure class="col-xs-4">
 					<img src="/assets/images/introduce/company_img01.jpg" alt="">

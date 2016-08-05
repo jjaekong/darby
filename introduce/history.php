@@ -29,10 +29,19 @@
 			<div class="history-list">
 				<div class="history-img">
 					<p>
-						<img src="/assets/images/introduce/history_img01.jpg" alt="">
+						<img src="/assets/images/introduce/history_img01.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
-						<img src="/assets/images/introduce/history_img02.jpg" alt="">
+						<img src="/assets/images/introduce/history_img02.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img03.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img04.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img05.jpg" alt="기업연혁이미지">
 					</p>
 				</div>
 				<ol>
@@ -43,7 +52,7 @@
 							<dt>07</dt>
 							<dd>종돈장 종합평가 우수종돈장 3개소 인증</dd>
 							<dt>10</dt>
-							<dd>웰팜포크, 대한민국 축산물 브랜드 경진대회 우수상 수상</dd>
+							<dd>얼룩도야지, 대한민국 축산물 브랜드 경진대회 우수상 수상</dd>
 						</dl>
 					</li>
 					<li>
@@ -52,6 +61,8 @@
 						<dl>
 							<dt>06</dt>
 							<dd>경기도 일하기 좋은 기업(GGWP) 인증</dd>
+							<dt>07</dt>
+							<dd>아름다운 납세자상 수상 </dd>
 							<dt>08</dt>
 							<dd>종돈장 종합평가 우수종돈장 3개소 인증</dd>
 						</dl>
@@ -63,9 +74,13 @@
 							<dt>05</dt>
 							<dd>종돈장 종합평가 우수종돈장 4개소 인증</dd>
 							<dt>09</dt>
-							<dd>취업하고 싶은 기업 인증</dd>
+							<dd>2012 취업하고 싶은 기업 인증</dd>
 							<dt>10</dt>
-							<dd>일하기 좋은 기업(GPTW) 인증<br>웰팜포크, 축산물 브랜드 경진대회 장려상 수상<br>웰팜포크, G마크축산물브랜드전 우수상 수상</dd>
+							<dd>
+							    대한민국 일하기 좋은 100대 기업(GPTW) 인증<br>
+							    얼룩도야지, 축산물 브랜드 경진대회 장려상 수상<br>
+							    얼룩도야지, G마크축산물브랜드전 우수상 수상
+							</dd>
 						</dl>
 					</li>
 					<li>
@@ -77,9 +92,9 @@
 							<dt>05</dt>
 							<dd>종돈장 종합평가 우수종돈장 2개소 인증</dd>
 							<dt>09</dt>
-							<dd>웰팜포크, G마크축산물브랜드전 우수상 수상</dd>
+							<dd>얼룩도야지, G마크축산물브랜드전 우수상 수상</dd>
 							<dt>12</dt>
-							<dd>웰팜포크, 축산물 브랜드 경진대회 우수상 수상</dd>
+							<dd>얼룩도야지, 축산물 브랜드 경진대회 우수상 수상</dd>
 						</dl>
 					</li>
 					<li>
@@ -88,6 +103,8 @@
 						<dl>
 							<dt>07</dt>
 							<dd>종돈 500,000두, 액상정액 6,000,000병 누적판매 달성</dd>
+							<dt>11</dt>
+							<dd>경기도 일하기 좋은 기업(GGWP) 인증</dd>
 						</dl>
 					</li>
 					<li>
@@ -97,7 +114,10 @@
 							<dt>02</dt>
 							<dd>대덕GGP 설립 (모돈 550두 규모)</dd>
 							<dt>12</dt>
-							<dd>9년 연속 웰팜포크 소시모 인증 획득<br>국내 최초 디앤디GGP PSY 30두 달성</dd>
+							<dd>
+                                국내 최초 디앤디GGP PSY 30두 달성<br>
+                                9년 연속 얼룩도야지 소시모 인증 획득
+							</dd>
 						</dl>
 					</li>
 					<li>
@@ -105,7 +125,7 @@
 						<h3>2016년</h3>
 						<dl>
 							<dt>05</dt>
-							<dd>원산종돈, 종축개량협회 주관, 최우수 종돈장 선정</dd>
+							<dd>원산종돈, 종돈검정평가 대상 수상</dd>
 						</dl>
 					</li>
 				</ol>

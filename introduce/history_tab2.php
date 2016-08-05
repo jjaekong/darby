@@ -29,10 +29,19 @@
 			<div class="history-list">
 				<div class="history-img">
 					<p>
-						<img src="/assets/images/introduce/history_img01.jpg" alt="">
+						<img src="/assets/images/introduce/history_img06.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
-						<img src="/assets/images/introduce/history_img02.jpg" alt="">
+						<img src="/assets/images/introduce/history_img07.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img08.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img09.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img10.jpg" alt="기업연혁이미지">
 					</p>
 				</div>
 				<ol>
@@ -41,7 +50,7 @@
 						<h3>2000년</h3>
 						<dl>
 							<dt>11</dt>
-							<dd>다비육종 조치원A.I.센터 준공</dd>
+							<dd>다비육종 조치원S.P.센터 준공</dd>
 							<dt>12</dt>
 							<dd>다비육종 F1자돈 홍콩수출</dd>
 						</dl>
@@ -51,7 +60,7 @@
 						<h3>2001년</h3>
 						<dl>
 							<dt>07</dt>
-							<dd>다비육종 A.I.센터 ISO 9001 인증 획득</dd>
+							<dd>다비육종 S.P.센터 ISO 9001 인증 획득</dd>
 						</dl>
 					</li>
 					<li>
@@ -59,7 +68,7 @@
 						<h3>2002년</h3>
 						<dl>
 							<dt>10</dt>
-							<dd>다비육종 중원A.I.센터 준공</dd>
+							<dd>다비육종 중원S.P.센터 준공</dd>
 						</dl>
 					</li>
 					<li>
@@ -67,7 +76,7 @@
 						<h3>2003년</h3>
 						<dl>
 							<dt>07</dt>
-							<dd>국내최초 농장단위 HACCP 인증(SQF 1000 CM)</dd>
+							<dd>국내최초 농장단위 HACCP 인증(SQF 1000CM)</dd>
 						</dl>
 					</li>
 					<li>
@@ -75,37 +84,33 @@
 						<h3>2004년</h3>
 						<dl>
 							<dt>12</dt>
-							<dd>(주)다비청림종돈 설립</dd>
+							<dd>㈜다비청림종돈 설립</dd>
 						</dl>
 					</li>
 					<li>
 						<hr>
 						<h3>2005년</h3>
 						<dl>
-							<dt>01</dt>
-							<dd>프로스펌 출시</dd>
 							<dt>03</dt>
-							<dd>프리미엄포크 브랜드 웰팜포크 판매</dd>
+							<dd>프리미엄 돈육 브랜드 얼룩도야지(전 웰팜포크) 판매</dd>
 							<dt>05</dt>
 							<dd>윤희진 사장 한국양돈대상 수상</dd>
 							<dt>06</dt>
 							<dd>베트남 현지법인 DARBY-CJ 농장 준공</dd>
 							<dt>09</dt>
-							<dd>베트남에 종돈 수출</dd>
+							<dd>베트남 종돈 수출</dd>
 							<dt>10</dt>
-							<dd>분단이후 최초로 북한에 종돈분양</dd>
+							<dd>분단 이후 최초로 북한에 종돈 분양</dd>
 							<dt>12</dt>
-							<dd>필리핀에 액장정액 수출</dd>
+							<dd>필리핀에 액상정액 수출</dd>
 						</dl>
 					</li>
 					<li>
 						<hr>
 						<h3>2006년</h3>
 						<dl>
-							<dt>01</dt>
-							<dd>프로마블 출시</dd>
 							<dt>06</dt>
-							<dd>(주)나람과의 전략적 제휴 출범</dd>
+							<dd>㈜나람과 전략적 제휴 출범</dd>
 						</dl>
 					</li>
 					<li>
@@ -113,27 +118,28 @@
 						<h3>2007년</h3>
 						<dl>
 							<dt>02</dt>
-							<dd>다비육종 CQM 고객농장 연간 PSY 27두 달성</dd>
-							<dt>08</dt>
-							<dd>다비퀸-골드 출시</dd>
+							<dd>
+							    다비육종 CQM(Challenge 27 Quality Management Committee)<br>
+							    고객농장 연간 PSY 27두 달성
+							</dd>
 							<dt>09</dt>
-							<dd>윤희진 사장 일가상 농업부문 수상</dd>
+							<dd>윤희진 회장 일가상 농업부문 수상</dd>
 							<dt>12</dt>
-							<dd>웰팜포크 소시모 우수축산물브랜드 인증 획득</dd>
+							<dd>얼룩도야지, 소시모 우수축산물브랜드 인증 획득</dd>
 						</dl>
 					</li>
 					<li>
 						<hr>
-						<h3>2007년</h3>
+						<h3>2008년</h3>
 						<dl>
 							<dt>06</dt>
-							<dd>(주)신원종돈 개소식</dd>
+							<dd>㈜신원종돈 개소식</dd>
 							<dt>08</dt>
-							<dd>핵돈 A.I.센터 선정(농림수산식품부 수의과학검역원 최초 인증)</dd>
+							<dd>핵돈 S.P.센터 선정(농림수산식품부 수의과학검역원 최초 인증)</dd>
 							<dt>10</dt>
-							<dd>25주년 사사 발행<br>웰팜포크, 제9회 경기도고품질축산물경진대회 최우수상 수상<br>베트남인공수정 세미나 개최</dd>
+							<dd>얼룩도야지, 제9회 경기도고품질축산물경진대회 최우수상 수상</dd>
 							<dt>12</dt>
-							<dd>우수 A.I.센터 인증 (농촌진흥청 축산과학원)<br>2년 연속 웰팜포크 소시모 인증 획득</dd>
+							<dd>우수 S.P.센터 인증(농촌진흥청 축산과학원)</dd>
 						</dl>
 					</li>
 					<li>
@@ -141,7 +147,14 @@
 						<h3>2009년</h3>
 						<dl>
 							<dt>02</dt>
-							<dd>베트남 종돈판매전시장 오픈<br>종돈장 종합평가 우수종돈장 5개소 인증(농림수산식품부)</dd>
+							<dd>
+                                베트남 종돈판매 전시장 오픈<br>
+                                종돈장 종합평가 우수종돈장 5개소 인증(농림수산식품부)
+							</dd>
+							<dt>10</dt>
+							<dd>얼룩도야지, 대한민국 축산물브랜드 경진대회 위생안전상 수상</dd>
+							<dt>11</dt>
+							<dd>얼룩도야지, 경기도 고품질 축산물 경진대회 우수상 수상</dd>
 						</dl>
 					</li>
 				</ol>

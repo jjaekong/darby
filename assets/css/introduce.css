@@ -110,7 +110,7 @@
 	overflow: hidden;
 }
 .introduce.greeting .container .intro .section-content .greeting-text > p {
-
+    letter-spacing: -1px;
 }
 .introduce.greeting .container .intro .section-content .greeting-text > p:last-child {
 	margin-bottom: 0;
@@ -145,9 +145,9 @@
 	position: relative;
 	background-image: url(/assets/images/introduce/ceo_bg.png);
 	background-repeat: no-repeat;
-	background-position: 0 70px;
+	background-position: 0 73px;
 	height: 575px;
-	padding-top: 70px;
+	padding-top: 73px;
 }
 .introduce.ceo-yoon .container .ceo-info .section-header img {
     position: absolute;
@@ -175,25 +175,32 @@
 	color: #181818;
 	line-height: 28px;
 }
-.introduce.ceo-yoon .container .ceo-info > div {
-	margin-top: 82px;
+.introduce.ceo-yoon .container .ceo-info > .section-content {
+    overflow: hidden;
+	margin-top: 100px;
 }
-.introduce.ceo-yoon .container .ceo-info > div > h3 {
+.introduce.ceo-yoon .container .ceo-info > .section-content > div > h3 {
     font-size: 20px;
     font-weight: bold;
     color: #4e4e4e;
     margin-bottom: 25px;
 }
-.introduce.ceo-yoon .container .ceo-info > div > p {
+.introduce.ceo-yoon .container .ceo-info > .section-content > .activity {
+    margin-right: 0;
+}
+.introduce.ceo-yoon .container .ceo-info > .section-content > div > p {
     font-size: 16px;
     color: #4e4e4e;
     line-height: 26px;
-    letter-spacing: -1px;
+    letter-spacing: -0.8px;
 }
 .introduce.ceo-yoon .container .ceo-info .reward { 
 	clear: both;
 	margin-top: 100px;
 }
+
+
+
 
 
 /* ceo-min */
@@ -234,8 +241,18 @@
 	color: #181818;
 	line-height: 28px;
 }
-
-
+.introduce.ceo-min .container .ceo-info > h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e4e4e;
+    margin: 100px 0 25px;
+}
+.introduce.ceo-min .container .ceo-info > p {
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 26px;
+    letter-spacing: -0.8px;
+}
 /* history */
 .introduce.history .container {
 	padding: 80px 15px 150px;
@@ -250,8 +267,11 @@
 .introduce .container .history-list .history-img {
 	float: left;
 }
-.introduce .container .history-list .history-img > p:nth-of-type(2) { 
-	margin-top: 30px;
+.introduce .container .history-list .history-img > p {
+    margin-top: 20px;
+}
+.introduce .container .history-list .history-img > p:nth-of-type(1) {
+	margin-top: 0;
 }
 .introduce .container .history-list ol {
 	float: left;
@@ -265,7 +285,7 @@
 }
 .introduce .container .history-list ol li:before {
 	position: absolute;
-	top: -18px;
+	top: 0px;
 	left: -9px;
 	content: url(/assets/images/introduce/history_ol.png);
 }
@@ -281,7 +301,7 @@
 	font-size: 30px;
 	color: #222;
 	font-weight: 400;
-	margin: 13px 0 23px 0;
+	margin: 10px 0 20px 0;
 }
 .introduce .container .history-list ol li dl {
 	overflow: hidden;
@@ -324,8 +344,9 @@
 .introduce.missionware .container .meaning .section-content p { 
 	font-size: 16px;
 	color: #4e4e4e;
+    text-align: center;
 	line-height: 30px;
-	margin-top: 57px;
+	margin-top: 30px;
 }
 .introduce.missionware .container .logo { 
 	margin-top: 50px;
@@ -440,55 +461,72 @@
 	font-size: 16px;
 	color: #249250;
 }
-.introduce.ability .challenge .row > p { 
+.introduce.ability .challenge .section-content > p {
 	margin-bottom: 40px;
 	letter-spacing: -1px;
 }
-.introduce.ability .challenge .row > div {
-	width: 270px;
-	height: 180px;
+.introduce.ability .challenge .section-content > ul {
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.introduce.ability .challenge .section-content > ul > li {
+
+}
+.introduce.ability .challenge .section-content > ul > li > div {
+    height: 180px;
 	border: 1px solid #ededed;
 	text-align: center;
-	margin: 0 30px 30px 0;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
 }
-.introduce.ability .challenge .row {
-	margin: 0;
+.introduce.ability .challenge .section-content > ul > li > div > .details {
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 26px;
+    margin-top: 18px;
 }
-.introduce.ability .challenge .row > div p {
-	margin-top: 95px;
-	font-size: 16px;
-	color: #4e4e4e;
-	line-height: 26px;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(1) div > .icon {
+    padding-top: 42px;
 }
-.introduce.ability .challenge .row > div:nth-of-type(1) {
-	background: url(/assets/images/introduce/ability_img01.gif) 50% 42px no-repeat;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(2) div > .icon {
+    padding-top: 31px;
 }
-.introduce.ability .challenge .row > div:nth-of-type(2) {
-	background: url(/assets/images/introduce/ability_img02.gif) 50% 31px no-repeat;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(3) div > .icon {
+    padding-top: 31px;
 }
-.introduce.ability .challenge .row > div:nth-of-type(3) {
-	background: url(/assets/images/introduce/ability_img03.gif) 50% 31px no-repeat;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(4) div > .icon {
+    padding-top: 35px;
 }
-.introduce.ability .challenge .row > div:nth-of-type(4) {
-	background: url(/assets/images/introduce/ability_img04.gif) 50% 35px no-repeat;
-	margin-right: 0;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(5) div {
+    margin-bottom: 0;
 }
-.introduce.ability .challenge .row > div:nth-of-type(5) {
-	background: url(/assets/images/introduce/ability_img05.gif) 50% 37px no-repeat;
-	margin-bottom: 0;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(5) div > .icon {
+    padding-top: 37px;
 }
-.introduce.ability .challenge .row > div:nth-of-type(6) {
-	background: url(/assets/images/introduce/ability_img06.gif) 50% 39px no-repeat;
-	margin-bottom: 0;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(6) div {
+    margin-bottom: 0;
 }
-.introduce.ability .challenge .row > div:nth-of-type(7) {
-	background: url(/assets/images/introduce/ability_img07.gif) 50% 34px no-repeat;
-	margin-bottom: 0;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(6) div > .icon {
+    padding-top: 39px;
 }
-.introduce.ability .challenge .row > div:nth-of-type(8) {
-	background: url(/assets/images/introduce/ability_img08.gif) 50% 34px no-repeat;
-	margin-right: 0;
-	margin-bottom: 0;
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(7) div {
+    margin-bottom: 0;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(7) div > .icon {
+    padding-top: 34px;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(8) div {
+    margin-bottom: 0;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(8) div > .icon {
+    padding-top: 34px;
+}
+.introduce.ability .challenge .section-content > .account {
+    font-size: 13px !important;
+    color: #666 !important;
+    line-height: 18px !important;
+    margin-bottom: 0;
+    padding-left: 15px;
 }
 .introduce.ability .guest p:nth-of-type(1) {
 	margin-bottom: 40px;
@@ -500,6 +538,9 @@
 .introduce.ability .guest p:nth-of-type(2) img:nth-of-type(1) {
 	margin-right: 4px;
 }
+.introduce.ability .guest > .circle-list > li > i {
+    font-weight: bold;
+}
 .introduce.ability .invest .section-header {
 	margin-top: 50px;
 }
@@ -507,14 +548,69 @@
 	letter-spacing: -1px;
 	margin-bottom: 40px;
 }
-.introduce.ability .invest .dot-list {
-	border: 1px solid #ededed;
-	background-color: #fcfcfc;
-	padding: 38px;
+.introduce.ability .invest > ul {
+    overflow: hidden;
+    margin-bottom: 12px;
 }
-.introduce.ability .invest .dot-list li {
-	font-size: 15px !important;
-	line-height: 30px !important;
+.introduce.ability .invest > ul > li {
+
+}
+.introduce.ability .invest > ul > li > div {
+    height: 180px;
+	border: 1px solid #ededed;
+	text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.introduce.ability .invest > ul > li > div > .details {
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 26px;
+    margin-top: 18px;
+    letter-spacing: -1px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(1) div > .icon {
+    margin-top: 33px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(2) div > .icon {
+    margin-top: 39px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(3) div > .icon {
+    margin-top: 35px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(4) div > .icon {
+    margin-top: 32px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(5) div {
+    margin-bottom: 0;
+}
+.introduce.ability .invest > ul > li:nth-of-type(5) div > .icon {
+    margin-top: 36px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(6) div {
+    margin-bottom: 0;
+}
+.introduce.ability .invest > ul > li:nth-of-type(6) div > .icon {
+    margin-top: 42px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(7) div {
+    margin-bottom: 0;
+}
+.introduce.ability .invest > ul > li:nth-of-type(7) div > .icon {
+    margin-top: 37px;
+}
+.introduce.ability .invest > ul > li:nth-of-type(8) div {
+    margin-bottom: 0;
+}
+.introduce.ability .invest > ul > li:nth-of-type(8) div > .icon {
+    margin-top: 27px;
+}
+.introduce.ability .invest > .account {
+    font-size: 13px !important;
+    color: #666 !important;
+    line-height: 18px !important;
+    margin-bottom: 0;
+    padding-left: 15px;
 }
 .introduce.ability .company .section-header {
 	margin-top: 50px;
@@ -549,13 +645,16 @@
 .introduce.location .company .section-header {
 	margin-top: 50px;
 }
-.introduce.location .company ul li {
+.introduce.location .company > ul {
+    margin-top: 20px;
+}
+.introduce.location .company > ul > li {
 	margin-bottom: 15px;
 }
-.introduce.location .company ul li:last-child {
+.introduce.location .company > ul > li:last-child {
 	margin-bottom: 0;
 }
-.introduce.location .company ul li dl dt {
+.introduce.location .company > ul > li > dl > dt {
 	display: inline-block;
 	font-size: 14px;
 	color: #fff;
@@ -565,13 +664,16 @@
 	border-radius: 10px;
 	text-align: center;
 }
-.introduce.location .company ul li dl dd {
+.introduce.location .company > ul > li > dl > dd {
 	display: inline-block;
 	font-size: 16px;
 	padding-left: 15px;
 }
 .introduce.location .location-info .section-header {
 	margin-top: 50px;
+}
+.introduce.location .location-info > .arrow-list {
+    margin-top: 20px;
 }
 .introduce.location .location-info .arrow-list li:nth-of-type(5) {
 	margin-left: 40px !important;

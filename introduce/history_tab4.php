@@ -29,10 +29,10 @@
 			<div class="history-list">
 				<div class="history-img">
 					<p>
-						<img src="/assets/images/introduce/history_img01.jpg" alt="">
+						<img src="/assets/images/introduce/history_img15.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
-						<img src="/assets/images/introduce/history_img02.jpg" alt="">
+						<img src="/assets/images/introduce/history_img16.jpg" alt="기업연혁이미지">
 					</p>
 				</div>
 				<ol>
@@ -57,7 +57,7 @@
 						<h3>1986년</h3>
 						<dl>
 							<dt>11</dt>
-							<dd>(주)다비육종설립 <br>일죽GGP농장 준공</dd>
+							<dd>㈜다비육종설립, 일죽GGP농장 준공</dd>
 						</dl>
 					</li>
 					<li>
@@ -65,7 +65,7 @@
 						<h3>1988년</h3>
 						<dl>
 							<dt>07</dt>
-							<dd>국내최초 MEW 방식의 청정돈군 조성</dd>
+							<dd>국내최초 MEW(Medicated Early Weaning) 방식의 청정돈군 조성</dd>
 						</dl>
 					</li>
 				</ol>
