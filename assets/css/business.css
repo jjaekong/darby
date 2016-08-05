@@ -1,201 +1,414 @@
 /* 그래프 공통 */
 .business .graph { 
-	display:inline-block;
+    margin-top: 60px;
+	display: inline-block;
 }
 .business .graph > p {
-	text-align:left;
+	text-align: left;
+    font-size: 15px !important;
 }
 .business .graph > p:nth-of-type(1) {
-	margin-top:25px;
+	margin-top: 25px;
 }
 .business .graph > p:nth-of-type(1):before {
-	content:"●";
-	color:#249250;
-	padding-right:5px;
+	content: "●";
+	color: #249250;
+	padding-right: 5px;
 }
 .business .graph > p:nth-of-type(2):before {
-	content:"●";
-	color:#97b74e;
-	padding-right:5px;
+	content: "●";
+	color: #97b74e;
+	padding-right: 5px;
 }
 .business figure {
-	text-align:center;
+	text-align: center;
 }
 .business figure figcaption {
-	font-size:12px;
-	color:#666;
-	text-align:center;
-	margin-top:16px;
+	font-size: 15px;
+	color: #666;
+	text-align: center;
+	margin-top: 16px;
 }
 .business h4 {
-	font-size:18px;
-	font-weight:600;
-	color:#222;
-	margin:40px 0 25px;
-}
-.business .dot-list {
-	margin:0 0 60px 5px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+	margin: 40px 0 20px;
 }
 .business .dot-list li {
-	line-height:29px !important;
-	background-position:0 12px !important;
+	line-height: 29px !important;
+	background-position: 0 12px !important;
 }
+.business i {
+    font-style: normal;
+    color: #33995c;
+    font-weight: 400;
+}
+
 /* breeding-pig */
 .business.breeding-pig .container {
-	padding:80px 15px 150px;
+	padding: 80px 15px 150px;
 }
 .business.breeding-pig .container .yorkshire-landrace .sort { 
-	margin-top:20px;
-	text-align:center;
+	margin-top: 20px;
+	text-align: center;
 }
 .business.breeding-pig .container .yorkshire-landrace .sort figure {
-	display:inline-block;
+	display: inline-block;
 }
 .business.breeding-pig .container .yorkshire-landrace .sort figure:nth-of-type(1) {
-	margin-right:68px;
+	margin-right: 68px;
 }
 .business.breeding-pig .container .yorkshire-landrace .sort figure:nth-of-type(1) figcaption {
-	margin-right:70px;
+	margin-right: 70px;
 }
-.business.breeding-pig .container .yorkshire-landrace .sort > p {
-	text-align:left;
-	letter-spacing:-1px;
-	margin:50px 0 59px 0;
+.business.breeding-pig .container .yorkshire-landrace .sort > .dot-list {
+    margin-bottom: 10px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .account {
+    text-align: left;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > h4 {
+    font-size: 18px;
+    color: #222;
+    text-align: left;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .dot-list {
+    text-align: left;
 }
 .business.breeding-pig .container .yorkshire-landrace .sort > .graph:nth-of-type(1) {
-	margin-right:38px;
+	margin-right: 38px;
 }
 .business.breeding-pig .container .marblur figure {
-	margin-top:20px;
+	margin-top: 20px;
 }
 .business.breeding-pig .container .marblur .section-header {
-	margin-top:50px;
+	margin-top: 50px;
 }
 .business.breeding-pig .container .marblur .graph:last-child {
-	margin-left:30px;
+	margin-left: 30px;
 }
-.business.breeding-pig .container .pietrain .section-header {
-	margin-top:50px;
+.business.breeding-pig .container .pietrains .section-header {
+	margin-top: 50px;
 }
-.business.breeding-pig .container .pietrain h4:nth-of-type(2) {
-	margin-top:90px;
+.business.breeding-pig .container .pietrains h4:nth-of-type(2) {
+	margin-top: 90px;
 }
-.business.breeding-pig .container .pietrain figure {
-	margin-top:20px;
+.business.breeding-pig .container .pietrains figure {
+	margin-top: 20px;
 }
-.business.breeding-pig .container .pietrain > p {
-	letter-spacing:-1px;
+.business.breeding-pig .container .pietrains > p {
+	letter-spacing: -1px;
 }
-.business.breeding-pig .container .pietrain .table-wrap {
-
+.business.breeding-pig .container .pietrains .table-wrap .table {
+    table-layout: fixed;
 }
-.business.breeding-pig .container .pietrain .table-wrap .table thead tr th {
-	font-weight:300;
+.business.breeding-pig .container .pietrains .table-wrap .table thead tr th {
+	font-weight: 300;
 }
-.business.breeding-pig .container .pietrain .table-wrap .table tbody tr td {
-	padding:35px 0 !important;
+.business.breeding-pig .container .pietrains .table-wrap .table tbody tr td {
+	font-size: 16px;
+    padding: 35px 0 !important;
 }
-.business.breeding-pig .container .pietrain .table-wrap .table tbody tr td:first-child {
-	background-color:#fafafa;
+.business.breeding-pig .container .pietrains .table-wrap .table tbody tr td:first-child {
+    font-size: 18px !important;
+    color: #222 !important;
+	background-color: #fafafa;
 }
-.business.breeding-pig .container .pietrain dl dt {
-	display:inline;
-	font-size:15px;
-	color:#666;
-	font-weight:300;
+.business.breeding-pig .container .pietrains dl dt {
+	display: inline;
+	font-size: 15px;
+	color: #666;
+	font-weight: 300;
 }
-.business.breeding-pig .container .pietrain dl dt:before {
-	content:"※";
-	padding-right:5px;
+.business.breeding-pig .container .pietrains dl dt:before {
+	content: "※";
+	padding-right: 5px;
 }
-.business.breeding-pig .container .pietrain dl dd {
-	display:inline-block;
-	font-size:15px;
-	color:#666;
+.business.breeding-pig .container .pietrains dl dd {
+	display: inline-block;
+	font-size: 15px;
+	color: #666;
 }
-.business.breeding-pig .container .pietrain dl dd:before {
-	content:":";
-	padding-right:10px;
+.business.breeding-pig .container .pietrains dl dd:before {
+	content: ":";
+	padding-right: 10px;
 }
 
 
 /* darbyqueen */
 .business.darbyqueen .container {
-	padding:80px 15px 150px;
+	padding: 80px 15px 150px;
+}
+.business.darbyqueen .container .darbyqueen-s > .dot-list {
+    margin-bottom: 60px;
 }
 .business.darbyqueen .container .darbyqueen-s .graph {
-	display:block;
-	width:640px;
-	margin:0 auto;
+	display: block;
+	width: 640px;
+	margin: 0 auto;
 }
 .business.darbyqueen .container .darbyqueen-s .graph p {
-	margin-left:74px;
+	margin-left: 74px;
 }
 .business.darbyqueen .container .darbyqueen-g .section-header {
-	margin-top:50px;
+	margin-top: 50px;
 }
 .business.darbyqueen .container .darbyqueen-g .dot-list {
-	margin-bottom:0;
+	margin-bottom: 0;
 }
 
 
 /* xperm */
 .business.xperm h4 {
-	margin:20px 0;
+	margin: 20px 0;
 }
 .business.xperm .dot-list {
-	width:700px;
+	width: 700px;
 }
 .business.xperm .container {
-	padding:80px 15px 150px;
+	padding: 80px 15px 150px;
 }
 .business.xperm .container .sperm > p {
-	letter-spacing:-1px;
+	letter-spacing: -1px;
 }
 .business.xperm .container .sperm .graph {
-	display:block;
-	width:997px;
-	margin:60px auto 0;
+	display: block;
+	width: 997px;
+	margin: 60px auto 0;
 }
 .business.xperm .container .sperm .graph p {
-	text-align:center;
+	text-align: center;
 }
 .business.xperm .container .sperm .graph p:before {
-	content:"";
+	content: "";
 }
 .business.xperm .container .xperm-v {
-	position:relative;
-	margin:50px 0 120px 0;
+	position: relative;
+	margin: 50px 0 120px 0;
 }
 .business.xperm .container .xperm-v .xperm-img img {
-	display:block;
-	width:340px;
-	margin:39px auto;
+	display: block;
+	width: 340px;
+	margin: 39px auto;
 }
 .business.xperm .container .xperm-s {
-	position:relative;
-	margin:50px 0 120px 0;
+	position: relative;
+	margin: 50px 0 120px 0;
 }
 .business.xperm .container .xperm-s .xperm-img img {
-	display:block;
-	width:169px;
-	margin:39px auto;
+	display: block;
+	width: 169px;
+	margin: 39px auto;
 }
 .business.xperm .container .xperm-p {
-	position:relative;
-	margin-top:50px;
+	position: relative;
+	margin-top: 50px;
 }
 .business.xperm .container section .xperm-img {
-	position:absolute;
-	top:70px;
-	right:0;
-	width:402px;
-	height:240px;
-	border:1px solid #f3f3f3;
-	background-color:#f9f9f9
+	position: absolute;
+	top: 70px;
+	right: 0;
+	width: 402px;
+	height: 240px;
+	border: 1px solid #f3f3f3;
+	background-color: #f9f9f9
 }
 .business.xperm .container .xperm-p .xperm-img img {
-	display:block;
-	width:169px;
-	margin:39px auto;
+	display: block;
+	width: 169px;
+	margin: 39px auto;
 }
+
+
+/* stain-pig */
+.business.stain-pig .container {
+    padding: 80px 15px 150px;
+}
+.business.stain-pig .container h5 {
+    font-size: 20px;
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 90px 0 40px;
+}
+.business.stain-pig .container > .stain-pig .table-wrap > .account {
+	font-size: 15px !important;
+	line-height: 26px !important;
+}
+.business.stain-pig .container > .stain-pig .table-wrap > .table {
+    table-layout: fixed;
+}
+.business.stain-pig .container > .stain-pig > .breeding > p > img {
+    margin-left: 80px;
+}
+.business.stain-pig .container > .stain-pig > .breeding > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 0 !important;
+}
+
+.business.stain-pig .container > .stain-pig > .palability > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 0 !important;
+}
+.business.stain-pig .container > .stain-pig > .palability > .table-wrap > .table > tbody > tr > td:first-child {
+    background-color: #fafafa;
+}
+.business.stain-pig .container > .han-don > .section-header > h3 {
+    padding-top: 140px !important;
+}
+.business.stain-pig .container > .han-don > h5 {
+    margin: 50px 0 20px !important;
+}
+
+
+/* purchase */
+.business.purchase .container {
+    padding: 80px 15px 150px;
+}
+.business.purchase .container > .purchase > .table-wrap {
+    margin-top: 20px;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 34px !important;
+    vertical-align: middle;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl {
+    overflow: hidden;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl > dt {
+    float: left;
+    clear: both;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl > dd {
+    float: left;
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl > dt:after {
+    content: ":";
+    padding: 0 5px;
+}
+.business.purchase .container > .purchase > .table-wrap > p > img {
+    margin-top: 10px;
+}
+.business.purchase .container > .brand > .section-header > h3 {
+    padding-top: 90px !important;
+}
+.business.purchase .container > .brand > .section-content > p {
+    margin-bottom: 40px;
+}
+.business.purchase .container > .brand > .section-content > ul > li > .detail {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin: 20px 0 40px;
+}
+.business.purchase .container > .brand > .section-content > .contact > h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e4e4e;
+    margin: 50px 0 27px !important;
+
+}
+.business.purchase .container > .brand > .section-content > .contact > ul {
+    background-image: url(/assets/images/business/contact_img01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 13px;
+    padding-left: 210px;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl {
+    overflow: hidden;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dt {
+    float: left;
+    clear: both;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dd {
+    float: left;
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dd > a {
+    color: #666;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dt:after {
+    content: ":";
+    padding: 0 5px;
+}
+
+
+/* heredity 공통 */
+.business.heredity > .container {
+    padding: 80px 15px 150px;
+}
+.business.heredity > .container > .navbar > .nav > li:nth-of-type(3) > a {
+    padding: 10px 0 !important;
+}
+
+
+/* production */
+.business.production .map > .section-content {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.business.production .map > .section-content > p {
+    float: left;
+    margin-right: 16px;
+}
+.business.production .map > .section-content > .table-wrap {
+    float: left;
+    width: 540px;
+    height: 709px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #dadada;
+}
+.business.production .map > .section-content > .table-wrap > .table {
+    margin-bottom: 0;
+}
+.business.production .map > .section-content > .table-wrap > .table > thead > tr > th {
+
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > td {
+    padding: 17px 0 !important;
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > td:last-child {
+    padding-left: 20px !important;
+    text-align: left !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

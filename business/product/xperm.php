@@ -20,21 +20,20 @@
 		<div class="container">
 			<nav class="navbar">
 				<ul class="nav navbar-nav">
-					<li><a href="/business/breeding_pig.php">종동</a></li>
-					<li><a href="/business/darbyqueen.php">F1</a></li>
-					<li class="active"><a href="/business/xperm.php">엑스펌</a></li>
-					<li><a href="/business/han_don.php">한돈</a></li>
-					<li><a href="#">구입문의</a></li>
+					<li><a href="/business/product/breeding_pig.php">순종</a></li>
+					<li><a href="/business/product/darbyqueen.php">F1</a></li>
+					<li class="active"><a href="/business/product/xperm.php">엑스펌</a></li>
+					<li><a href="/business/product/stain_pig.php">얼룩도야지</a></li>
+					<li><a href="/business/product/purchase.php">구입문의</a></li>
 				</ul>
 			</nav>
 			<section class="sperm">
 				<div class="section-header">
-					<h3>엑스펌(액상정액)</h3>
+					<h3>엑스펌 (X-perm, 액상 정액)</h3>
 					<hr>
 				</div>
 				<p>
-					다비육종의 엑스펌의 우수성을 알아봐주신 분들 덕분에 대한민국 S.P. (인공수정)시장점유율 1위를 지키고 있습니다.<br>
-					다비육종 S.P. 센터는 국내 최대의 웅돈 규모와 100% PRRS 음성, HACCP 인증으로 위생적인 정액을 공급해드리고 있으며, 최고의 인공수정 전문가 그룹으로 구성되어 있습니다.
+					다비육종의 엑스펌 시리즈는 대한민국 인공수정 시장점유율 1위를 꾸준히 지키고 있습니다.다비육종 S.P.(인공수정)센터는 국내 최대 규모의 웅돈을 보유하고 있으며, 최고의 인공수정 전문가 그룹으로 구성되어 있습니다. 돈군의 고위생도 유지와 더불어 지속적인 웅돈 교체를 통해 우수한 유전자원을 농장에 안전하고 신속하게 공급하고 있습니다.
 				</p>
 				<div class="graph">
 					<img src="/assets/images/business/graph06.jpg" alt="연간 정액 판매량 그래프">
@@ -48,8 +47,8 @@
 				</div>
 				<h4>분만율과 산자수 증가를 위한 인공수정용 액상 정액 "엑스펌-V"</h4>
 				<ul class="dot-list">
-					<li>엑스펌-V(X-perm V)는 GGP 상위 5% 이상에서 선발된 웅돈으로부터 생산합니다.</li>
-					<li>웅돈에게 필수영양소를 공급하여 정자의 운동성과 생존율을 개선시켰습니다.</li>
+					<li>엑스펌-V(Vital)는 유전평가에서 우수한 Index 값을 나타내는 웅돈으로부터 생산됩니다.</li>
+					<li>웅돈에게 필요한 추가적인 영양소를 공급함으로써 정자의 운동성과 생존율을 개선시켜 농장의 번식성적을 향상시킵니다.</li>
 				</ul>
 				<p class="xperm-img">
 					<img src="/assets/images/business/xperm_v.png" alt="엑스펌-v">
@@ -60,13 +59,13 @@
 					<h3>엑스펌-S</h3>
 					<hr>
 				</div>
-				<h4>슬림한 등지방 두께를 위한 인공수정용 액상 정액 “엑스펌-S”</h4>
+				<h4>슬림한 등지방 두께를 위한 인공수정용 액상 정액 "엑스펌-S"</h4>
 				<ul class="dot-list">
 					<li>
-						등지방 두께를 고려한 엑스펌-S(Slim)는 엄격히 선발된 다비S.P.센터의 보유 웅돈 중에서 등지방 두께가 얇은 육종가를 지닌 상위 30%의 개체에서 생산되었습니다.
+						비육돈의 과도한 등지방 문제를 해결하기 위해 개발된 엑스펌-S(Slim)는 등지방 육종가가 낮은 웅돈에서 생산됩니다.
 					</li>
 					<li>
-						등지방 두께와 관련하여 수익성이 하락하는 농가에서는 엑스펌-S를 사용함으로써 출하등급 향상에 도움을 주어 농가 수익개선을 기대할 수 있습니다.
+						두꺼운 등지방으로 인해 낮은 등급평가를 받는 농가는 엑스펌-S를 사용함으로써 출하등급을 향상시킬 수 있습니다.
 					</li>
 				</ul>
 				<p class="xperm-img">
@@ -78,13 +77,13 @@
 					<h3>엑스펌-P</h3>
 					<hr>
 				</div>
-				<h4>저지방 돈육의 생산을 위한 인공수정용 액상정액 “엑스펌-P</h4>
+				<h4>저지방 돈육의 생산을 위한 인공수정용 액상정액 "엑스펌-P"</h4>
 				<ul class="dot-list">
 					<li>
-						육질과 육량을 고려한 엑스펌-P(Pietrain)는 등지방이 10mm미만으로 저지방을 선호하는 소비자들의 추세에 맞춰 생산되었습니다.
+						엑스펌-P(Pietrain)를 사용해서 생산된 비육돈은 높은 정육생산량을 나타냅니다.
 					</li>
 					<li>
-						종료교배웅돈으로서 피어트레인은 정육생산량이 상대적으로 많을 뿐만 아니라 사료효율도 높아 농가의 수익개선을 기대할 수 있습니다
+						종료교배 시 피어트레인 정액을 사용함으로써 지방함량이 낮은 비육돈을 생산할 수 있습니다.
 					</li>
 				</ul>
 				<p class="xperm-img">

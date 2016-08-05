@@ -33,8 +33,8 @@
                 <li>
                     <a href="#">사업소개</a>
                     <ul>
-                        <li><a href="#">제품소개</a></li>
-                        <li><a href="#">유전사업</a></li>
+                        <li><a href="/business/product/breeding_pig.php">제품소개</a></li>
+                        <li><a href="/business/heredity/production.php">유전사업</a></li>
                         <li><a href="#">돈육사업</a></li>
                         <li><a href="#">해외사업</a></li>
                     </ul>

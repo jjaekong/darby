@@ -27,11 +27,8 @@ body {
   overflow-y: scroll;
   position: relative;
   min-width: 1200px;
-<<<<<<< HEAD
-=======
   font-family: 'Nanum Barun Gothic', serif;
   font-size: 12px;
->>>>>>> 23adcb734c5beed839d9bf551f4677fe6c7144b5
   font-weight: 400;
   background-color: #363636; }
 

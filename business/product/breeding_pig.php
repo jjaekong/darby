@@ -20,31 +20,37 @@
 		<div class="container">
 			<nav class="navbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="/business/breeding_pig.php">종동</a></li>
-					<li><a href="/business/darbyqueen.php">F1</a></li>
-					<li><a href="/business/xperm.php">엑스펌</a></li>
-					<li><a href="/business/han_don.php">한돈</a></li>
-					<li><a href="#">구입문의</a></li>
+					<li class="active"><a href="/business/breeding_pig.php">순종</a></li>
+					<li><a href="/business/product/darbyqueen.php">F1</a></li>
+					<li><a href="/business/product/xperm.php">엑스펌</a></li>
+					<li><a href="/business/product/stain_pig.php">얼룩도야지</a></li>
+					<li><a href="/business/product/purchase.php">구입문의</a></li>
 				</ul>
 			</nav>
 			<section class="yorkshire-landrace">
 				<div class="section-header">
-					<h3>요크셔 YY / 랜드레이스 LL</h3>
+					<h3>요크셔 (Yorkshire) / 랜드레이스 (Landrace)</h3>
 					<hr>
 				</div>
 				<div class="sort">
 					<figure>
 						<img src="/assets/images/business/pig_img01.gif" alt="요크셔 YY">
-						<figcaption>요크셔 YY</figcaption>
+						<figcaption>다비요크셔</figcaption>
 					</figure>
 					<figure>
 						<img src="/assets/images/business/pig_img02.gif" alt="랜드레이스 LL">
-						<figcaption>랜드레이스 LL</figcaption>
+						<figcaption>다비랜드레이스</figcaption>
 					</figure>
-					<p>
-						다비요커와 다비랜드레이스는 F1 모계 종돈을 생산하기 위한 순종돈으로 우수한 유전자원을 바탕으로 개량되었습니다.<br>
-						높은 분만율과 산자수 개량을 통하여 농가의 번식성적을 높여 GP농장의 생산성 향상에 기여하고 PRRS, MH, PED 등 주요질병에 Free한 고능력 청정돈입니다.
-					</p>
+					<h4>높은 산자수를 자랑하는 모계 순종돈 "다비요크셔/다비랜드레이스"</h4>
+					<ul class="dot-list">
+					    <li>다비요크셔와 다비랜드레이스는 대표적인 모계 순종돈입니다.</li>
+					    <li>체계적인 육종프로그램을 활용해 고품질의 순종돈을 지속적으로 개량하고 있습니다.</li>
+					    <li>높은 분만율과 많은 산자수를 나타내 농장의 번식성적을 높여 생산성 향상에 기여합니다.</li>
+					    <li>다비요크셔와 다비랜드레이스는 <strong>PRRS<sup>1</sup>, MH<sup>2</sup>, APP<sup>3</sup></strong> 등 주요질병에 Free한 고능력 청정돈입니다 </li>
+					</ul>
+					<p class="account">PRRS<sup>1</sup> (Porcine Reproductive and Respiratory Syndrome, 돼지 생식기 호흡기 증후군) </p>
+					<p class="account">MH<sup>2</sup>  (Mycoplasma, 마이코플라즈마)</p>
+					<p class="account">APP<sup>3</sup>  (Actinobacillus Pleuropneumoniae, 흉막폐렴)</p>
 					<div class="graph">
 						<img src="/assets/images/business/graph01.jpg" alt="생존산자수 그래프">
 						<p>도화 LL 생존산자수</p>
@@ -59,7 +65,7 @@
 			</section>
 			<section class="marblur">
 				<div class="section-header">
-					<h3>마블러-S</h3>
+					<h3>마블러-S (Duroc)</h3>
 					<hr>
 				</div>
 				<figure>
@@ -68,10 +74,10 @@
 				</figure>
 				<h4>우수한 증체와 육질을 보장하는 고급형 웅돈 “마블러-S”</h4>
 				<ul class="dot-list">
-					<li>듀록 품종으로, 다비육종에서 BLUP을 이용해 개량한 정통 부계 종료교배 웅돈입니다.</li>
-					<li>다비퀸-S와 교잡을 한다면 잡종강세를 통해 최대의 생산성이 발현되며, 유전적으로 개체간 육질형질의 변이가 적어 균일한 원료돈과 고급육 생산에 최적합니다.</li>
-					<li>세계적인 육종회사인 S&S Farm, Genetic Pork 및 DGI의 유전인자를 도입하여 국내 환경에 적합하도록 계통조성 되었습니다.</li>
-					<li>빠른 증체와 우수한 마블링으로 고객농장의 수익성 증대에 기여해 경쟁력을 더해드립니다.</li>
+					<li>마블러-S는 듀록 품종으로, 세계에서 가장 보편적으로 사용되는 부계 종료교배 웅돈입니다.</li>
+					<li>다비퀸-S(F1)와 교배했을 때 잡종강세를 통해 높은 생산성을 나타냅니다.</li>
+					<li>우수한 마블링과 높은 균일도로 고급육 생산에 최적화되어 있습니다.</li>
+					<li>빠른 증체와 높은 도체율로 고객농장의 수익향상에 기여합니다.</li>
 				</ul>
 				<div class="graph">
 					<img src="/assets/images/business/graph04.jpg" alt="90kg 도달일령 그래프">
@@ -82,29 +88,24 @@
 					<p>등지방</p>
 				</div>
 			</section>
-			<section class="pietrain">
+			<section class="pietrains">
 				<div class="section-header">
-					<h3>피어트레인 PP</h3>
+					<h3>피어트레인 (Pietrains)</h3>
 					<hr>
 				</div>
 				<figure>
-					<img src="/assets/images/business/pig_img04.gif" alt="피어트레인-PP">
+					<img src="/assets/images/business/pig_img04.gif" alt="피어트레인">
 					<figcaption>피어트레인-PP</figcaption>
 				</figure>
-				<h4>저지방 돈육을 위한 "피어트레인"</h4>
-				<p>
-					피어트레인은 유럽시장에서 이미 증명된 종료교배웅돈입니다. 저지방 돈육을 선호하는 소비자들의 시장추세에 따라 지방함량이 적고 육질과 육량개선을 위하여 피어트레인을 도입하여 육종 개량하였습니다. 피어트레인은 등지방이 10mm 미만으로 정육생산량이 상대적으로 많을 뿐만 아니라 사료효율도 높아 농가의 수익개선을 기대할 수 있습니다. 과거 문제가 되었던 PSS 유전자를 가지고 있지 않아 사양관리가 용이합니다.
-				</p>
-
-				<h4>피어트레인과 듀록의 우수성 비교</h4>
+				<h4>저지방 돈육 생산을 위한 부계 웅돈 “피어트레인”</h4>
+				<ul class="dot-list">
+				    <li>피어트레인은 이미 유럽시장에서 널리 사용되고 있는 부계 종료교배 웅돈입니다.</li>
+				    <li>지방함량이 낮고, 정육량이 많은 비육돈 생산을 위해 최적화되어 있습니다.</li>
+				    <li>PSS(porcine stress syndrome, 돼지스트레스증후군) 유전자를 가지고 있지 않아 사양관리가 용이합니다.</li>
+				</ul>
+				<h4>피어트레인(PP)과 듀록의 우수성 비교</h4>
 				<div class="table-wrap">
 					<table class="table table-border">
-						<colgroup>
-							<col style="width:292px;"/>
-							<col style="width:292px;"/>
-							<col style="width:292px;"/>
-							<col style="width:292px;"/>
-						</colgroup>
 						<thead>
 							<tr>
 								<th>형질</th>
@@ -117,43 +118,43 @@
 							<tr>
 								<td>100kg 도달일령 (일)</td>
 								<td>143.0</td>
-								<td>&lt;</td>
+								<td>&lsaquo;</td>
 								<td>142.0</td>
 							</tr>
 							<tr>
 								<td>100kg 등지방 두께(mm)</td>
 								<td>8.2</td>
-								<td>&gt;&gt;</td>
+								<td>&lsaquo;&lsaquo;</td>
 								<td>11.7</td>
 							</tr>
 							<tr>
 								<td>정육률(%)</td>
 								<td>67.5</td>
-								<td>&gt;&gt;&gt;</td>
+								<td>&lsaquo;&lsaquo;&lsaquo;</td>
 								<td>59.3</td>
 							</tr>
 							<tr>
 								<td>일당증체량</td>
 								<td>959</td>
-								<td>&lt;&lt;</td>
+								<td>&lsaquo;&lsaquo;</td>
 								<td>963</td>
 							</tr>
 							<tr>
 								<td>FCR</td>
 								<td>2.44</td>
-								<td>&gt;&gt;</td>
+								<td>&rsaquo;&rsaquo;</td>
 								<td>2.66</td>
 							</tr>
 							<tr>
 								<td>pH24 등심</td>
 								<td>5.66</td>
-								<td>&lt;</td>
+								<td>&lsaquo;</td>
 								<td>5.73</td>
 							</tr>
 							<tr>
 								<td>웅취발생률(%)</td>
 								<td>1.8</td>
-								<td>&gt;</td>
+								<td>&rsaquo;</td>
 								<td>4.2</td>
 							</tr>
 						</tbody>
