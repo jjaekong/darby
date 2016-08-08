@@ -51,7 +51,7 @@
 	background: none;
 }
 /* dot-list */
-#content .container .dot-list li {
+.dot-list li {
 	background-image: url(/assets/images/sub/dot_img.gif);
 	background-size: 4px auto;
 	background-repeat: no-repeat;
@@ -62,20 +62,20 @@
 	padding-left: 10px;
 }
 /* circle-list */
-#content .container .circle-list li {
+.circle-list li {
 	position: relative;
 	font-size: 16px;
 	padding-left: 35px;
 	counter-increment: my-list-index;
 	margin-bottom: 15px;
 }
-#content .container .circle-list li:last-child {
+.circle-list li:last-child {
 	margin-bottom: 0;
 }
-#content .container .circle-list > li:before {
+.circle-list > li:before {
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: -2px;
 	width: 26px;
 	height: 26px;
 	text-align: center;
@@ -84,7 +84,7 @@
 	border-radius: 50%;
 	content: counter(my-list-index);
 	background-color: #249250;
-	line-height: 25px;
+	line-height: 30px;
 }
 /* arrow-list */
 #content .container .arrow-list li {
@@ -217,6 +217,9 @@
 	font-size: 20px;
 	line-height: 41px;
 	margin-right: 10px;
+}
+#content .container .btn-area .btn:hover {
+    opacity: 0.8;
 }
 #content .container .btn-area .btn-green {
 	background-color: #249250;
