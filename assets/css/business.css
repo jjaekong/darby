@@ -914,6 +914,240 @@
     line-height: 26px;
 }
 
+/* pork-business */
+.business.pork-business .container {
+    padding-bottom: 150px;
+}
+.business.pork-business .pork-business > .section-content {
+    text-align: center;
+}
+.business.pork-business .pork-business > .section-content > ul {
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 20px;
+}
+.business.pork-business .pork-business > .section-content > ul > li {
+    position: relative;
+    float: left;
+    margin-right: 50px;
+}
+.business.pork-business .pork-business > .section-content > ul > li:after {
+    position: absolute;
+    top: 47%;
+    right: -35px;
+    content: url(/assets/images/business/right_arrow.png);
+}
+.business.pork-business .pork-business > .section-content > ul > li:last-child:after {
+    content: "";
+}
+.business.pork-business .pork-business > .section-content > ul > li > .icon {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.business.pork-business .pork-business > .section-content > p {
+    text-align: left;
+    margin-top: 40px;
+}
+.business.pork-business .distribution > p {
+    margin-top: 20px;
+}
+.business.pork-business .welfare {
+    position: relative;
+}
+.business.pork-business .welfare > .section-header > h3 {
+    padding-top: 120px !important;
+}
+.business.pork-business .welfare > p {
+    width: 770px;
+    margin: 20px 0 38px;
+}
+.business.pork-business .welfare > p:last-child {
+    margin: 0;
+}
+.business.pork-business .welfare > .welfare-img > img {
+    position: absolute;
+    top: 137px;
+    right: 0;
+}
+
+/* fodder-business */
+.business.fodder-business .container {
+    padding-bottom: 150px;
+}
+.business.fodder-business .fodder-business > .section-content {
+    height: 145px;
+    border-left: 6px solid #249250;
+    padding-left: 13px;
+}
+.business.fodder-business .fodder-business > .section-content > h4 {
+    font-size: 21px;
+    color: #4e4e4e;
+    font-weight: 400;
+    margin: 0;
+}
+.business.fodder-business .fodder-business > .section-content > p {
+    margin-top: 18px;
+}
+
+.business.fodder-business .breeding-fodder {
+    position: relative;
+    height: 638px;
+}
+.business.fodder-business .breeding-fodder > .section-header > h3 {
+    padding-top: 138px !important;
+}
+.business.fodder-business .breeding-fodder > h4 {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.business.fodder-business .breeding-fodder > .dot-list > li {
+    letter-spacing: -1px;
+}
+.business.fodder-business .breeding-fodder > p > img {
+    position: absolute;
+    top: 138px;
+    right: 0;
+}
+.business.fodder-business .brand-fodder {
+    position: relative;
+    height: 638px;
+}
+.business.fodder-business .brand-fodder > .section-header > h3 {
+    padding-top: 138px !important;
+}
+.business.fodder-business .brand-fodder > h4 {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.business.fodder-business .brand-fodder > .dot-list > li {
+    letter-spacing: -1px;
+}
+.business.fodder-business .brand-fodder > p > img {
+    position: absolute;
+    top: 138px;
+    right: 0;
+}
+
+/* overseas-biz */
+.business.overseas-biz .container {
+    padding-bottom: 150px;
+}
+.business.overseas-biz .overseas-biz > .section-content {
+    overflow: hidden;
+}
+.business.overseas-biz .overseas-biz > .section-content > .biz-text {
+    display: inline-block;
+    border-left: 6px solid #249250;
+    margin: 20px 0 77px 0;
+    padding-left: 14px;
+}
+.business.overseas-biz .overseas-biz > .section-content > .darby-cj {
+    position: relative;
+    margin-bottom: 39px;
+}
+.business.overseas-biz .overseas-biz > .section-content > .darby-cj > span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 185px;
+    height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    background-color: #aeaeae;
+}
+.business.overseas-biz .overseas-biz > .section-content > div {
+    float: left;
+    width: 570px;
+    margin-right: 30px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:last-child {
+    margin-right: 0;
+}
+.business.overseas-biz .overseas-biz > .section-content > div > .biz-img > span {
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    background-color: #aeaeae;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(1) > .biz-img {
+    position: relative;
+    margin-top: 39px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(1) > .biz-img > span {
+    left: 0;
+    width: 185px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(2) > .biz-img {
+    position: relative;
+    margin-bottom: 39px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(2) > .biz-img > span {
+    right: 0;
+    width: 125px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(2) > .btn-area > p > .btn-green {
+    width: 570px !important;
+    height: 49px !important;
+    font-size: 18px !important;
+    margin: 29px 0 0 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -35,15 +35,18 @@
                     <ul>
                         <li><a href="/business/product/breeding_pig.php">제품소개</a></li>
                         <li><a href="/business/heredity/production.php">유전사업</a></li>
-                        <li><a href="#">돈육사업</a></li>
-                        <li><a href="#">해외사업</a></li>
+                        <li><a href="/business/pork_business.php">돈육사업</a></li>
+                        <li><a href="/business/pork_business.php">사료사업</a></li>
+                        <li><a href="/business/overseas_biz.php">해외사업</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">홍보센터</a>
                     <ul>
-                        <li><a href="#">보도자료</a></li>
-                        <li><a href="#">횽보자료</a></li>
+                        <li><a href="/promotional/data_list.php">보도자료</a></li>
+                        <li><a href="/promotional/advertise.php">홍보자료</a></li>
+                        <li><a href="/promotional/notice.php">공지사항</a></li>
+                        <li><a href="/promotional/qna.php">Q&amp;A</a></li>
                     </ul>
                 </li>
                 <li>
