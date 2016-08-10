@@ -351,9 +351,6 @@
 .introduce.missionware .container .logo { 
 	margin-top: 50px;
 }
-.introduce.missionware .container .logo .section-content { 
-	margin-top: 20px;
-}
 .introduce.missionware .container .logo .section-content .darby-logo {
 	margin-bottom: 30px;
 }
@@ -431,18 +428,19 @@
 .introduce.missionware .container .logo .section-content .darby-color div > dl dt {
 	position: relative;
 	display: inline;
+    padding-right: 5px;
 }
 .introduce.missionware .container .logo .section-content .darby-color div > dl dd {
 	display: inline;
-	padding-left: 14px;
+	padding-left: 20px;
 	letter-spacing: -1px;
 }
 .introduce.missionware .container .logo .section-content .darby-color div > dl dt:after {
-	position: absolute;
-	top: -3px;
-	right: -15px;
-	content: "▶";
-	font-size: 5px;
+    position: absolute;
+    top: -4px;
+    right: -14px;
+    content: "▶";
+    font-size: 5px;
 }
 .introduce.missionware .container .logo .section-content .darby-color .green span { 
 	background-color: #249250;
@@ -462,7 +460,7 @@
 	color: #249250;
 }
 .introduce.ability .challenge .section-content > p {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 	letter-spacing: -1px;
 }
 .introduce.ability .challenge .section-content > ul {
@@ -647,9 +645,6 @@
 .introduce.location .company .section-header {
 	margin-top: 50px;
 }
-.introduce.location .company > ul {
-    margin-top: 20px;
-}
 .introduce.location .company > ul > li {
 	margin-bottom: 15px;
 }
@@ -673,9 +668,6 @@
 }
 .introduce.location .location-info .section-header {
 	margin-top: 50px;
-}
-.introduce.location .location-info > .arrow-list {
-    margin-top: 20px;
 }
 .introduce.location .location-info .arrow-list li:nth-of-type(5) {
 	margin-left: 40px !important;

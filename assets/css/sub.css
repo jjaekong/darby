@@ -15,6 +15,7 @@
 	border-top-color: #000;
 	text-align: left;
 	display: inline-block;
+    margin-bottom: 40px;
 }
 /* navbar */
 #content .container .navbar {
@@ -127,6 +128,7 @@
 	color: #4e4e4e;
 	text-align: center;
 	padding: 25px 0;
+    vertical-align: middle;
 }
 #content .container .table-wrap .table tbody tr td:last-child {
 	border-right: 0;
@@ -236,4 +238,23 @@
 #content .container .account:before {
     content: "※";
     padding-right: 5px;
+}
+
+.form-control {
+    box-shadow: none
+}
+input, select, textarea {
+    border: 1px solid #dbdbdb;
+}
+input:focus {
+    outline: 0;
+    border-color: #dbdbdb;
+}
+textarea:focus {
+    outline: 0;
+    border-color: #dbdbdb;
+}
+select:focus {
+    outline: 0;
+    border-color: #dbdbdb;
 }

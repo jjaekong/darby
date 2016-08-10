@@ -1,3 +1,6 @@
+.page-header-1 {
+    background-image: url(/assets/images/bg_page_header_3.jpg) !important;
+}
 /* promotional 공통 */
 .promotional .container {
     padding-top: 70px;
@@ -401,45 +404,68 @@
     margin-top: 35px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* notice */
+.promotional.notice-list > .container > .table-wrap > .table {
+    margin: 0;
+}
+.promotional.notice-list > .container > .table-wrap > .table > thead > tr > th {
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > td > a {
+    color: #4e4e4e !important;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > .notice {
+    color: #249250 !important;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > .notice > a {
+    color: #249250 !important;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > .subject {
+    text-align: left !important;
+    width: 570px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr:last-child {
+    border-bottom: 1px solid #dbdbdb !important;
+}
+.promotional.notice-list > .container > .table-wrap > .btn-area {
+    margin: 45px 0 50px;
+    overflow: hidden;
+}
+.promotional.notice-list > .container > .table-wrap > .btn-area > p > .btn-green {
+    float: right;
+    margin: 0 !important;
+}
+.promotional.notice-list > .container > .table-wrap > .paging > .pagination {
+    margin: 0;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > .subject > a > .reply {
+    position: relative;
+    padding: 1px 0;
+    display: inline-block;
+    width: 24px;
+    height: 14px;
+    font-size: 11px;
+    color: #fff;
+    background-color: #249250;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.promotional.notice-list > .container > .table-wrap > .table > tbody > tr > .subject > a > .reply:before {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    content: url(/assets/images/promotional/reply.png);
+}

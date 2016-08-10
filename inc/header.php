@@ -44,32 +44,32 @@
                     <a href="#">홍보센터</a>
                     <ul>
                         <li><a href="/promotional/data_list.php">보도자료</a></li>
-                        <li><a href="/promotional/advertise.php">홍보자료</a></li>
-                        <li><a href="/promotional/notice.php">공지사항</a></li>
+                        <li><a href="/promotional/promote/advertise.php">홍보자료</a></li>
+                        <li><a href="/promotional/notice_list.php">공지사항</a></li>
                         <li><a href="/promotional/qna.php">Q&amp;A</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">CSR</a>
                     <ul>
-                        <li><a href="#">다비육종의 선행</a></li>
-                        <li><a href="#">활동내역</a></li>
+                        <li><a href="/csr/precede.php">다비육종의 선행</a></li>
+                        <li><a href="/csr/activity/activity_all.php">활동내역</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">채용정보</a>
                     <ul>
-                        <li><a href="#">채용공지</a></li>
-                        <li><a href="#">채용안내</a></li>
-                        <li><a href="#">인재상</a></li>
-                        <li><a href="#">복지제도</a></li>
-                        <li><a href="#">교육제도</a></li>
+                        <li><a href="/recruit/recruit_info.php">채용안내</a></li>
+                        <li><a href="/recruit/recruit_notice.php">채용공지</a></li>
+                        <li><a href="/recruit/talented.php">인재상</a></li>
+                        <li><a href="/recruit/welfare.php">복지제도</a></li>
+                        <li><a href="/recruit/education.php">교육제도</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">오시는 길</a>
                     <ul>
-                        <li><a href="#">오시는 길</a></li>
+                        <li><a href="/introduce/location.php">오시는 길</a></li>
                     </ul>
                 </li>
             </ul>
