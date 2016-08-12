@@ -20,25 +20,25 @@
 		<div class="container">
 			<nav class="navbar">
 				<ul class="nav navbar-nav">
-					<li><a href="/introduce/history.php">2010년대</a></li>
-					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
-					<li class="active"><a href="/introduce/history_tab3.php">1990년대</a></li>
 					<li><a href="/introduce/history_tab4.php">1980년대</a></li>
+					<li class="active"><a href="/introduce/history_tab3.php">1990년대</a></li>
+					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
+					<li><a href="/introduce/history.php">2010년대</a></li>
 				</ul>
 			</nav>
 			<div class="history-list">
 				<div class="history-img">
-					<p>
-						<img src="/assets/images/introduce/history_img11.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img12.jpg" alt="기업연혁이미지">
+				    <p>
+						<img src="/assets/images/introduce/history_img14.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
 						<img src="/assets/images/introduce/history_img13.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
-						<img src="/assets/images/introduce/history_img14.jpg" alt="기업연혁이미지">
+						<img src="/assets/images/introduce/history_img12.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img11.jpg" alt="기업연혁이미지">
 					</p>
 				</div>
 				<ol>
@@ -59,7 +59,7 @@
 							<dt>05</dt>
 							<dd>다비양돈시스템(F-6 모델돈사)/종돈판매센터 개장</dd>
 							<dt>06</dt>
-							<dd>국내최초 인공수정센터(다비 S.P.센터) 설립</dd>
+							<dd>국내최초 인공수정센터(다비 SP 센터) 설립</dd>
 						</dl>
 					</li>
 					<li>
@@ -90,7 +90,7 @@
 						<h3>1997년</h3>
 						<dl>
 							<dt>09</dt>
-							<dd>다비 S.P. 제2센터 준공</dd>
+							<dd>다비 SP 제2센터 준공</dd>
 							<dt>12</dt>
 							<dd>제2 SEW 자돈/육성농장(여울목) 준공</dd>
 						</dl>
@@ -102,7 +102,7 @@
 							<dt>11</dt>
 							<dd>국내최초 연간종돈 판매 2만두 달성</dd>
 							<dt>12</dt>
-							<dd>다비육종 청암GGP농장 준공</dd>
+							<dd>다비육종 청암GGP농장(현 디앤디GGP) 준공</dd>
 						</dl>
 					</li>
 				</ol>

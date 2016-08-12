@@ -253,6 +253,9 @@
     line-height: 26px;
     letter-spacing: -0.8px;
 }
+.introduce.ceo-min .container .ceo-info > p:last-child {
+    margin-top: 30px;
+}
 /* history */
 .introduce.history .container {
 	padding: 80px 15px 150px;
@@ -495,29 +498,29 @@
 .introduce.ability .challenge .section-content > ul > li:nth-of-type(4) div > .icon {
     padding-top: 35px;
 }
-.introduce.ability .challenge .section-content > ul > li:nth-of-type(5) div {
-    margin-bottom: 0;
-}
 .introduce.ability .challenge .section-content > ul > li:nth-of-type(5) div > .icon {
     padding-top: 37px;
-}
-.introduce.ability .challenge .section-content > ul > li:nth-of-type(6) div {
-    margin-bottom: 0;
 }
 .introduce.ability .challenge .section-content > ul > li:nth-of-type(6) div > .icon {
     padding-top: 39px;
 }
-.introduce.ability .challenge .section-content > ul > li:nth-of-type(7) div {
-    margin-bottom: 0;
-}
 .introduce.ability .challenge .section-content > ul > li:nth-of-type(7) div > .icon {
     padding-top: 34px;
 }
-.introduce.ability .challenge .section-content > ul > li:nth-of-type(8) div {
-    margin-bottom: 0;
-}
 .introduce.ability .challenge .section-content > ul > li:nth-of-type(8) div > .icon {
     padding-top: 34px;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(9) div {
+    margin-bottom: 0;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(10) div {
+    margin-bottom: 0;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(11) div {
+    margin-bottom: 0;
+}
+.introduce.ability .challenge .section-content > ul > li:nth-of-type(12) div {
+    margin-bottom: 0;
 }
 .introduce.ability .challenge .section-content > .account {
     font-size: 13px !important;

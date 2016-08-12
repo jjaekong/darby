@@ -23,7 +23,7 @@
 					<li><a href="/business/product/breeding_pig.php">순종</a></li>
 					<li><a href="/business/product/darbyqueen.php">F1</a></li>
 					<li class="active"><a href="/business/product/xperm.php">엑스펌</a></li>
-					<li><a href="/business/product/stain_pig.php">얼룩도야지</a></li>
+					<li><a href="/business/product/stain_pig.php">한돈 브랜드육</a></li>
 					<li><a href="/business/product/purchase.php">구입문의</a></li>
 				</ul>
 			</nav>
@@ -33,7 +33,7 @@
 					<hr>
 				</div>
 				<p>
-					다비육종의 엑스펌 시리즈는 대한민국 인공수정 시장점유율 1위를 꾸준히 지키고 있습니다.다비육종 S.P.(인공수정)센터는 국내 최대 규모의 웅돈을 보유하고 있으며, 최고의 인공수정 전문가 그룹으로 구성되어 있습니다. 돈군의 고위생도 유지와 더불어 지속적인 웅돈 교체를 통해 우수한 유전자원을 농장에 안전하고 신속하게 공급하고 있습니다.
+					다비육종의 엑스펌 시리즈는 대한민국 인공수정 시장점유율 1위를 꾸준히 지키고 있습니다.다비육종 SP(인공수정)센터는 국내 최대 규모의 웅돈을 보유하고 있으며, 최고의 인공수정 전문가 그룹으로 구성되어 있습니다. 돈군의 고위생도 유지와 더불어 지속적인 웅돈 교체를 통해 우수한 유전자원을 농장에 안전하고 신속하게 공급하고 있습니다.
 				</p>
 				<div class="graph">
 					<img src="/assets/images/business/graph06.jpg" alt="연간 정액 판매량 그래프">

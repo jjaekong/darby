@@ -42,7 +42,7 @@
                                     <img src="/assets/images/introduce/ability_img02.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초<br>상업 S.P.(인공수정)센터의 설립
+                                    국내최초<br>상업 SP (인공수정)센터의 설립
                                 </p>
                             </div>
                         </li>
@@ -102,7 +102,47 @@
                                     <img src="/assets/images/introduce/ability_img08.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내 종돈업계 최초 베트남 진출
+                                    국내 종돈업계 최초 베트남 진출 및<br> 현재 유일한 해외 종돈사업장
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초 캄보디아에 종돈 및<br> 돈사시설 지원
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초 4개 품종(LL,YY,DD,PP)<br> PRRS,MH, APP 음성 돈군 보유
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초 종돈 500,000두,<br> 정액 6,000,000병(두분) 누적판매 달성
+                                </p>
+                            </div>
+                        </li>
+                        <li class="col-xs-3">
+                            <div>
+                                <p class="icon">
+                                    <img src="" alt="">
+                                </p>
+                                <p class="details">
+                                    국내최초 디앤디GGP<br> 연간 PSY 30두 달성
                                 </p>
                             </div>
                         </li>
@@ -127,9 +167,9 @@
 					<img src="/assets/images/introduce/guest_img02.jpg" alt="">
 				</p>
 				<ul class="circle-list">
-					<li>매년 가을 정기적으로 개최하는<i>다비퀸 세미나</i></li>
-					<li>농가의 생산성 향상을 위해 컨설팅 하는<i>사랑방 세미나</i></li>
-					<li>분기별 최신 양돈기술 및 소식을 전하는<i>다비퀸 기술 정보지 발행</i></li>
+					<li>매년 가을 최신 양돈기술을 공유하는 <i>다비퀸 세미나</i></li>
+					<li>농가의 생산성 향상을 위한 <i>사랑방 세미나</i></li>
+					<li>분기별 양돈기술과 업계소식을 전하는 <i>다비퀸 기술 정보지 발행</i></li>
 					<li>브랜드 단위의 계열화 농가 및 협업단체에<i>양돈관련 신기술 보급</i></li>
 					<li>종돈의 개량부터 돈육의 최종 소비에 이르기까지 고객의 요구 경청, 소비자시민모임에서<i>‘우수축산물 브랜드 인증’</i></li>
 				</ul>
@@ -179,9 +219,8 @@
                                 <img src="/assets/images/introduce/invest_img04.png" alt="">
                             </p>
                             <p class="details">
-                                국내 최초 BLUP에 의한 등지방 두께<br>
-                                및 산자수 육종가를 추정하여<br>
-                                과학적으로 선발
+                                국내최초 BLUP3을 통한 <br>
+                                유전평가 결과를 바탕으로 과학적 선발
                             </p>
                         </div>
                     </li>
@@ -201,7 +240,9 @@
                                 <img src="/assets/images/introduce/invest_img06.png" alt="">
                             </p>
                             <p class="details">
-                                산·학·연과 공동으로 종자개량,<br>사료, 돈육 및 정액 등의 품질 개선
+                                산·학·연과 공동으로 종자개량,<br>
+                                사료, 돈육 및 정액 품질 개선
+
                             </p>
                         </div>
                     </li>
@@ -218,7 +259,7 @@
                     <li class="col-xs-3">
                         <div>
                             <p class="icon">
-                                <img src="/assets/images/introduce/invest_img08.png" alt="">
+                                <img src="" alt="">
                             </p>
                             <p class="details">
                                다비육종만의 우수한 유전자원 활용,<br> 프리미엄 YBD 돈육 ‘얼룩도야지’ 생산
@@ -227,7 +268,8 @@
                     </li>
 				</ul>
 				<p class="account">PRRS<sup>1</sup> (Porcine Reproductive and Respiratory Syndrome, 돼지 생식기 호흡기 증후군), </p>
-				<p class="account">PSS<sup>2</sup> (porcine stress syndrome, 돼지스트레스증후군) </p>
+				<p class="account">PSS<sup>2</sup> (Porcine Stress Syndrome, 돼지스트레스증후군) </p>
+				<p class="account">BLUP<sup>3</sup> (Best Linear Unbiased Prediction, 최적선형불편예측법) </p>
 			</section>
 			<section class="company row">
 				<div class="section-header">
@@ -240,12 +282,12 @@
 				<figure class="col-xs-4">
 					<img src="/assets/images/introduce/company_img01.jpg" alt="">
 					<hr>
-					<figcaption>초과수익에 대한<br>특별 인센티브 추가 지급</figcaption>
+					<figcaption>초과수익에 대한<br>특별 인센티브 지급</figcaption>
 				</figure>
 				<figure class="col-xs-4">
 					<img src="/assets/images/introduce/company_img02.jpg" alt="">
 					<hr>
-					<figcaption>장기근속자에게 선진국 기업연수<br>또는 부부동반 해외여행</figcaption>
+					<figcaption>장기근속자에게 선진국 기업연수 및<br> 포상금품 지급</figcaption>
 				</figure>
 				<figure class="col-xs-4">
 					<img src="/assets/images/introduce/company_img03.jpg" alt="">

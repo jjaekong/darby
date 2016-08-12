@@ -20,10 +20,10 @@
 		<div class="container">
 			<nav class="navbar">
 				<ul class="nav navbar-nav">
-					<li><a href="/introduce/history.php">2010년대</a></li>
-					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
-					<li><a href="/introduce/history_tab3.php">1990년대</a></li>
 					<li class="active"><a href="/introduce/history_tab4.php">1980년대</a></li>
+					<li><a href="/introduce/history_tab3.php">1990년대</a></li>
+					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
+					<li><a href="/introduce/history.php">2010년대</a></li>
 				</ul>
 			</nav>
 			<div class="history-list">

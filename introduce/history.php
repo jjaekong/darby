@@ -20,28 +20,28 @@
 		<div class="container">
 			<nav class="navbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="/introduce/history.php">2010년대</a></li>
-					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
+                    <li><a href="/introduce/history_tab4.php">1980년대</a></li>
 					<li><a href="/introduce/history_tab3.php">1990년대</a></li>
-					<li><a href="/introduce/history_tab4.php">1980년대</a></li>
+					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
+					<li class="active"><a href="/introduce/history.php">2010년대</a></li>
 				</ul>
 			</nav>
 			<div class="history-list">
 				<div class="history-img">
-					<p>
-						<img src="/assets/images/introduce/history_img01.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img02.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img03.jpg" alt="기업연혁이미지">
+				    <p>
+						<img src="/assets/images/introduce/history_img05.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
 						<img src="/assets/images/introduce/history_img04.jpg" alt="기업연혁이미지">
 					</p>
 					<p>
-						<img src="/assets/images/introduce/history_img05.jpg" alt="기업연혁이미지">
+						<img src="/assets/images/introduce/history_img03.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img02.jpg" alt="기업연혁이미지">
+					</p>
+					<p>
+						<img src="/assets/images/introduce/history_img01.jpg" alt="기업연혁이미지">
 					</p>
 				</div>
 				<ol>
@@ -52,7 +52,7 @@
 							<dt>07</dt>
 							<dd>종돈장 종합평가 우수종돈장 3개소 인증</dd>
 							<dt>10</dt>
-							<dd>얼룩도야지, 대한민국 축산물 브랜드 경진대회 우수상 수상</dd>
+							<dd>웰팜포크, 대한민국 축산물 브랜드 경진대회 우수상 수상</dd>
 						</dl>
 					</li>
 					<li>
@@ -78,8 +78,8 @@
 							<dt>10</dt>
 							<dd>
 							    대한민국 일하기 좋은 100대 기업(GPTW) 인증<br>
-							    얼룩도야지, 축산물 브랜드 경진대회 장려상 수상<br>
-							    얼룩도야지, G마크축산물브랜드전 우수상 수상
+							    웰팜포크, 축산물 브랜드 경진대회 장려상 수상<br>
+							    웰팜포크, G마크축산물브랜드전 우수상 수상
 							</dd>
 						</dl>
 					</li>
@@ -92,9 +92,9 @@
 							<dt>05</dt>
 							<dd>종돈장 종합평가 우수종돈장 2개소 인증</dd>
 							<dt>09</dt>
-							<dd>얼룩도야지, G마크축산물브랜드전 우수상 수상</dd>
+							<dd>웰팜포크, G마크축산물브랜드전 우수상 수상</dd>
 							<dt>12</dt>
-							<dd>얼룩도야지, 축산물 브랜드 경진대회 우수상 수상</dd>
+							<dd>웰팜포크, 축산물 브랜드 경진대회 우수상 수상</dd>
 						</dl>
 					</li>
 					<li>
@@ -116,7 +116,7 @@
 							<dt>12</dt>
 							<dd>
                                 국내 최초 디앤디GGP PSY 30두 달성<br>
-                                9년 연속 얼룩도야지 소시모 인증 획득
+                                9년 연속 얼룩도야지(전 웰팜포크) 소시모 인증 획득
 							</dd>
 						</dl>
 					</li>

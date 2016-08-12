@@ -589,7 +589,10 @@
 .business.purpose .biosecurity > .section-content > p > img:last-child {
     margin-bottom: 0;
 }
-
+.business.purpose .biosecurity > .section-content > .dot-list > li > b {
+    font-style: normal;
+    color: #e63535;
+}
 /* sperm */
 .business.sperm .system > ol {
     overflow: hidden;
@@ -782,6 +785,28 @@
 /* sale-system */
 .business.sale-system .sale-system > .section-content {
     text-align: center;
+}
+.business.sale-system .sale-system > .section-content > h4 {
+    position: relative;
+    padding-left: 40px;
+}
+.business.sale-system .sale-system > .section-content > h4 > span {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50%;
+    background-color: #249250;
+}
+.business.sale-system .sale-system > .section-content > h4:nth-of-type(2n+ 2) > span {
+    background-color: #97b74e;
 }
 .business.sale-system .sale-system > .section-content > .sale-list {
     overflow: hidden;

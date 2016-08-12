@@ -46,7 +46,7 @@
                         <div>
                             <h4>종돈장 검사</h4>
                             <ul>
-                                <li>구제역(FMD<sup>1</sup>)</li>
+                                <li>(FMD<sup>1</sup>)</li>
                                 <li>돼지열병</li>
                                 <li>돼지오제스키병, 돼지생식기호흡기증후군(RPPS)</li>
                                 <li>돼지브루셀라병</li>
@@ -83,7 +83,7 @@
                     </li>
                 </ul>
                 <p class="account">
-                    FMD<sup>1</sup> (Foot-and-Mouth Disease, 구제역), PED<sup>2</sup> (Porcine Epidemic Diarrhea, 돼지유행성설사병), TGE<sup>3</sup>(Transmissible Gastroenteritis, 전염성 위장염),<br>
+                    FMD<sup>1</sup> (Foot-and-Mouth Disease), PED<sup>2</sup> (Porcine Epidemic Diarrhea, 돼지유행성설사병), TGE<sup>3</sup>(Transmissible Gastroenteritis, 전염성 위장염),<br>
                     PCVAD<sup>4</sup> (Prince Circovirus Associated Disease, 돼지써코바이러스)
                 </p>
 			</section>
@@ -105,9 +105,12 @@
 				    <ul class="dot-list">
 				        <li>돈군은 악성전염병(FMD,돈열,PRRS,PED 등)으로부터 <i>최우선적으로 보호</i>되어야 한다.</li>
 				        <li>모든 농장은 <i>1일 1농장 방문을 원칙</i>으로 한다.</li>
-				        <li>GGP, GP, SP센터는 필요한 업무수행을 위한 경우가 아니면 방문을 가급적 자제한다.</li>
+				        <li>
+				            GGP, GP, SP 모든 농장 및 센터는 필요한 업무수행을 위한 경우가 아니면 방문을 가급적 자제한다.<br>
+				            <b>(성진, 대덕GGP는 방문 전 반드시 생산본부장의 방문 허가를 득해야 한다.)</b>
+				        </li>
 				        <li>모든 방문객 및 운송차량은 <i>다운타임 규정 준수</i> 등 방역위생상 문제가 없어야 하며, 사전에 농장장의 허가를 받아야 한다.</li>
-				        <li>모든 방문객은 방명록에 <i>서명 후 샤워 후 농장 작업복과 장화를 착용</i>한다.</li>
+				        <li>모든 방문객은 방명록에 서명하고 샤워 후 <i>농장 작업복과 장화를 착용</i>한다.</li>
 				        <li>업무 목적 외 모든 차량의 농장 내부 진입은 허용하지 않으며, 모든 작업은 농장 외부에서 수행할 수 있도록 한다.</li>
 				        <li>질병상황 발생 시 <i>동물병원에 해당사실을 통보하고 조치권고 사항에 따라 행동</i>한다.</li>
 				    </ul>

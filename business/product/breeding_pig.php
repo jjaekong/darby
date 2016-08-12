@@ -23,13 +23,13 @@
 					<li class="active"><a href="/business/breeding_pig.php">순종</a></li>
 					<li><a href="/business/product/darbyqueen.php">F1</a></li>
 					<li><a href="/business/product/xperm.php">엑스펌</a></li>
-					<li><a href="/business/product/stain_pig.php">얼룩도야지</a></li>
+					<li><a href="/business/product/stain_pig.php">한돈 브랜드육</a></li>
 					<li><a href="/business/product/purchase.php">구입문의</a></li>
 				</ul>
 			</nav>
 			<section class="yorkshire-landrace">
 				<div class="section-header">
-					<h3>요크셔 (Yorkshire) / 랜드레이스 (Landrace)</h3>
+					<h3>다비요크셔 (Darby Yorkshire) / 다비랜드레이스 (Darby Landrace)</h3>
 					<hr>
 				</div>
 				<div class="sort">
@@ -90,7 +90,7 @@
 			</section>
 			<section class="pietrains">
 				<div class="section-header">
-					<h3>피어트레인 (Pietrains)</h3>
+					<h3>피어트레인 (Pietrain)</h3>
 					<hr>
 				</div>
 				<figure>
@@ -101,7 +101,7 @@
 				<ul class="dot-list">
 				    <li>피어트레인은 이미 유럽시장에서 널리 사용되고 있는 부계 종료교배 웅돈입니다.</li>
 				    <li>지방함량이 낮고, 정육량이 많은 비육돈 생산을 위해 최적화되어 있습니다.</li>
-				    <li>PSS(porcine stress syndrome, 돼지스트레스증후군) 유전자를 가지고 있지 않아 사양관리가 용이합니다.</li>
+				    <li>PSS(Porcine Stress Syndrome, 돼지스트레스증후군) 유전자를 가지고 있지 않아 사양관리가 용이합니다.</li>
 				</ul>
 				<h4>피어트레인(PP)과 듀록의 우수성 비교</h4>
 				<div class="table-wrap">

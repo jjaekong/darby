@@ -23,7 +23,7 @@
 					<li><a href="/business/product/breeding_pig.php">순종</a></li>
 					<li><a href="/business/product/darbyqueen.php">F1</a></li>
 					<li><a href="/business/product/xperm.php">엑스펌</a></li>
-					<li class="active"><a href="/business/product/stain_pig.php">얼룩도야지</a></li>
+					<li class="active"><a href="/business/product/stain_pig.php">한돈 브랜드육</a></li>
 					<li><a href="/business/product/purchase.php">구입문의</a></li>
 				</ul>
 			</nav>
@@ -37,7 +37,7 @@
 				</p>
 				<h4>대한민국 0.3% 얼룩돼지</h4>
 				<p>
-				    30여년간 국내 종돈업계의 선두주자로서 돼지의 육질개선, 능력개량 등의 노하우를 꾸준히 발전시켜 온 다비육종에서 ‘육질’, ‘안전성’, ‘맛’을 모두 충족시킬 수 있도록 만들어 낸 <i>정직하고 깨끗한 국산 돼지고기</i>입니다.
+				    다비육종은 30여년간 국내 종돈업계의 선두주자로서 돼지의 육질개선, 능력개량 등의 노하우를 꾸준히 발전시켜 왔습니다. 다비육종의 프리미엄 돈육 브랜드인 얼룩도야지는 ‘육질’, ‘안전성’, ‘맛’을 모두 충족시킬 수 있도록 만들어 낸 <i>정직하고 깨끗한 국산 돼지고기</i>입니다.
 				</p>
 				<h5>품종개량의 체계</h5>
 				<p>
@@ -95,7 +95,7 @@
                                 <tr>
                                     <th>구분</th>
                                     <th>일반 돼지고기</th>
-                                    <th>웰팜한돈 (YDB)</th>
+                                    <th>얼룩도야지</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -121,7 +121,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="account">충북대 대학원생 및 연구원 기호성테스트</p>
+                        <p class="account">충북대학교 기호성테스트</p>
 				    </div>
 				</div>
 			</section>

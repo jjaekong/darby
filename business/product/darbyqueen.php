@@ -23,7 +23,7 @@
 					<li><a href="/business/product/breeding_pig.php">순종</a></li>
 					<li class="active"><a href="/business/product/darbyqueen.php">F1</a></li>
 					<li><a href="/business/product/xperm.php">엑스펌</a></li>
-					<li><a href="/business/product/stain_pig.php">얼룩도야지</a></li>
+					<li><a href="/business/product/stain_pig.php">한돈 브랜드육</a></li>
 					<li><a href="/business/product/purchase.php">구입문의</a></li>
 				</ul>
 			</nav>
