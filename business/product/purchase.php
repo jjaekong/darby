@@ -172,71 +172,69 @@
 			    <div class="section-content">
 			        <p>구입처 (오프라인 및 온라인)</p>
 			        <ul class="row">
-			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img01.jpg" alt="롯데마트 로고">
-			                </p>
-			                <p class="detail">롯데마트</p>
+                        <li class="col-xs-3">
+                            <a href="http://www.wellfarmhandon.com/main/" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img11.jpg" alt="얼룩도야지 로고">
+                                </p>
+			                    <p class="detail">얼룩도야지몰</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img02.jpg" alt="빅마켓 로고">
-			                </p>
-			                <p class="detail">빅마켓</p>
+                            <a href="http://company.lottemart.com/vc/main.do" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img02.jpg" alt="빅마켓 로고">
+                                </p>
+                                <p class="detail">빅마켓</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img03.jpg" alt="신세계백화점 로고">
-			                </p>
-			                <p class="detail">신세계백화점</p>
+                            <a href="http://www.shinsegae.com" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img03.jpg" alt="신세계백화점 로고">
+                                </p>
+                                <p class="detail">신세계백화점</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img04.jpg" alt="현대그린푸드 로고">
-			                </p>
-			                <p class="detail">현대그린푸드</p>
+                            <a href="http://www.icoop.or.kr/coopmall" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img04.jpg" alt="현대그린푸드 로고">
+                                </p>
+                                <p class="detail">현대그린푸드</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img05.jpg" alt="icoop생협 로고">
-			                </p>
-			                <p class="detail">icoop생협</p>
+                            <a href="http://www.icoop.or.kr/coopmall/" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img05.jpg" alt="icoop생협 로고">
+                                </p>
+                                <p class="detail">icoop생협</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img06.jpg" alt="GS SHOP 로고">
-			                </p>
-			                <p class="detail">GS SHOP</p>
+                            <a href="http://www.gsshop.com/index.gs" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img06.jpg" alt="GS SHOP 로고">
+                                </p>
+                                <p class="detail">GS SHOP</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img07.jpg" alt="현대 Hmall 로고">
-			                </p>
-			                <p class="detail">현대 Hmall</p>
+                            <a href="http://www.hyundaihmall.com/Home.html" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img07.jpg" alt="현대 Hmall 로고">
+                                </p>
+                                <p class="detail">현대 Hmall</p>
+			                </a>
 			            </li>
 			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img08.jpg" alt="CJmall 로고">
-			                </p>
-			                <p class="detail">CJmall</p>
-			            </li>
-			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img09.jpg" alt="롯데닷컴 로고">
-			                </p>
-			                <p class="detail">롯데닷컴</p>
-			            </li>
-			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img10.jpg" alt="팔도오일장 로고">
-			                </p>
-			                <p class="detail">팔도오일장</p>
-			            </li>
-			            <li class="col-xs-3">
-			                <p class="icon">
-			                    <img src="/assets/images/business/brand_img11.jpg" alt="맛그린 로고">
-			                </p>
-			                <p class="detail">맛그린</p>
+                            <a href="http://www.lotte.com" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img09.jpg" alt="롯데닷컴 로고">
+                                </p>
+                                <p class="detail">롯데닷컴</p>
+			                </a>
 			            </li>
 			        </ul>
 			        <div class="contact">

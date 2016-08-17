@@ -195,7 +195,7 @@
 .business.xperm .container .xperm-s .xperm-img img {
 	display: block;
 	width: 169px;
-	margin: 39px auto;
+	margin: 53px auto;
 }
 .business.xperm .container .xperm-p {
 	position: relative;
@@ -293,7 +293,7 @@
 .business.purchase .container > .brand > .section-content > p {
     margin-bottom: 40px;
 }
-.business.purchase .container > .brand > .section-content > ul > li > .detail {
+.business.purchase .container > .brand > .section-content > ul > li > a > .detail {
     font-size: 16px;
     color: #666;
     text-align: center;
@@ -354,6 +354,9 @@
 .business.production .map > .section-content > p {
     float: left;
     margin-right: 16px;
+}
+.business.production .map > .section-content > p > img {
+    margin: 30px 50px 0 0;
 }
 .business.production .map > .section-content > .table-wrap {
     float: left;
@@ -430,6 +433,11 @@
 }
 .business.business  .pyramid > .section-header > h3 {
     padding-top: 100px !important;
+}
+.business.business  .pyramid > p > img {
+    width: 1026px;
+    margin: 0 auto !important;
+    display: block;
 }
 .business.business .system > .section-content {
     text-align: center;
@@ -593,6 +601,19 @@
     font-style: normal;
     color: #e63535;
 }
+.business.purpose .mooring > .section-header > h3 {
+    padding-top: 126px !important;
+}
+.business.purpose .mooring > .table-wrap > .table > tbody > tr > td > i {
+    font-style: normal;
+    color: #e11b1b;
+}
+.business.purpose .mooring > .table-wrap > .table > tbody > tr > .td-bg {
+    background-color: #fafafa;
+    font-size: 18px !important;
+}
+
+
 /* sperm */
 .business.sperm .system > ol {
     overflow: hidden;
@@ -1106,4 +1127,11 @@
     height: 49px !important;
     font-size: 18px !important;
     margin: 29px 0 0 0 !important;
+}
+.business.overseas-biz .addr > .section-header > h3 {
+    padding-top: 95px !important;
+}
+.business.overseas-biz .addr > .table-wrap > .table > tbody > tr > td:last-child {
+    padding: 44px 0 44px 56px !important;
+    text-align: left !important;
 }

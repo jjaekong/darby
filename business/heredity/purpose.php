@@ -121,6 +121,127 @@
 				    </p>
 				</div>
 			</section>
+			<section class="mooring">
+			    <div class="section-header">
+			        <h3>농장출입 계류시간</h3>
+			        <hr>
+			    </div>
+			    <div class="table-wrap">
+			        <table class="table table-border">
+			            <colgroup>
+			                <col style="width: 270px;">
+			                <col style="width: 600px;">
+			                <col style="width: 300px;">
+			            </colgroup>
+			            <thead>
+			                <tr>
+			                    <th>구분</th>
+			                    <th>풀발지 &gt; 목적지</th>
+			                    <th>계류기간</th>
+			                </tr>
+			            </thead>
+			             <tbody>
+			                 <tr>
+			                     <td class="td-bg">다비육종본사</td>
+			                     <td>다비육종 본사 &gt; GGP/GP</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td class="td-bg" rowspan="8">농장</td>
+			                     <td>GGP농장 &gt; GP</td>
+			                     <td>1 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>GGP농장 &gt; 타 GGP농장</td>
+			                     <td>1 night</td>
+			                 </tr>
+                             <tr>
+			                     <td>GP농장 &gt; GGP</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>GP농장 &gt; 타 GP농장</td>
+			                     <td>1 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>일반농장 방문 &gt; GGP/GP농장</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>일반농장 방문 &gt; 다비육종 본사</td>
+			                     <td>1 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 발생 농장</i> &gt; GGP/GP농장</td>
+			                     <td>5 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 발생 농장</i> &gt; 다비육종 본사</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td class="td-bg" rowspan="6">인력 접촉</td>
+			                     <td>GP농장 임직원 접촉 &gt; GGP/GP농장</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>일반농장 임직원 접촉 &gt; GGP/GP농장</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>일반농장 임직원 접촉 &gt; 다비육종 본사</td>
+			                     <td>1 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>기자재 업체 임직원 접촉 &gt; GGP/GP농장</td>
+			                     <td>2 nigh</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 발생 농장</i> &gt; GGP/GP농장</td>
+			                     <td>5 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 발생 농장</i> &gt; GGP/GP농장</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+                                 <td class="td-bg" rowspan="4">해외 방문</td>
+			                     <td>FMD 비발생 국가 방문  &gt;  GGP/GP농장</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>FMD 비발생 국가 방문  &gt;  다비육종 본사</td>
+			                     <td>1 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 발생국가 방문</i> &gt; GGP/GP농장</td>
+			                     <td>5 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 발생국가 방문</i> &gt; 다비육종 본사</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+                                 <td class="td-bg" rowspan="4">도축장</td>
+			                     <td>도축장/육가공장  &gt;  GGP/GP농장</td>
+			                     <td>2 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td>도축장/육가공장  &gt;  다비육종 본사</td>
+			                     <td>1 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 지정 도축장</i> &gt; GGP/GP농장</td>
+			                     <td>5 night</td>
+			                 </tr>
+			                 <tr>
+			                     <td><i>FMD 지정 도축장</i> &gt; 다비육종 본사</td>
+			                     <td>2 night</td>
+			                 </tr>
+			             </tbody>
+			        </table>
+			    </div>
+			</section>
 		</div>
 	</main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

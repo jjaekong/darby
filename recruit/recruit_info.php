@@ -58,6 +58,26 @@
 			        </ul>
 			    </div>
 			</section>
+
+			<section class="recruitment">
+			    <div class="section-header">
+			        <h3>채용 시기</h3>
+			        <hr>
+			    </div>
+			    <div class="section-content">
+			        <h4>신입사원 채용</h4>
+			        <ul class="dot-list">
+			            <li>상하반기 공개 채용 (인원필요 시)</li>
+			            <li>수시 채용</li>
+			        </ul>
+			        <h4>경력사원 채용</h4>
+			        <ul class="dot-list">
+			            <li>공개/수시/특별 채용</li>
+			        </ul>
+			    </div>
+			    <p>회사사정에 의해 채용시기 및 대상이 변동 될 수 있습니다.</p>
+			</section>
+
 			<section class="qualification">
 			    <div class="section-header">
 			        <h3>입사지원 자격</h3>
@@ -72,6 +92,7 @@
 			        <li>경력지원자의 경우 모집분 관련 근무경력 만2년 이상이신 분</li>
 			    </ul>
 			</section>
+
 			<section class="submission">
 			    <div class="section-header">
 			        <h3>제출서류</h3>

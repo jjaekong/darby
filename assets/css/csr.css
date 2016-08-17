@@ -45,6 +45,39 @@
 .csr.precede article > .article-content > p {
     line-height: 30px !important;
 }
+.csr.precede article > .article-content > ul {
+    overflow: hidden;
+    margin-top: 60px;
+}
+.csr.precede article > .article-content > ul > li {
+    float: left;
+    border-right: 1px solid #e0e0e0;
+}
+.csr.precede article > .article-content > ul > li > h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.csr.precede article > .article-content > ul > li > .dot-list > li {
+    line-height: 29px !important;
+}
+.csr.precede article > .article-content > ul > li:nth-of-type(1) {
+    padding-right: 90px;
+}
+.csr.precede article > .article-content > ul > li:nth-of-type(2) {
+    padding: 0 90px;
+    overflow: hidden;
+}
+.csr.precede article > .article-content > ul > li:nth-of-type(2) > .dot-list {
+    float: left;
+}
+.csr.precede article > .article-content > ul > li:nth-of-type(2) > .dot-list:last-child {
+    margin-left: 60px;
+}
+.csr.precede article > .article-content > ul > li:nth-of-type(3) {
+    padding-left: 97px;
+    border-right: 0;
+}
 
 /* activity 전체 공통 */
 .csr.activity .activity-list > .list {

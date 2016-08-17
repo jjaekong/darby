@@ -53,8 +53,34 @@
     line-height: 24px !important;
     text-align: center;
 }
+.recruit.recruit-info .recruitment > p {
+    margin-top: 12px;
+}
+.recruit.recruit-info .recruitment > p:before {
+    content: "※";
+    padding-right: 5px;
+}
+.recruit.recruit-info .recruitment > .section-content {
+    padding: 35px 42px;
+    border: 1px solid #efefef;
+    background-color: #fcfcfc;
+}
+.recruit.recruit-info .recruitment > .section-content > h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+    margin: 0 0 20px 0;
+}
+.recruit.recruit-info .recruitment > .section-content > h4:nth-of-type(2) {
+    margin-top: 40px !important;
+}
+.recruit.recruit-info .recruitment > .section-content > .dot-list > li {
+    font-size: 15px !important;
+    line-height: 30px !important;
+}
+
+
 .recruit.recruit-info .qualification > .section-header > h3 {
-    padding-top: 85px !important;
+    padding-top: 140px !important;
 }
 .recruit.recruit-info .qualification > p {
     margin-bottom: 40px;
@@ -166,19 +192,27 @@
 }
 
 
+
+
+
 /* talented */
 .recruit.talented .talented > .section-content {
+    overflow: hidden;
     text-align: center;
     background-image: url(/assets/images/recruit/talented_bg.png);
     background-repeat: no-repeat;
     background-position: 0 0;
-    padding-top: 163px;
-    padding-bottom: 107px;
+    padding: 88px 0 107px 30px;
 }
 .recruit.talented .talented > .section-content > div {
-    width: 308px;
+    float: left;
+    width: 325px;
     margin-right: 53px;
     display: inline-block;
+}
+.recruit.talented .talented > .section-content > div > p > img {
+    margin-bottom: 30px;
+    margin-left: -6px;
 }
 .recruit.talented .talented > .section-content > div > dl > dt {
     width: 308px;
@@ -203,6 +237,9 @@
 .recruit.talented .talented > .section-content > .conscience > dl > dt {
     border-bottom: 1px solid #ef8c17;
 }
+
+
+
 
 
 

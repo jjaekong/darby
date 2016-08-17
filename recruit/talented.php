@@ -25,18 +25,27 @@
 			    </div>
 			    <div class="section-content">
 			        <div class="enthusiastic">
+                        <p>
+                            <img src="/assets/images/recruit/talented_img01.png" alt="passion">
+                        </p>
 			            <dl>
 			                <dt>열심</dt>
 			                <dd>일에 대한 열정과 성실함으로<br>책임을 다하는 다비인</dd>
 			            </dl>
 			        </div>
 			        <div class="unison">
+                        <p>
+                            <img src="/assets/images/recruit/talented_img02.png" alt="harmony">
+                        </p>
 			            <dl>
 			                <dt>합심</dt>
 			                <dd>상호간에 믿음과 존중을 바탕으로<br>하나되는 다비인</dd>
 			            </dl>
 			        </div>
 			        <div class="conscience">
+                        <p>
+                            <img src="/assets/images/recruit/talented_img03.png" alt="conscience">
+                        </p>
 			            <dl>
 			                <dt>양심</dt>
 			                <dd>윤리성과 도덕성을 바탕으로<br>양심경영을 실현하는 다비인</dd>

@@ -56,6 +56,50 @@
 	                </div>
 	            </div>
 			</section>
+			<section class="addr">
+			    <div class="section-header">
+			        <h3>해외지점 주소</h3>
+			        <hr>
+			    </div>
+			    <div class="table-wrap">
+			        <table class="table table-border">
+			            <colgroup>
+			                <col style="width: 170px;">
+			                <col style="width: 1000px;">
+			            </colgroup>
+			            <thead>
+			                <tr>
+			                    <th>지역</th>
+			                    <th>연락처 및 해외주소</th>
+			                </tr>
+			            </thead>
+			            <tbody>
+			                <tr>
+			                    <td>DARBY-CJ</td>
+			                    <td>
+			                        DARBY-CJ Genetics Co., Ltd<br>
+			                        Hamlet Ben San, Long Nguyen Village, Bau Bang Dist. , Binh Duong Province, Vietnam.
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td>한포크</td>
+			                    <td>
+			                        HANPORK Co., Ltd<br>
+			                        Hamlet Ba Phai, Long Nguyen Village, Bau Bang Dist. , Binh Duong Province, Vietnam.
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td>다비육종<br>베트남 사무실</td>
+			                    <td>
+			                        Darby Genetics Co., Ltd.<br>
+			                        11th floor, Becamex Tower, 230 Binh Duong Avenue, Phu Hoa Ward, Thu Dau Mot City, Binh Duong Province, Vietnam.<br>
+			                        전화 : +84-650-359-1390, 1391
+			                    </td>
+			                </tr>
+			            </tbody>
+			        </table>
+			    </div>
+			</section>
 		</div>
 	</main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

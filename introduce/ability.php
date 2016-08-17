@@ -109,40 +109,40 @@
                         <li class="col-xs-3">
                             <div>
                                 <p class="icon">
-                                    <img src="" alt="">
+                                    <img src="/assets/images/introduce/ability_img09.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초 캄보디아에 종돈 및<br> 돈사시설 지원
+                                    국내최초 캄보디아에<br>종돈 및 돈사시설 지원
                                 </p>
                             </div>
                         </li>
                         <li class="col-xs-3">
                             <div>
                                 <p class="icon">
-                                    <img src="" alt="">
+                                    <img src="/assets/images/introduce/ability_img10.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초 4개 품종(LL,YY,DD,PP)<br> PRRS,MH, APP 음성 돈군 보유
+                                    국내최초 4개 품종(LL,YY,DD,PP)<br>PRRS,MH, APP 음성 돈군 보유
                                 </p>
                             </div>
                         </li>
                         <li class="col-xs-3">
                             <div>
                                 <p class="icon">
-                                    <img src="" alt="">
+                                    <img src="/assets/images/introduce/ability_img11.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초 종돈 500,000두,<br> 정액 6,000,000병(두분) 누적판매 달성
+                                    국내최초 종돈 500,000두, 정액<br>6,000,000병(두분) 누적판매 달성
                                 </p>
                             </div>
                         </li>
                         <li class="col-xs-3">
                             <div>
                                 <p class="icon">
-                                    <img src="" alt="">
+                                    <img src="/assets/images/introduce/ability_img12.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초 디앤디GGP<br> 연간 PSY 30두 달성
+                                    국내최초 디앤디GGP<br>연간 PSY 30두 달성
                                 </p>
                             </div>
                         </li>
@@ -259,7 +259,7 @@
                     <li class="col-xs-3">
                         <div>
                             <p class="icon">
-                                <img src="" alt="">
+                                <img src="/assets/images/introduce/invest_img08.png" alt="">
                             </p>
                             <p class="details">
                                다비육종만의 우수한 유전자원 활용,<br> 프리미엄 YBD 돈육 ‘얼룩도야지’ 생산
@@ -287,7 +287,7 @@
 				<figure class="col-xs-4">
 					<img src="/assets/images/introduce/company_img02.jpg" alt="">
 					<hr>
-					<figcaption>장기근속자에게 선진국 기업연수 및<br> 포상금품 지급</figcaption>
+					<figcaption>장기근속자에게 선진국<br> 기업연수 및 포상금품 지급</figcaption>
 				</figure>
 				<figure class="col-xs-4">
 					<img src="/assets/images/introduce/company_img03.jpg" alt="">

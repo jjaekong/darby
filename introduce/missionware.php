@@ -53,6 +53,11 @@
 							<img src="/assets/images/introduce/logo_kn02.gif" alt="다비육종 국문로고">
 							<span>국문</span>
 						</p>
+						<div class="btn-area">
+						    <p>
+						        <a href="#" class="btn btn-green" role="button">BI 다운로드</a>
+						    </p>
+						</div>
 					</div>
 					<div class="darby-logo">
 						<p>
@@ -60,6 +65,11 @@
 							<img src="/assets/images/introduce/logo_en02.gif" alt="다비육종 영문로고">
 							<span>영문</span>
 						</p>
+						<div class="btn-area">
+						    <p>
+						        <a href="#" class="btn btn-green" role="button">BI 다운로드</a>
+						    </p>
+						</div>
 					</div>
 					<div class="darby-symbol">
 						<h4>다비육종의 심볼마크</h4>

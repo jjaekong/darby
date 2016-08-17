@@ -46,7 +46,6 @@
 				<div class="graph">
 					<img src="/assets/images/business/graph05.jpg" alt="생존산자수 그래프">
 					<p>생존산자수 (표현형)</p>
-					<p>생존산자수 (육종기)</p>
 				</div>
 			</section>
 			<section class="darbyqueen-g">
