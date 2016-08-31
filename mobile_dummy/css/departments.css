@@ -1,0 +1,41 @@
+/* medical */
+.medical li {text-align:center;}
+.medical li figcaption {margin:10px 0 20px 0; font-size:12px; line-height:15px; color:#666; }
+
+
+/* rehabilitation */
+.departments.rehabilitation .rehabilitation-intro .section-header h3 {margin-top:35px !important;}
+.departments.rehabilitation .rehabilitation-intro .section-content p {font-size:12px; color:#444; line-height:21px; margin-top:30px;}
+.departments.rehabilitation .rehabilitation-intro .section-content p img {margin-bottom:60px;}
+.departments.rehabilitation .treatment .section-content {padding-bottom:60px;}
+
+
+/* internal */
+.departments.internal .internal-intro .section-header h3 {margin-top:35px !important; }
+.departments.internal .internal-intro .section-content h4 {font-size:13px; color:#444; font-weight:400; margin:0; margin-top:30px; margin-bottom:18px; }
+.departments.internal .internal-intro .section-content dl dt {position:relative; font-size:12px; margin-bottom:5px; padding-left:15px; font-weight:400; }
+.departments.internal .internal-intro .section-content dl dt:before {position:absolute; top:0; left:0; content:"▶"; color:#e9193a; font-size:10px; }
+.departments.internal .internal-intro .section-content dl dd {font-size:12px; padding-left:15px; margin-bottom:20px; line-height:17px; }
+.departments.internal .internal-intro .section-content dl dd:last-child {margin-bottom:40px; }
+.departments.internal .treatment .section-header {margin-top:60px; }
+.departments.internal .treatment .section-content {padding-bottom:60px; }
+
+
+/* pediatric */
+.departments.pediatric .pediatric-intro .section-header h3 {margin-top:35px !important; }
+.departments.pediatric .pediatric-intro .section-content {margin-top:30px; }
+.departments.pediatric .pediatric-intro .section-content p {margin-bottom:40px; font-size:12px; line-height:21px; color:#444; }
+.departments.pediatric .pediatric-intro .section-content p:last-child {margin-bottom:60px; }
+.departments.pediatric .treatment .section-content {padding-bottom:60px; }
+
+
+/* oriental */
+.departments.oriental .oriental-intro .section-header h3 {margin-top:35px !important; }
+.departments.oriental .oriental-intro .section-content p {margin-top:25px; font-size:12px; line-height:21px; color:#444; letter-spacing:-1px; }
+.departments.oriental .medicine .section-header {margin-top:60px; }
+.departments.oriental .medicine .section-content p {margin-top:25px; font-size:12px; line-height:21px; color:#444; letter-spacing:-1px; }
+.departments.oriental .medicine .section-content p:last-child {margin-top:40px; }
+.departments.oriental .acupuncture .section-header {margin-top:60px; }
+.departments.oriental .acupuncture .section-content {padding-bottom:60px; }
+.departments.oriental .acupuncture .section-content p {margin-top:25px; font-size:12px; line-height:21px; color:#444; letter-spacing:-1px;}
+.departments.oriental .acupuncture .section-content p:last-child {margin-top:40px; }

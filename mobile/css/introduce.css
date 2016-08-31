@@ -1,0 +1,495 @@
+/* greeting */
+/* ceo-message */
+.introduce.greeting p {font-size:12px; color:#444; line-height:21px; margin-bottom:30px; }
+.introduce.greeting p:last-child {margin-bottom:60px; }
+.introduce.greeting .ceo-message .section-header h4 {background:none !important; padding-top:0 !important; text-align:center; }
+.introduce.greeting .container > p {overflow:hidden; }
+.introduce.greeting .container > p img {width:145px; float:right;  }
+
+
+/* about */
+.introduce.about .goals {padding:25px 25px 0 25px; }
+.introduce.about .container section {margin-top:55px; min-height:180px; background:url("/mobile/images/introduce/intro_bg.gif") 100% 0 no-repeat; background-size:157px 180px; }
+.introduce.about .container .section-header { }
+.introduce.about .container .section-header h3 {font-size:14px; }
+.introduce.about .container .section-header h3 i {font-style:normal; color:#333; font-size:14px; font-weight:normal; }
+.introduce.about .container .section-centent p {margin:30px 0 60px 0; font-size:12px; color:#444; line-height:21px; }
+
+
+/* tabmenu-wrap */
+.tabmenu-wrap {overflow:hidden; text-align:center; padding:0 10px 25px 10px; }
+.tabmenu-wrap p {float:right; padding-left:10px; background:url("/mobile/images/introduce/bus_map.png") 0 5px no-repeat; background-size:7px 9px; margin:25px 0 15px 0; }
+.tabmenu-wrap p a {font-size:11px; color:#333; }
+.tabmenu-wrap .tab-menu {margin:0;}
+
+
+
+/* tab-menu */
+.tab-menu {text-align:center; }
+.tab-menu {overflow:hidden; font-size:12px; width:100%; height:46px; margin:25px 10px; display:inline-block; }
+.tab-menu ul {width:100%; }
+.tab-menu li {float:left; line-height:16px; width:25% !important; text-align:center; color:#666; width:74px; height:46px; border-right:1px solid #ccc; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+.tab-menu li:first-child {border-left:1px solid #ccc; }
+.tab-menu li:last-child {border-right:1px solid #ccc; }
+.tab-menu li.active {background-color:#444; color:#fff; width:25% !important; height:46px; border:0; border-left:0 !important; }
+.tab-menu li a {color:#666; width:100% !important; height:46px; padding:5px 0; display:inline-block; text-decoration:none; }
+.tab-menu li.active a {color:#fff; width:100% !important; height:46px; }
+.tab-menu li a:hover {text-decoration:none; }
+
+
+
+
+
+
+.layer {
+  /* display: none;  Hidden by default */
+    position: fixed;  /* Stay in place */
+  /* z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0; 
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+  /*  overflow: auto;  Enable scroll if needed */
+  /*  background-color: rgb(0,0,0);   Fallback color */
+  /*  background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.layer-content {
+    background-color: rgba(23, 23, 23, .95);
+   /* margin: 15% auto;  15% from the top and centered */
+    padding: 60px 10px;
+   /* border:1px solid #888; */
+    width: 100%; /* Could be more or less, depending on screen size */
+	border-radius:0;
+	
+}
+
+.layer-content .btn-area {
+	overflow:hidden; 
+}
+.layer-content .btn-area a img {
+	width:20px; 
+	padding-bottom:10px; 
+	float:right;
+}
+.layer-content dl {
+	padding-top:20px;
+	font-size:12px;
+	overflow:hidden;
+	white-space:nowrap;
+
+}
+.layer-content dl dt {
+	float:left;
+	padding-right:10px;
+	line-height:38px;
+
+}
+.layer-content dl dt img {
+	width:30px;
+}
+/*
+.layer-content dl dt:nth-of-type(1) {
+	padding-top:20px; 
+	background-image:url("/mobile/images/introduce/map_ico.png"); 
+	background-repeat:no-repeat;
+	background-size:30px auto;
+	background-position:0 25px;
+}
+
+.layer-content dl dt:nth-of-type(2) {
+	padding-top:10px;
+}
+*/
+.layer-content dl dd {
+	line-height:38px;
+}
+.layer-content dl dd a {
+	color:#fff; 
+	text-decoration:none;
+}
+
+
+
+
+/* history */
+/* yongmun */
+.introduce.yongmun .history-list {text-align:center; }
+.introduce.yongmun .history-list .tabmenu-wrap {padding-top:50px; }
+.introduce.yongmun .yongmun-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.yongmun .yongmun-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.yongmun .yongmun-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.yongmun .yongmun-dong .container .section-content {margin-bottom:50px; }
+.introduce.yongmun .yongmun-dong .container .section-content {margin-top:10px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.yongmun .yongmun-dong .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.yongmun .yongmun-dong .container .section-content ol li:last-child {padding-bottom:0; }
+
+/* sindaebang */
+.introduce.sindaebang .history-list {text-align:center; }
+.introduce.sindaebang .history-list .tabmenu-wrap {padding-top:50px; }
+.introduce.sindaebang .sindaebang-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.sindaebang .sindaebang-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.sindaebang .sindaebang-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.sindaebang .sindaebang-dong .container .section-content {margin-bottom:50px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content {margin-top:10px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.sindaebang .sindaebang-dong .container .section-content ol li:last-child {padding-bottom:0; }
+
+/* bongcheon */
+.introduce.bongcheon .history-list {text-align:center; }
+.introduce.bongcheon .history-list .tabmenu-wrap {padding-top:50px; }
+.introduce.bongcheon .bongcheon-dong .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.bongcheon .bongcheon-dong .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.bongcheon .bongcheon-dong .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.bongcheon .bongcheon-dong .container .section-content {margin-bottom:50px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content {margin-top:10px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.bongcheon .bongcheon-dong .container .section-content ol li:last-child {padding-bottom:0; }
+
+/* gwangju */
+.introduce.gwangju .history-list {text-align:center; }
+.introduce.gwangju .history-list .tabmenu-wrap {padding-top:50px; }
+.introduce.gwangju .ripenin .section-header .container h4 {background:none !important; margin-top:30px !important; margin-bottom:0 !important; color:#444 !important; display:block; font-size:20px !important; padding-top:0 !important; } 
+.introduce.gwangju .ripenin .section-header .container h4 i {font-style:normal; font-size:20px; display:block; padding:8px 0; font-weight:200; } 
+.introduce.gwangju .ripenin .section-header .container h5 {background:none !important; font-size:13px; display:block; color:#e9193a; padding-top:0 !important; font-weight:200; }
+.introduce.gwangju .ripenin .container .section-content {margin-bottom:50px; }
+.introduce.gwangju .ripenin .container .section-content {margin-top:10px; }
+.introduce.gwangju .ripenin .container .section-content ol {background:url("/mobile/images/ico_section_header.png") 0 0 no-repeat; background-size:20px auto; padding:14px 10px;}
+.introduce.gwangju .ripenin .container .section-content ol li {border-left:1px solid #ccc; padding-left:10px;  padding-bottom:22px; }
+.introduce.gwangju .ripenin .container .section-content ol li dt {color:#e9193a; font-size:12px; margin:0; font-weight:200; }
+.introduce.gwangju .ripenin .container .section-content ol li:first-child dt {margin-top:14px; }
+.introduce.gwangju .ripenin .container .section-content ol li dd {color:#666; font-size:12px; margin-top:10px; line-height:21px; }
+.introduce.gwangju .ripenin .container .section-content ol li:last-child {padding-bottom:0; }
+
+
+/* partner */
+.introduce.partner .container ul li {overflow:hidden; padding:20px 10px; border-bottom:0.1px solid #f3f3f3; }
+.introduce.partner .container ul li h6 {float:left; font-size:14px; padding:18px 0; font-weight:300; }
+.introduce.partner .container ul li .btn-area {float:right; }
+.introduce.partner .container ul li .btn-area a {display:block; margin-bottom:5px; font-size:12px; padding:6px 10px 6px 20px; }
+.introduce.partner .container ul li .btn-area a:last-child {margin-bottom:0; }
+.introduce.partner .container ul li .btn-area .btn-pink {background-image:url("/mobile/images/introduce/tel_bg.png"); background-repeat:no-repeat; background-size:10px auto; background-position:8% 50%; }
+.introduce.partner .container ul li .btn-area .btn-gray {background-image:url("/mobile/images/introduce/home_bg.png"); background-repeat:no-repeat; background-size:8px auto; background-position:13% 50%; }
+.introduce.partner .container ul li:nth-of-type(2) h6 {padding:38px 0; }
+.introduce.partner .container ul li:nth-of-type(10) .btn-area .btn-pink {margin-top:18px; }
+.introduce.partner .paging .pagination {margin:30px 0 60px 0; }
+
+
+
+/* location */
+.introduce.location i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.location .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.location .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:206px; text-align:center; padding-bottom:40px; }
+.introduce.location .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.location .route-one .section-header p {line-height:21px; color:#666; font-size:12px; }
+.introduce.location .route-one .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.location .route-one .section-content img {padding-bottom:30px; border-bottom:1px dashed #ccc; }
+.introduce.location .route-two .section-header {text-align:center; }
+.introduce.location .route-two .section-header h3 {color:#444 !important; background:none !important; font-size:14px; padding-top:30px !important; }
+.introduce.location .route-two .section-header p {line-height:21px; color:#666; font-size:12px; }
+.introduce.location .route-two .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.location .route-two .section-content {margin-bottom:60px; }
+.introduce.location .route-two .section-content img {padding-top:20px; }
+.introduce.location .weekend .section-header p {position:relative; padding-left:8px; color:#666; font-size:12px; line-height:21px; }
+.introduce.location .weekend .section-header p:before {position:absolute; top:0; left:0; content:"*"; }
+.introduce.location .weekend .section-content {margin-bottom:60px; }
+.introduce.location .weekend .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; table-layout:fixed; }
+.introduce.location .weekend .section-content .table-wrap .table tr {height:40px; }
+.introduce.location .weekend .section-content .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; }
+.introduce.location .weekend .section-content .table-wrap .table tr:nth-of-type(1) {color:#333; !important; }
+.introduce.location .weekend .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.location .weekend .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; font-weight:normal; }
+
+
+
+/* shuttle-two */
+.introduce.shuttle-two i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-two .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-two .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-two .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-two .route-one .section-header p {line-height:20px; color:#666; font-size:12px; }
+.introduce.shuttle-two .route-one .section-header p:before {content:"*"; padding-right:3px; } 
+.introduce.shuttle-two .route-one .section-content img {padding-bottom:60px; }
+.introduce.shuttle-two .schedule .section-header p {position:relative; padding-left:8px; color:#666; font-size:12px; }
+.introduce.shuttle-two .schedule .section-header p:before {position:absolute; top:0; left:0; content:"*"; padding-right:3px; }
+.introduce.shuttle-two .schedule .section-content {margin-bottom:60px; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; table-layout:fixed; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr {height:40px; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr td:first-child {font-weight:300; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr:nth-of-type(1) td {border-top:1px solid #ccc; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-two .schedule .section-content .table-wrap table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; }
+
+
+/* shuttle-three */
+.introduce.shuttle-three i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-three .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-three .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-three .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-three .route-one .section-header p {line-height:20px; color:#666; font-size:12px; }
+.introduce.shuttle-three .route-one .section-header p:before {content:"*"; padding-right:3px; } 
+.introduce.shuttle-three .route-one .section-content img {padding-bottom:60px; }
+.introduce.shuttle-three .schedule .section-content {margin-bottom:60px; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center;  }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr {height:40px; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; color:##333; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr td:first-child {color:#666; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr:nth-of-type(1) td {border-top:1px solid #ccc; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-three .schedule .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+.introduce.shuttle-three .weekend .section-content {margin-bottom:60px; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table tr {height:41px; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc;  vertical-align:middle; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-three .weekend .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+
+
+/* shuttle-four */
+.introduce.shuttle-four i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-four .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-four .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:182px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-four .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-four .route-one .section-header p:nth-of-type(1) {color:#444; }
+.introduce.shuttle-four .route-one .section-header p {color:#666; font-size:12px; line-height:20px; }
+.introduce.shuttle-four .route-one .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.shuttle-four .route-one .section-content img { }
+.introduce.shuttle-four .schedule .section-header {margin-top:60px; }
+.introduce.shuttle-four .weekend .section-header  {margin-top:60px; }
+.introduce.shuttle-four .weekend .section-content  {margin-bottom:60px; }
+.introduce.shuttle-four .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; }
+.introduce.shuttle-four .table-wrap .table tr {height:40px; }
+.introduce.shuttle-four .table-wrap .table tr td {height:40px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; }
+.introduce.shuttle-four .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-four .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+
+
+/* shuttle-five */
+.introduce.shuttle-five i {font-style:normal; color:#333; font-size:14px; font-weight:300; }
+.introduce.shuttle-five .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.shuttle-five .route-one .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:162px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-five .route-one .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.shuttle-five .route-one .section-header p {color:#666; font-size:12px; line-height:20px; }
+.introduce.shuttle-five .route-one .section-header p:before {content:"*"; padding-right:3px; }
+.introduce.shuttle-five .route-one .section-content img {padding-bottom:60px; }
+.introduce.shuttle-five .attendance .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:103px; text-align:center; padding-bottom:40px; }
+.introduce.shuttle-five .attendance .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; font-size:14px; }
+.introduce.shuttle-five .attendance .section-header p {color:#333; font-size:14px; }
+.introduce.shuttle-five .finish .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:103px; text-align:center; padding-bottom:40px; margin-top:60px; }
+.introduce.shuttle-five .finish .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; font-size:14px; }
+.introduce.shuttle-five .finish .section-header p {color:#333; font-size:14px; }
+.introduce.shuttle-five .schedule .section-header {margin-top:60px; }
+.introduce.shuttle-five .schedule .section-content {margin-bottom:60px; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table {border-top:2px solid #4f4f4f; font-size:12px; color:#666; text-align:center; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr {height:40px; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr td p {font-size:11px; color:#e9193a; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr td {height:40px; font-size:12px; border-left:1px solid #ccc; border-right:1px solid #ccc; vertical-align:middle; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table tr:last-child {border-bottom:1px solid #ccc; }
+.introduce.shuttle-five .schedule .section-content .table-wrap .table th {background-color:#f4f4f4; color:#333; text-align:center; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:0; vertical-align:middle; font-weight:normal; }
+
+
+
+/* public */
+.introduce.public i {font-style:normal; color:#e9193a; font-size:12px; font-weight:300; }
+.introduce.public .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.public .public-traffic .section-header {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:162px; text-align:center; padding-bottom:40px; margin-bottom:0 !important; }
+.introduce.public .public-traffic .section-header h3 {background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; }
+.introduce.public .public-traffic .section-header p {color:#666; font-size:12px; line-height:20px; }
+.introduce.public .public-traffic .section-header p i:before {content:"*"; padding-right:3px; }
+.introduce.public .public-traffic .section-content {padding:40px 0 0 0; }
+.introduce.public .public-traffic .section-content .gangbyeon h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; margin-top:0 !important; background-image:url("/mobile/images/introduce/public_bg.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
+.introduce.public .public-traffic .section-content p {font-size:12px; color:#666; margin-bottom:40px; text-align:center; }
+.introduce.public .public-traffic .section-content .moran p {margin-bottom:60px; }
+.introduce.public .public-traffic .section-content .jamsil h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; margin-top:0 !important; background-image:url("/mobile/images/introduce/public_bg.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
+.introduce.public .public-traffic .section-content .moran h4 {padding:87px 0 15px 0; font-size:11px; color:#fff; margin-top:0 !important; background-image:url("/mobile/images/introduce/public_bg2.png"); background-size:120px 120px; min-height:120px; background-repeat:no-repeat; text-align:center; background-position:50% 0;}
+
+
+
+/* car */
+.introduce.car i {font-style:normal; color:#e9193a; font-size:12px; font-weight:300; }
+.introduce.car .tabmenu-wrap .tab-menu li:nth-of-type(4) a {padding:14px 0; }
+.introduce.car .private-car {background-image:url("/mobile/images/introduce/location_bg.gif"); background-size:cover; background-repeat:no-repeat; background-position:50% 50%; min-height:137px; text-align:center; }
+.introduce.car .private-car h3 {background-image:url("/mobile/images/ico_section_header.png"); background-size:20px auto; background-position:50% 22px !important; padding-top:50px !important; margin-bottom:15px !important; font-size:14px; background-repeat:no-repeat; margin-top:0; color:#e9193a; }
+.introduce.car .expressway p {color:#666; font-size:12px; line-height:20px; }
+.introduce.car .expressway .section-header {text-align:left; padding-top:40px !important; }
+.introduce.car .route .section-header {text-align:left; margin:60px 0 40px 0; }
+.introduce.car .route .section-content {padding-bottom:60px !important; }
+
+
+/* medical_team */
+.introduce.medical_team .page-title > h2 {
+    line-height: 23px !important;
+}
+.introduce.medical_team .container {
+    padding: 26px 10px 60px 10px;;
+}
+.introduce.medical_team .container .staff .section-header {
+    margin-bottom: 35px !important;
+}
+.introduce.medical_team h4 {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+}
+.introduce.medical_team .container .staff .team {
+    padding-top: 25px;
+}
+.introduce.medical_team .container .staff .team > li {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.introduce.medical_team .container .staff .team > li > a {
+    text-decoration: none;
+}
+.introduce.medical_team .container .staff .team > li:nth-of-type(5) {
+    margin-bottom: 0;
+}
+.introduce.medical_team .container .staff .team > li:nth-of-type(6) {
+    margin-bottom: 0;
+}
+.introduce.medical_team .container .staff .team > li > a > figure > figcaption > dl {
+    margin-top: 14px;
+}
+.introduce.medical_team .container .staff .team > li > a > figure > figcaption dl > dt {
+    font-size: 11px;
+    color: #333;
+    font-weight: 300;
+}
+.introduce.medical_team .container .staff .team > li a > figure > figcaption > dl > dd {
+    font-size: 10px;
+    color: #666;
+}
+.introduce.medical_team .container .staff .convalescence {
+    margin-top: 56px;
+}
+
+/* staff-view */
+.introduce.staff-view .page-title > h2 {
+    line-height: 23px !important;
+}
+.introduce.staff-view .container {
+    padding: 26px 10px 60px 10px;
+}
+.introduce.staff-view .container .view figure {
+    padding: 0 70px;
+}
+.introduce.staff-view .container .view figure > figcaption {
+    text-align: center;
+}
+.introduce.staff-view .container .view figure > figcaption > dl {
+    margin-top: 15px;
+}
+.introduce.staff-view .container .view figure > figcaption > dl > dt {
+    font-size: 12px;
+    color: #333;
+}
+.introduce.staff-view .container .view figure > figcaption > dl > dt {
+    font-size: 12px;
+    color: #666;
+}
+.introduce.staff-view .container .view .staff-history {
+    min-width: 300px;
+
+    background-color: #f2f2f2;
+    padding: 17px 16px;
+    margin: 26px auto 0;
+}
+.introduce.staff-view .container .view .staff-history > li {
+    font-size: 11px;
+    color: #666;
+    line-height: 26px;
+    letter-spacing: -1px;
+}
+.introduce.staff-view .container .view .staff-history > li:before {
+    content: "▶";
+    color: #e9193a;
+    padding-right: 7px;
+    font-size: 10px;
+}
+.introduce.staff-view .container .view .btn-area {
+    margin-top: 12px;
+    text-align: center;
+}
+.introduce.staff-view .container .view .btn-area .btn-pink {
+    min-width: 70px !important;
+    height: 31px !important;
+    font-size: 12px;
+}
+
+
+/* look-round */
+.introduce.look-round .page-title > h2 {
+    line-height: 23px !important;
+}
+.introduce.look-round .container {
+    padding: 25px 33px 60px;
+}
+.introduce.look-round .container .visual .bx-wrapper {
+    position: relative;
+}
+.introduce.look-round .container .visual .bx-wrapper .bx-controls {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    height: 22px;
+    width: 100%;
+}
+.introduce.look-round .container .visual .bx-wrapper .bx-controls .bx-prev {
+    position: absolute;
+    left: -22px;
+    color: #222;
+    font-size: 30px;
+}
+.introduce.look-round .container .visual .bx-wrapper .bx-controls .bx-next {
+    position: absolute;
+    right: -22px;
+    color: #222;
+    font-size: 30px;
+}
+.introduce.look-round .container .visual .slide {
+    padding: 0 23px;
+    position: relative;
+}
+.introduce.look-round .container .visual .slide > li > h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+    height: 28px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

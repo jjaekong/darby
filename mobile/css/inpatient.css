@@ -1,0 +1,504 @@
+/* rehab_guide */
+.inpatient.rehab_guide .rehab_guide-intro .section-header h3 {margin-top:20px !important; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content h4 {font-size:13px; font-weight:300; color:#333; margin-top:60px; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content h4:nth-of-type(1) {margin-top:0; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content > p {position:relative; font-size:12px; margin-bottom:5px; padding-left:15px; color:#666; margin-top:17px; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content > p:nth-of-type(2) {color:#e9193a; font-weight:400; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content > p:nth-of-type(4) {color:#e9193a; font-weight:400; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content > p:before {position:absolute; top:0; left:0; content:"▶"; color:#e9193a; font-size:10px; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol {overflow:hidden; width:100%; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li {width:50%; text-align:center; display:inline-block; padding:0 23px 20px 23px; vertical-align:top; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li p {margin-top:10px; }
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li img {width:100px; height:100px;  }
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(1) {
+	position:relative;
+	float:left;
+}
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(1):after {
+	position:absolute; 
+	top:33px;
+	right:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/right_arrow.png");
+	transform:scale(.4);
+}
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(2) {
+	position:relative;
+	float:right;
+	
+}
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(2):after {
+	position:absolute; 
+	bottom:-13px;
+	display:inline-block;
+	text-align:center;
+	margin-left:-17px;
+	content:url("/mobile/images/outpatient/bottom_arrow.png");
+	transform:scale(.4);
+}
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(3) {
+	padding-top:20px;
+	position:relative;
+	float:right; 
+
+}
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(3):after {
+	position:absolute;
+	top:53px;
+	left:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/left_arrow.png");
+	transform:scale(.4);
+}
+.inpatient.rehab_guide .rehab_guide-intro .section-content ol li:nth-of-type(4) {
+	position:relative;
+	float:left; 
+	padding-top:20px;
+}
+
+
+/* leave */
+.inpatient.rehab_guide .leave .section-header h3 {margin-top:60px !important; }
+.inpatient.rehab_guide .leave .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0;  }
+.inpatient.rehab_guide .leave .section-content ol {overflow:hidden; width:100%; }
+.inpatient.rehab_guide .leave .section-content ol li {width:50%; text-align:center; height:180px; display:inline-block; padding:0 23px 0 23px; vertical-align:top; }
+.inpatient.rehab_guide .leave .section-content ol li b {font-weight:400; color:#333; }
+.inpatient.rehab_guide .leave .section-content ol li p {margin-top:10px; letter-spacing:-1px; color:#666; }
+.inpatient.rehab_guide .leave .section-content ol li img {width:100px; height:100px;  }
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(1) {
+	position:relative;
+	float:left;
+}
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(1):after {
+	position:absolute; 
+	top:33px;
+	right:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/right_arrow.png");
+	transform:scale(.4);
+}
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(2) {
+	position:relative;
+	float:right;
+	
+}
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(2):after {
+	position:absolute; 
+	bottom:10px;
+	display:inline-block;
+	text-align:center;
+	margin-left:-17px;
+	content:url("/mobile/images/outpatient/bottom_arrow.png");
+	transform:scale(.4);
+}
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(3) {
+	padding-top:10px;
+	position:relative;
+	float:right; 
+	height:auto;
+
+}
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(3):after {
+	position:absolute;
+	top:53px;
+	left:-9px;
+	display:block;
+	content:url("/mobile/images/outpatient/left_arrow.png");
+	transform:scale(.4);
+}
+.inpatient.rehab_guide .leave .section-content ol li:nth-of-type(4) {
+	position:relative;
+	float:left; 
+	padding-top:10px;
+	height:auto;
+}
+
+/* visiting */
+.inpatient.rehab_guide .visiting { }
+.inpatient.rehab_guide .visiting .container > h4 {font-size:12px; font-weight:300; color:#333; margin-top:60px; }
+.inpatient.rehab_guide .visiting .container > p {position:relative; font-size:12px; margin-bottom:5px; padding-left:15px; color:#666; margin-top:17px; }
+.inpatient.rehab_guide .visiting .container > p:nth-of-type(3) {color:#e9193a; }
+.inpatient.rehab_guide .visiting .container > p:before {position:absolute; top:0; left:0; content:"▶"; color:#e9193a; font-size:10px; }
+.inpatient.rehab_guide .visiting .reservation {background-image:url("/mobile/images/inpatient/rehab_bg.gif"); background-size:300px auto; background-repeat:no-repeat; background-position:50% 50%; margin:60px 0; min-height:150px; }
+.inpatient.rehab_guide .visiting .container .reservation {color:#fff; text-align:center; padding:20px 0; height:150px; }
+.inpatient.rehab_guide .visiting .container .reservation h4 {font-size:16px; font-weight:300; padding:0; margin:0; }
+.inpatient.rehab_guide .visiting .container .reservation strong {font-size:12px; font-weight:500; display:inline-block; margin-top:10px; }
+.inpatient.rehab_guide .visiting .container .reservation p {font-size:12px; margin-bottom:8px; font-weight:200; line-height:15px; } 
+.inpatient.rehab_guide .visiting .container .reservation .btn-area	{text-align:center; display:inline-block; }
+.inpatient.rehab_guide .visiting .container .reservation .btn-area p {
+	background-image:url("/mobile/images/inpatient/reservation_bg.png");
+	background-size:14px auto;
+	background-position:23px 9px;
+	background-repeat:no-repeat;
+	width:140px; 
+	height:30px; 
+	text-align:center; 
+	border:1px solid #fff;
+	background-color:#424242; 
+	opacity:0.8;
+	line-height:28px;
+	margin-bottom:0;
+}
+.inpatient.rehab_guide .visiting .container .reservation .btn-area p a {display:inline-block; text-decoration:none; color:#fff; width:140px; height:30px; padding-left:10px;}
+
+
+/* vip-intro */
+.inpatient.vip .vip-intro .section-header p {margin:26px 0 20px 0; }
+.inpatient.vip .vip-intro .container .section-content > p {font-size:12px; line-height:21px; color:#444; margin-top:32px; }
+.inpatient.vip .vip-intro .container .section-content p:nth-of-type(4) {margin-top:40px; }
+.inpatient.vip .vip-intro .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0; }
+.inpatient.vip .vip-intro .section-content .btn-area {margin-top:30px; }
+.inpatient.vip .vip-intro .section-content .btn-area p {
+	margin-top:30px; 
+	width:110px; 
+	height:30px; 
+	line-height:30px; 
+	text-align:center; 
+	font-size:12px; 
+}
+.inpatient.vip .vip-intro .section-content .btn-area p a {
+	display:inline-block; 
+	width:110px; height:30px; 
+	color:#fff; 
+	padding-left:20px; 
+	text-decoration:none; 
+	background-image:url("/mobile/images/inpatient/vip_bg.png") ;
+	background-size: auto 9px;
+	background-position:13px 11px;
+	background-repeat:no-repeat;
+	}
+.inpatient.vip .facilities .section-content {padding-bottom:60px; border-bottom:1px dashed #c0c0c0; }
+.inpatient.vip .facilities .section-header h3 {margin-top:60px !important; }
+.inpatient.vip .vip-room {padding-bottom:60px; }
+.inpatient.vip .vip-room .section-header h3 {margin-top:60px !important; }
+.inpatient.vip .section-content ul {margin-top:30px; }
+.inpatient.vip .section-content ul li {width:50%; }
+.inpatient.vip .section-content ul li:nth-of-type(1) {clear:both; }
+.inpatient.vip .section-content ul li:nth-of-type(3) {clear:both; }
+.inpatient.vip .section-content ul li figure { }
+.inpatient.vip .section-content ul li figure img { }
+.inpatient.vip .section-content ul li figure figcaption {margin:10px 0 20px 0; color:#999; font-size:11px; line-height:17px; text-align:left; }
+.inpatient.vip .section-content ul li figure figcaption:nth-of-type(3) {margin-bottom:0; }
+.inpatient.vip .section-content ul li figure figcaption:nth-of-type(4) {margin-bottom:0; }
+
+
+
+/* menu-guide */
+.inpatient.menu-guide .page-title > h2 {
+    line-height: 23px !important;
+}
+.inpatient.menu-guide p {
+    font-size: 12px;
+    color: #666;
+    line-height: 21px;
+    letter-spacing: -1px;
+}
+.inpatient.menu-guide .container {
+    padding: 26px 10px 60px 10px;
+}
+.inpatient.menu-guide .container .nutrition {
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.menu-guide .container .nutrition > p:nth-of-type(2) {
+    margin-top: 33px;
+}
+.inpatient.menu-guide .container .nutrition > p > img {
+    margin: 30px auto 60px;
+}
+.inpatient.menu-guide .container .meal {
+    padding: 60px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.menu-guide .container .meal .inline-dl {
+    margin: 28px 0 17px 0;
+}
+.inpatient.menu-guide .container .meal .inline-dl > dt {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    display: inline;
+}
+.inpatient.menu-guide .container .meal .inline-dl > dd {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    display: inline-block;
+}
+.inpatient.menu-guide .container .meal .inline-dl > dd:before {
+    content: ":";
+}
+.inpatient.menu-guide .container .meal > .arrow {
+    position: relative;
+    padding-left: 15px;
+    letter-spacing: -1px;
+}
+.inpatient.menu-guide .container .meal > .arrow:before {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    content: "▶";
+    color: #e9193a;
+    padding-right: 2px;
+    font-size: 10px;
+}
+.inpatient.menu-guide .container .meal > h4 {
+    margin: 33px 0 20px 0;
+    font-size: 13px;
+    color: #333;
+}
+.inpatient.menu-guide .container .meal > .arrow-list > li {
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    line-height: 17px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.inpatient.menu-guide .container .meal > .arrow-list > li:first-child {
+    margin-top: 0;
+}
+.inpatient.menu-guide .container .meal > .arrow-list > li:before {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    content: "▶";
+    color: #e9193a;
+    padding-right: 5px;
+    font-size: 10px;
+}
+.inpatient.menu-guide .container .meal > .inline-ul {
+
+}
+.inpatient.menu-guide .container .meal > .inline-ul > li {
+    display: inline-block;
+}
+.inpatient.menu-guide .container .meal > .inline-ul > li > figure > figcaption {
+    font-size: 11px;
+    color: #666;
+    line-height: 17px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.inpatient.menu-guide .container .meal > .inline-ul > li > figure > figcaption > dl > h5 {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+    padding: 8px 0 6px 0;
+}
+.inpatient.menu-guide .container .customized {
+    padding: 60px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.menu-guide .container .customized > p > img {
+    margin: 33px 0 23px;
+
+}
+.inpatient.menu-guide .container .customized > figure {
+    margin-top: 43px;
+}
+.inpatient.menu-guide .container .customized > figure > figcaption > h4 {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding-top: 33px;
+}
+.inpatient.menu-guide .container .vow {
+    padding-top: 60px;
+}
+.inpatient.menu-guide .container .vow .section-header > h3 i {
+    font-style: normal;
+    font-size: 13px;
+    color: #333;
+}
+.inpatient.menu-guide .container .vow .inline-ul > li {
+    margin-bottom: 34px;
+}
+.inpatient.menu-guide .container .vow .inline-ul > li:nth-of-type(3) {
+    margin-bottom: 0;
+}
+.inpatient.menu-guide .container .vow .inline-ul > li:nth-of-type(4) {
+    margin-bottom: 0;
+}
+.inpatient.menu-guide .container .vow .inline-ul > li > figure {
+
+}
+.inpatient.menu-guide .container .vow .inline-ul > li > figure > figcaption {
+    text-align: center;
+}
+
+
+
+
+/* rehabilitation */
+.inpatient.rehabilitation .page-title > h2 {
+    line-height: 23px !important;
+}
+.inpatient.rehabilitation p {
+    font-size: 12px;
+    color: #666;
+    line-height: 21px;
+    letter-spacing: -1px;
+}
+.inpatient.rehabilitation .container {
+    padding: 26px 10px 60px 10px;
+}
+.inpatient.rehabilitation .container .intro {
+    padding-bottom: 60px;
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.rehabilitation .container .intro > p > img {
+    margin-top: 33px;
+}
+.inpatient.rehabilitation .container .business {
+    padding: 60px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.rehabilitation .container .business > p > img {
+    margin-top: 33px;
+}
+.inpatient.rehabilitation .container .feature {
+    padding: 60px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.inpatient.rehabilitation .container .feature > .arrow-list > li {
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    line-height: 17px;
+    margin-top: 16px;
+    padding-left: 15px;
+}
+.inpatient.rehabilitation .container .feature > .arrow-list > li:first-child {
+    margin-top: 0;
+}
+.inpatient.rehabilitation .container .feature > .arrow-list > li:before {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    content: "▶";
+    color: #e9193a;
+    padding-right: 5px;
+    font-size: 10px;
+}
+.inpatient.rehabilitation .container .field {
+    padding-top: 60px;
+}
+.inpatient.rehabilitation .container .field > ul > li > figure > figcaption {
+    margin-top: 10px;
+    height: 30px;
+}
+.inpatient.rehabilitation .container .field > ul > li {
+    margin-top: 20px;
+}
+.inpatient.rehabilitation .container .field ul > li:nth-of-type(1) {
+    margin-top: 0;
+}
+.inpatient.rehabilitation .container .field ul > li:nth-of-type(2) {
+    margin-top: 0;
+}
+.inpatient.rehabilitation .container .field ul > li:nth-of-type(3) {
+    margin-top: 0;
+}
+.inpatient.rehabilitation .container .field ul > li > figure > figcaption > h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+    letter-spacing: -1px;
+}
+
+
+/* carcinoma */
+.inpatient.carcinoma p {
+    font-size: 12px;
+    color: #666;
+    line-height: 21px;
+    letter-spacing: -1px;
+}
+.inpatient.carcinoma .page-title > h2 {
+    line-height: 23px !important;
+}
+.inpatient.carcinoma .container {
+    padding: 26px 10px 60px 10px;
+}
+.inpatient.carcinoma .container .bene-life > p:nth-of-type(1) {
+    margin-bottom: 35px;
+}
+.inpatient.carcinoma .container .bene-life > p:nth-of-type(2) {
+    margin-bottom: 35px;
+}
+.inpatient.carcinoma .container .bene-life > p:nth-of-type(3) {
+    margin-bottom: 35px;
+}
+.inpatient.carcinoma .container .bene-life .btn-area {
+    margin: 28px 0;
+}
+.inpatient.carcinoma .container .bene-life .btn-area .btn-pink {
+    min-width: 110px !important;
+    height: 30px !important;
+    font-size: 12px;
+}
+.inpatient.carcinoma .container .bene-life > h4 {
+    margin: 26px 0 12px 0;
+}
+.inpatient.carcinoma .container .bene-life > ul {
+    margin-top: 17px;
+}
+.inpatient.carcinoma .container .bene-life > ul > li {
+    margin-top: 35px;
+}
+.inpatient.carcinoma .container .bene-life > ul > li:nth-of-type(1) {
+    margin-top: 0;
+}
+.inpatient.carcinoma .container .bene-life > ul > li:nth-of-type(2) {
+    margin-top: 0;
+}
+.inpatient.carcinoma .container .bene-life > ul > li > h5 {
+    margin-top: 11px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

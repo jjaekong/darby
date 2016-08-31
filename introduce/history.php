@@ -1,138 +1,84 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/assets/css/sub.css" rel="stylesheet" />
-<link href="/assets/css/introduce.css" rel="stylesheet" />
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php');
+if(!$hcat) $hcat = "경기도광주성숙기";
+?>
+<link href="/css/introduce.css" rel="stylesheet">
+<style>
+.history .tabArea a.on{width:100px;height:115px;margin:0 20px;padding:25px 0;font-family: 'Lato', sans-serif;color:#fff;font-size:20px;font-weight:400;line-height:20px;text-decoration:none;display:inline-block;background:url(../images/introduce/tab_sty01_on.png);}
+</style>
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-	<div class="page-header page-header-1">
-		<div class="container">
-			<ol class="breadcrumb">
-				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">회사소개</a></li>
-				<li class="active">연혁</li>
-			</ol>
-			<hr>
-			<h1>연혁</h1>
-			<p>다비육종이 한국돼지의 표준을 만들어 온 발자취입니다.</p>
-		</div>
-	</div>
-	<main id="content" tabindex="-1" class="introduce history">
-		<div class="container">
-			<nav class="navbar">
-				<ul class="nav navbar-nav">
-                    <li><a href="/introduce/history_tab4.php">1980년대</a></li>
-					<li><a href="/introduce/history_tab3.php">1990년대</a></li>
-					<li><a href="/introduce/history_tab2.php">2000년대</a></li>
-					<li class="active"><a href="/introduce/history.php">2010년대</a></li>
-				</ul>
-			</nav>
-			<div class="history-list">
-				<div class="history-img">
-				    <p>
-						<img src="/assets/images/introduce/history_img05.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img04.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img03.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img02.jpg" alt="기업연혁이미지">
-					</p>
-					<p>
-						<img src="/assets/images/introduce/history_img01.jpg" alt="기업연혁이미지">
-					</p>
-				</div>
-				<ol>
-					<li>
-						<hr>
-						<h3>2010년</h3>
-						<dl>
-							<dt>07</dt>
-							<dd>종돈장 종합평가 우수종돈장 3개소 인증</dd>
-							<dt>10</dt>
-							<dd>웰팜포크, 대한민국 축산물 브랜드 경진대회 우수상 수상</dd>
-						</dl>
-					</li>
-					<li>
-						<hr>
-						<h3>2011년</h3>
-						<dl>
-							<dt>06</dt>
-							<dd>경기도 일하기 좋은 기업(GGWP) 인증</dd>
-							<dt>07</dt>
-							<dd>아름다운 납세자상 수상 </dd>
-							<dt>08</dt>
-							<dd>종돈장 종합평가 우수종돈장 3개소 인증</dd>
-						</dl>
-					</li>
-					<li>
-						<hr>
-						<h3>2012년</h3>
-						<dl>
-							<dt>05</dt>
-							<dd>종돈장 종합평가 우수종돈장 4개소 인증</dd>
-							<dt>09</dt>
-							<dd>2012 취업하고 싶은 기업 인증</dd>
-							<dt>10</dt>
-							<dd>
-							    대한민국 일하기 좋은 100대 기업(GPTW) 인증<br>
-							    웰팜포크, 축산물 브랜드 경진대회 장려상 수상<br>
-							    웰팜포크, G마크축산물브랜드전 우수상 수상
-							</dd>
-						</dl>
-					</li>
-					<li>
-						<hr>
-						<h3>2013년</h3>
-						<dl>
-							<dt>03</dt>
-							<dd>성진GGP 설립 (모돈 600두 규모)</dd>
-							<dt>05</dt>
-							<dd>종돈장 종합평가 우수종돈장 2개소 인증</dd>
-							<dt>09</dt>
-							<dd>웰팜포크, G마크축산물브랜드전 우수상 수상</dd>
-							<dt>12</dt>
-							<dd>웰팜포크, 축산물 브랜드 경진대회 우수상 수상</dd>
-						</dl>
-					</li>
-					<li>
-						<hr>
-						<h3>2014년</h3>
-						<dl>
-							<dt>07</dt>
-							<dd>종돈 500,000두, 액상정액 6,000,000병 누적판매 달성</dd>
-							<dt>11</dt>
-							<dd>경기도 일하기 좋은 기업(GGWP) 인증</dd>
-						</dl>
-					</li>
-					<li>
-						<hr>
-						<h3>2015년</h3>
-						<dl>
-							<dt>02</dt>
-							<dd>대덕GGP 설립 (모돈 550두 규모)</dd>
-							<dt>12</dt>
-							<dd>
-                                국내 최초 디앤디GGP PSY 30두 달성<br>
-                                9년 연속 얼룩도야지(전 웰팜포크) 소시모 인증 획득
-							</dd>
-						</dl>
-					</li>
-					<li>
-						<hr>
-						<h3>2016년</h3>
-						<dl>
-							<dt>05</dt>
-							<dd>원산종돈, 종돈검정평가 대상 수상</dd>
-						</dl>
-					</li>
-				</ol>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+    <div class="page-path">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="#">병원소개</a></li>
+                <li class="active">연혁</li>
+            </ol>
+        </div>
+    </div>
+    <main id="content" class="introduce history"><!-- 클래스명은 대메뉴 > 서브메뉴명의 방식으로 -->
+        <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
+            <h2>연혁</h2>
+            <small>Hisotory</small>
+        </div>
+        
+        <!-- 실제 작업 영역 -->
+        <div class="tabArea">
+			<a href="<?=$_SERVER["PHP_SELF"]?>?hcat=<?=urlencode("용문동설립기")?>" <?=$hcat=="용문동설립기"?"class='on'":""?>>1952<br />/<br />1957</a><a href="<?=$_SERVER["PHP_SELF"]?>?hcat=<?=urlencode("신대방동도약기")?>" <?=$hcat=="신대방동도약기"?"class='on'":""?>>1957<br />/<br />1972</a><a href="<?=$_SERVER["PHP_SELF"]?>?hcat=<?=urlencode("봉천동성장기")?>" <?=$hcat=="봉천동성장기"?"class='on'":""?>>1972<br />/<br />1993</a><a href="<?=$_SERVER["PHP_SELF"]?>?hcat=<?=urlencode("경기도광주성숙기")?>" <?=$hcat=="경기도광주성숙기"?"class='on'":""?>>1993<br />/<br />2011</a><a href="<?=$_SERVER["PHP_SELF"]?>?hcat=<?=urlencode("경기도광주신도약기")?>" <?=$hcat=="경기도광주신도약기"?"class='on'":""?>>2012<br />/<br /><?=date("Y",time())?></a>
+        </div>
+            
+        <div class="container">
+			<div class="historyTit">
+				<?
+				switch($hcat){
+					case "용문동설립기":
+						echo '<h1><b>용문동</b>설립기</h1><h2>1952 ~ 1957</h2><p><img src="../images/introduce/history_img01.jpg" alt=""/></p>';
+						break;
+					case "신대방동도약기":
+						echo '<h1><b>신대방동</b>도약기</h1><h2>1957 ~ 1972</h2><p><img src="../images/introduce/history_img02.jpg" alt=""/></p>';
+						break;
+					case "봉천동성장기":
+						echo '<h1><b>봉천동</b>성장기</h1><h2>1972 ~ 1993</h2><p><img src="../images/introduce/history_img03.jpg" alt=""/></p>';
+						break;
+					case "경기도광주성숙기":
+						echo '<h1><b>경기도광주</b>성숙기</h1><h2>1993 ~ 2011</h2><p><img src="../images/introduce/history_img04.jpg" alt=""/></p>';
+						break;
+					case "경기도광주신도약기":
+						echo '<h1><b>경기도광주</b>신도약기</h1><h2>2012 ~ '.date("Y",time()).'</h2><p><img src="../images/introduce/history_img05.jpg" alt=""/></p>';
+						break;
+				}
+				?>
 			</div>
-		</div>
-	</main>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
+			<div class="historyCon">
+				<dl>
+					<?
+					$sql = " select * from ".$site_prefix."history where hcat = '".$hcat."' order by hyear asc, hmonth asc, hday asc ";
+					$result = sql_query($sql);
+					for($i=0;$row = sql_fetch_array($result);$i++){
+						if($row["hday"]){
+							$row["hdate"] = date("Y. m. d",strtotime($row["hyear"]."-".$row["hmonth"]."-".$row["hday"]));
+						} else {
+							$row["hdate"] = date("Y. m",strtotime($row["hyear"]."-".$row["hmonth"]."-1"));
+						}
+
+						$list[$i] = $row;
+
+						if($i > 0 && $list[$i]["hdate"] == $list[$i-1]["hdate"]) $hdate = "&nbsp;";
+						else $hdate = $list[$i]["hdate"];
+					?>
+					<dt><?=$hdate?></dt>
+					<dd><?=$list[$i]["htext"]?></dd>
+					<?
+					}
+					?>
+				</dl>
+			</div>
+        </div>
+        <!-- // 실제 작업 영역 -->
+    </main>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer_sub.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
 </html>

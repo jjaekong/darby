@@ -1,0 +1,806 @@
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+.customer {
+    .page-header {
+        padding-top: 80px;
+    }
+    .section-header {
+        padding-top: 35px;
+        background-image: url(/images/ico_section_header.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        h1, h2, h3, h4, h5, h6, h7 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 28px;
+            color: #e9193a;
+            letter-spacing: -2px;
+            small {
+                font-size: 15px;
+                color: #666;
+            }
+        }
+        p {
+            font-size: 17px;
+            color: #333;
+            letter-spacing: -1px;
+            font-weight: normal;
+        }
+        &.text-center {
+            background-position: 50% 0;
+        }
+    }
+}
+
+.customer.faq {
+    .search-bar {
+        overflow: hidden;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        .search-form {
+            float: right;
+        }
+    }
+    .faq-list {
+        margin-bottom: 150px;
+        > ul {
+            > li {
+                border-bottom: 1px solid #ccc;
+                .icon {
+                    position: absolute;
+                    top: 0;
+                    left: 30px;
+                    font-style: normal;
+                    font-size: 20px;
+                    @extend .font-lato;
+                    font-weight: bold;
+                    line-height: 50px;
+                    color: #e9193a;
+                }
+                .question {
+                    position: relative;
+                    overflow: hidden;
+                    display: block;
+                    padding-left: 75px;
+                    height: 50px;
+                    color: #333;
+                    font-size: 14px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    line-height: 50px;
+                }
+                .answer {
+                    position: relative;
+                    display: none;
+                    padding: 20px 20px 20px 75px;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: #777;
+                }
+                &:first-child {
+                    border-top: 1px solid #ccc;
+                }
+                &.active {
+                    .question {
+                        background-color: #444;
+                        color: #fff;
+                        .icon {
+                            color: #fff;
+                        }
+                    }
+                    .answer {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.customer.certificate {
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    hr {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-top: 1px dashed #ccc;
+    }
+    .docs {
+        > p {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
+        }
+        > .table {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-top: 0;
+            table-layout: fixed;
+            caption {
+                background-color: #4f4f4f;
+                color: #fff;
+                height: 52px;
+                line-height: 36px;
+                text-align: center;
+                font-size: 16px;
+            }
+            thead {
+                tr {
+                    th {
+                        border-top: 0 !important;
+                        background-color: #e9e9e9;
+                        border-color: #ccc;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    th {
+                        border-top: 0;
+                        color: #666;
+                        border-color: #ccc;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                    td {
+                        color: #666;
+                        border-color: #ccc;
+                        font-size: 16px;
+                        line-height: 28px;
+                        ol {
+                            list-style-type: decimal;
+                            list-style-position: inside;
+                        }
+                        .help {
+                            &:before {
+                                content: '*';
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        > .btn-area {
+            p {
+                text-align: right;
+                .btn {
+                    margin-left: 10px;
+                    padding-left: 45px;
+                    width: 170px;
+                    height: 40px;
+                    font-size: 16px;
+                    line-height: 28px;
+                    text-align: left;
+                    background-image: url(/images/customer/ico_download.png);
+                    background-position: 20px 50%;
+                    background-repeat: no-repeat;
+                    &:nth-of-type(1) {
+                        background-color: #e9193a;
+                        &:hover,
+                        &:focus {
+                            opacity: .9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .steps {
+        > ul {
+            margin-top: 50px;
+            text-align: center;
+            > li {
+                display: inline-block;
+                padding-right: 75px;
+                background-image: url(/images/customer/ico_arrow_right.png);
+                background-repeat: no-repeat;
+                background-position: 190px 70px;
+                figure {
+                    float: left;
+                    width: 160px;
+                    height: 230px;
+                    figcaption {
+                        margin-top: 15px;
+                        font-size: 16px;
+                        color: #666;
+                    }
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+        > .section-header {
+            &:nth-of-type(2) {
+                margin-top: 40px;
+            }
+        }
+    }
+    .cost {
+        margin-bottom: 90px;
+        .table {
+            margin-top: 40px;
+            table-layout: fixed;
+            thead {
+                th {
+                    background-color: #4f4f4f;
+                    border-color: #4f4f4f !important;
+                    color: #fff;
+                }
+            }
+            tbody {
+                th, td {
+                    border-color: #ccc;
+                }
+                th {
+                    background-color: #f9f9f9;
+                }
+                tr:nth-of-type(1) {
+                    th {
+                        border-top-color: #4f4f4f;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.customer.contact {
+    .section-header {
+        margin-bottom: 30px;
+        a {
+            color: #e9193a;
+        }
+        &:first-child {
+            margin-top: 60px;
+        }
+    }
+    .table {
+        margin-bottom: 60px;
+        table-layout: fixed;
+        &:last-child {
+            margin-bottom: 140px;
+        }
+    }
+}
+
+.customer.appoint {
+    .steps {
+        padding-top: 30px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #dfdfdf;
+        ol {
+            text-align: center;
+            li {
+                display: inline-block;
+                padding-right: 50px;
+                width: 210px;
+                font-size: 16px;
+                line-height: 26px;
+                vertical-align: top;
+                background-image: url(/images/customer/ico_appoint_arrow.png);
+                background-repeat: no-repeat;
+                background-position: 180px 60px;
+                p {
+                    padding-top: 170px;
+                    background-position: 50% 0;
+                    background-repeat: no-repeat;
+                    small {
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #666;
+                    }
+                }
+                &:last-child {
+                    padding-right: 0;
+                    width: 160px;
+                    background-image: none;
+                }
+                &:nth-of-type(1) {
+                    p {
+                        background-image: url(/images/customer/ico_appoint_step1.png);
+                    }
+                    &.active {
+                        p {
+                            background-image: url(/images/customer/ico_appoint_step1_on.png);
+                        }
+                    }
+                }
+                &:nth-of-type(2) {
+                    p {
+                        background-image: url(/images/customer/ico_appoint_step2.png);
+                    }
+                    &.active {
+                        p {
+                            background-image: url(/images/customer/ico_appoint_step2_on.png);
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    p {
+                        background-image: url(/images/customer/ico_appoint_step3.png);
+                    }
+                    &.active {
+                        p {
+                            background-image: url(/images/customer/ico_appoint_step3_on.png);
+                        }
+                    }
+                }
+                &:nth-of-type(4) {
+                    p {
+                        background-image: url(/images/customer/ico_appoint_step4.png);
+                    }
+                    &.active {
+                        p {
+                            background-image: url(/images/customer/ico_appoint_step4_on.png);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.customer.appoint.login {
+    .login-section {
+        margin: 0 auto 140px;
+        padding-top: 60px;
+        background-color: #fff;
+        .section-header {
+            margin-bottom: 35px;
+        }
+        .login-form {
+            margin: 0 auto;
+            width: 380px;
+            .form-control {
+                height: 45px;
+                margin-bottom: 20px;
+                box-shadow: none;
+                border-radius: 0;
+                &:focus {
+                    border-color: #e9193a;
+                }
+            }
+            .btn {
+                height: 45px;
+                background-color: #e9193a;
+                font-size: 18px;
+            }
+            .help-member {
+                margin-top: 15px;
+                ul {
+                    li {
+                        display: inline-block;
+                        a {
+                            font-size: 14px;
+                            color: #666;
+                        }
+                        &:first-child:after {
+                            padding-left: 7px;
+                            padding-right: 5px;
+                            content: '/';
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.customer.appoint.step1 {
+    .schedule {
+        margin-bottom: 70px;
+        header {
+            position: relative;
+            margin: 60px auto;
+            width: 300px;
+            height: 30px;
+            h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 29px;
+                text-align: center;
+                line-height: 1em;
+            }
+            a {
+                position: absolute;
+                top: 6px;
+                img {
+                    display: block;
+                    vertical-align: top;
+                }
+                &.prev {
+                    left: 0;
+                }
+                &.next {
+                    right: 0;
+                }
+            }
+        }
+        .calendar {
+            width: 100%;
+            table-layout: fixed;
+            thead {
+                th {
+                    height: 60px;
+                    text-align: center;
+                    vertical-align: middel;
+                    color: #fff;
+                    background-color: #4f4f4f;
+                    font-size: 16px;
+                    border: 1px solid rgba(#fff, .12);
+                    font-weight: normal;
+                    &:nth-of-type(1) {
+                        background-color: #e9193a;
+                        //border-color: #e9193a;
+                    }
+                    &:nth-of-type(7) {
+                        background-color: #5481d5;
+                        //border-color: #5481d5;
+                    }
+                }
+            }
+            tbody {
+                td {
+                    position: relative;
+                    padding: 15px;
+                    height: 157px;
+                    border: 1px solid rgba(#ababab, .3);
+                    vertical-align: top;
+                    .day {
+                        font-size: 21px;
+                        color: #666;
+                        letter-spacing: -1px;
+                    }
+                    .status {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        background-color: rgba(#ababab, .12);
+                        color: #333;
+                        font-size: 16px;
+                        &:before {
+                            display: inline-block;
+                            margin-right: 5px;
+                            content: '';
+                            width: 12px;
+                            height: 12px;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                    &:nth-of-type(1) {
+                        .day {
+                            color: #e9193a;
+                        }
+                    }
+                    &:nth-of-type(7) {
+                        .day {
+                            color: #3270e3;
+                        }
+                    }
+                    &.available {
+                        cursor: pointer;
+                        .status:before {
+                            background-image: url(/images/customer/ico_dot_green.png);
+                        }
+                        &:hover {
+                            
+                        }
+                    }
+                    &.impossible {
+                        .status {
+                            color: #e9193a;
+                            &:before {
+                                background-image: url(/images/customer/ico_dot_red.png);
+                            }
+                        }
+                    }
+                    &.checked {
+                        cursor: auto;
+                        .cover {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 157px;
+                            background-color: rgba(#000, .85);
+                            text-align: center;
+                            color: #fff;
+                            font-size: 16px;
+                            &:before {
+                                display: block;
+                                content: '';
+                                margin: 25px auto 10px;
+                                width: 79px;
+                                height: 79px;
+                                background-image: url(/images/customer/ico_check_circle.png);
+                                background-repeat: no-repeat;
+                            }
+                        }
+                    }
+                    &.past {
+                        cursor: auto;
+                        .status {
+                            color: #e9193a;
+                            &:before {
+                                background-image: url(/images/customer/ico_dot_red.png);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .notice {
+            margin-top: 30px;
+            li {
+                padding-left: 15px;
+                color: #666;
+                font-size: 16px;
+                line-height: 36px;
+                background-image: url(/images/customer/ico_notice_arrow.png);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
+            }
+        }
+    }
+    .doctors {
+        .section-header {
+            margin-bottom: 60px;
+        }
+        .departments {
+            margin-bottom: 50px;
+            .form-control {
+                width: 400px;
+                height: 40px;
+                border-radius: 0;
+                font-size: 16px;
+                color: #333;
+                box-shadow: none;
+                &:focus {
+                    border-color: #e9193a;
+                }
+            }
+        }
+        .doctor-list {
+            ul {
+                overflow: hidden;
+                li {
+                    float: left;
+                    margin-bottom: 50px;
+                    margin-right: 55px;
+                    width: 190px;
+                    height: 315px;
+                    text-align: center;
+                    figure {
+                        img {
+                            width: 190px;
+                            height: 190p;
+                            border-radius: 50%;
+                        }
+                        figcaption {
+                            margin-top: 10px;
+                            strong {
+                                display: block;
+                                font-size: 16px;
+                                font-weight: normal;
+                            }
+                            small {
+                                font-size: 15px;
+                                color: #666;
+                            }
+                        }
+                    }
+                    .btn-group {
+                        margin-top: 15px;
+                        .btn {
+                            margin: 0 5px;
+                            width: 80px;
+                            height: 47px;
+                            background-color: #fff;
+                            color: #666;
+                            border: 1px solid #ccc;
+                            font-size: 16px;
+                            line-height: 33px;
+                            input[type="radio"] {
+                                position: absolute;
+                                clip: rect(0,0,0,0);
+                                pointer-events: none;
+                            }
+                            &.active {
+                                box-shadow: none;
+                                background-color: #e9193a;
+                                border-color: #e9193a;
+                                color: #fff;
+                            }
+                            &:active {
+                                box-shadow: none;
+                                
+                            }
+                        }
+                    }
+                    &:nth-of-type(5n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-bottom: 150px;
+            p {
+                text-align: center;
+                .btn {
+                    margin: 0 5px;
+                    width: 225px;
+                    height: 85px;
+                    font-size: 23px;
+                    color: #fff;
+                    font-weight: 300;
+                    &:before {
+                        display: inline-block;
+                        width: 26px;
+                        height: 26px;
+                        content: '';
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        vertical-align: top;
+                    }
+                    &.btn-cancel {
+                        &:before {
+                            margin-right: 3px;
+                            background-image: url(/images/customer/ico_cancel.png);
+                        }
+                    }
+                    &.btn-appoint {
+                        background-color: #e9193a;
+                        &:hover,
+                        &:focus {
+                            opacity: .9;
+                        }
+                        &:before {
+                            margin-right: 7px;
+                            background-image: url(/images/customer/ico_watch.png);
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+
+.customer.appoint.step2 {
+    .confirm {
+        margin-top: 60px;
+        margin-bottom: 140px;
+        .section-header {
+            margin-bottom: 30px;
+        }
+        .table {
+            tbody {
+                th {
+                    padding-left: 30px;
+                    border-right: 1px solid #ccc;
+                    text-align: left;
+                }
+                td {
+                    padding-left: 30px;
+                    text-align: left;
+                }
+            }
+        }
+        .notice {
+            margin-top: 30px;
+            li {
+                padding-left: 15px;
+                color: #666;
+                font-size: 16px;
+                line-height: 36px;
+                background-image: url(/images/customer/ico_notice_arrow.png);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
+            }
+        }
+    }
+}
+
+.customer.appoint.list {
+    .appoint-list {
+        .section-header {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        .table {
+            th, td {
+                height: 60px;
+            }
+            thead {
+                th {
+                    border-top: 0 !important;
+                    background-color: #4f4f4f;
+                    color: #fff;
+                    border-color: rgba(#f1f1f1, .2) !important;
+                }
+            }
+            tbody {
+                td {
+                    border-color: rgba(#ababab, .3) !important;
+                }
+            }
+            .btn {
+                width: 130px;
+                height: 38px;
+                color: #fff;
+                line-height: 26px;
+                &.btn-cancel {
+                    background-color: #c9c9c9;
+                    &:hover,
+                    &:focus {
+                        background-color: #aaa;
+                    }
+                }
+                &.btn-confirmed {
+                    background-color: #e9193a;
+                    &:hover,
+                    &:focus {
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 55px;
+            margin-bottom: 130px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

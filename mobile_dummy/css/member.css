@@ -1,0 +1,177 @@
+/* login */
+.member.login .container-wrap {
+	background-image:url("/mobile/images/member/login_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.member.login .container {
+	padding:40px 0 60px 0;  
+}
+.member.login .container .login {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.member.login .container .login .section-header {padding:40px 0 20px 0; }
+.member.login .container .login .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.member.login .container .login .section-header p {font-size:13px; color:#444; text-align:center; }
+.member.login .container .section-content .login-input .form-group input {width:100%; border-radius:0; margin-bottom:13px; }
+.member.login .container .section-content .login-input .form-group:nth-of-type(2) input {margin-bottom:0px; }
+.member.login .container .section-content .login-input .form-control:hover {border-color:#e9193a; }
+.member.login .container .section-content .login-input .form-control {border-color:#e6e6e6; }
+.member.login .container .btn-area {padding:20px 0 30px 0;  }
+.member.login .container .btn-area p a {width:100% !important; height:40px; font-size:14px; line-height:24px; }
+.member.login .container ul {text-align:center; }
+.member.login .container ul li {display:inline; font-size:12px; padding-right:11px; }
+.member.login .container ul li:last-child {position:relative; padding-left:11px; }
+.member.login .container ul li:last-child:before {position:absolute; top:0; left:0; content:"|"; font-size:10px; color:#666; }
+.member.login .container ul li a {color:#666; text-decoration:none; }
+
+
+/* login-terms */
+.member.login-terms .container-wrap {
+	background-image:url("/mobile/images/member/member_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.member.login-terms .container-wrap { 
+	overflow:hidden;
+	min-height:842px;
+	padding:40px 0 60px 0;  
+}
+.member.login-terms .container .privacy {overflow:hidden; background-color:#fff; margin:0 10px; padding:0 10px; }
+.member.login-terms .container .privacy .privacy-choice {float:right; margin-top:10px; }
+.member.login-terms .container .privacy .privacy-choice label {font-size:12px; color:#666; }
+.member.login-terms .container .privacy .privacy-choice label:nth-of-type(1) {margin-right:10px; }
+
+.member.login-terms .container .privacy .section-header {padding:40px 0 20px 0; }
+.member.login-terms .container .privacy .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.member.login-terms .container .privacy .section-content {border:1px solid #dbdbdb; max-height:183px; overflow:scroll; padding:11px; }
+.member.login-terms .container .privacy .section-content p {font-size:11px; color:#666; line-height:16px; }
+
+.member.login-terms .container .terms {overflow:hidden; background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.member.login-terms .container .terms .terms-choice {float:right; margin-top:10px; }
+.member.login-terms .container .terms .terms-choice label {font-size:12px; color:#666; }
+.member.login-terms .container .terms .terms-choice label:nth-of-type(1) {margin-right:10px; }
+.member.login-terms .container .terms .section-header {padding:40px 0 20px 0; }
+.member.login-terms .container .terms .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.member.login-terms .container .terms .section-content {border:1px solid #dbdbdb; max-height:183px; overflow:scroll; padding:11px; }
+.member.login-terms .container .terms .section-content p {font-size:11px; color:#666; line-height:16px; }
+
+.member.login-terms .container .btn-area {float:right; margin-top:30px; }
+.member.login-terms .container .btn-area p .btn {min-width:70px !important; }
+
+
+/* privacy-statsment */
+.member.privacy-statsment .container-wrap {
+	background-image:url("/mobile/images/member/member_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.member.privacy-statsment .container {
+	padding:40px 0 60px 0;  
+}
+.member.privacy-statsment .container .id-hunt {background-color:#fff; margin:0 10px; padding:0 10px; }
+.member.privacy-statsment .container .id-hunt .section-header {padding:40px 0 20px 0; }
+.member.privacy-statsment .container .id-hunt .section-header h3 {text-align:center; color:#e9193a !important; background-position:50% 0;}
+.member.privacy-statsment .container .id-hunt .section-header p {font-size:13px; color:#444; text-align:center; }
+.member.privacy-statsment .container .section-content {padding-bottom:40px; }
+.member.privacy-statsment .container .section-content .id-input .form-group input {width:100%; border-radius:0; margin-bottom:13px; }
+.member.privacy-statsment .container .section-content .id-input .form-group:nth-of-type(2) input {margin-bottom:0px; }
+.member.privacy-statsment .container .section-content .id-input .form-control:hover {border-color:#e9193a; }
+.member.privacy-statsment .container .section-content .id-input .form-control {border-color:#e6e6e6; }
+.member.privacy-statsment .container .section-content .btn-area {margin-top:18px; }
+.member.privacy-statsment .container .section-content .btn-area p a {width:100%; height:40px; font-size:14px; line-height:26px; }
+
+.member.privacy-statsment .container .pw-hunt {background-color:#fff; margin:40px 10px 0 10px; padding:0 10px; }
+.member.privacy-statsment .container .pw-hunt .section-header {padding:40px 0 20px 0; }
+.member.privacy-statsment .container .pw-hunt .section-header h3 {text-align:center; color:#e9193a !important; background-position:50% 0;}
+.member.privacy-statsment .container .pw-hunt .section-header p {font-size:13px; color:#444; text-align:center; }
+.member.privacy-statsment .container .section-content {padding-bottom:40px; }
+.member.privacy-statsment .container .section-content .pw-input .form-group input {width:100%; border-radius:0; margin-bottom:13px; }
+.member.privacy-statsment .container .section-content .pw-input .form-group:nth-of-type(3) input {margin-bottom:0px; }
+.member.privacy-statsment .container .section-content .pw-input .form-control:hover {border-color:#e9193a; }
+.member.privacy-statsment .container .section-content .pw-input .form-control {border-color:#e6e6e6; }
+.member.privacy-statsment .container .section-content .pw-input {margin-top:18px; }
+.member.privacy-statsment .container .section-content .pw-input p a {width:100%; height:40px; font-size:14px; line-height:26px; }
+
+
+/* join-write */
+.join-write {margin-top:20px; }
+.join-write table {border-top:2px solid #444; }
+.join-write table tr {border-bottom:1px solid #d7d7d7; height:50px; }
+.join-write table tr th {background-color:#f7f7f7; width:30%; font-size:12px; color:#444; font-weight:normal; text-align:center; border-right:1px solid #d7d7d7; padding-top:5px; }
+.join-write table tr th label {font-weight:normal; }
+.join-write table tr td {padding:6px 10px; }
+.join-write table tr td .form-control:hover {border-color:#e9193a; }
+.join-write table tr td .form-control {border-color:#e6e6e6; }
+
+.join-write table tr td label {padding:0; margin:0; }
+.join-write table tr td input {border-radius:0; font-weight:normal; }
+
+.join-write table .email td input:nth-of-type(1) {margin-right:5px; width:43%; display:inline; }
+.join-write table .email td input:nth-of-type(2) {margin-left:5px; width:43%; display:inline; }
+
+.join-write table .birthday td {overflow:hidden; }
+.join-write table .birthday td input {width:65%; float:left; margin-right:10px; }
+.join-write table .birthday td .btn-area {padding:7px 0; }
+.join-write table .birthday td .btn-area a {width:17px; height:17px; text-decoration:none; display:inline-block;}
+.join-write table .birthday td .btn-area a img {width:17px; }
+
+.join-write table .sex td label {margin-left:10px; font-size:12px; color:#666; font-weight:normal; }
+.join-write table .sex td label:nth-of-type(1) {margin-left:0; }
+
+.join-write table .address td {overflow:hidden; }
+.join-write table .address td input:nth-of-type(1) {float:left; width:54%; display:inline-block; margin-top:0; }
+.join-write table .address td input {margin-top:5px;}
+.join-write table .address td .btn-area p a {min-width:70px !important; height:34px; padding:6px 0; margin-left:10px; }
+ 
+.join-write table .tel td input {width:29%; display:inline; }
+.join-write table .tel td label {display:inline; }
+.join-write table .tel td input:nth-of-type(1) {margin-right:2px; }
+.join-write table .tel td input:nth-of-type(2) {margin-right:2px; }
+
+.join-write table .phone td input {width:29%; display:inline; }
+.join-write table .phone td label {display:inline; }
+.join-write table .phone td input:nth-of-type(1) {margin-right:2px; }
+.join-write table .phone td input:nth-of-type(2) {margin-right:2px; } {margin-top:20px; }
+
+
+/* join-form */
+.member.join-form .container-wrap {
+	background-image:url("/mobile/images/member/form_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.member.join-form .container {
+	overflow:hidden; 
+	padding:40px 0 60px 0;  
+}
+.member.join-form .container .join {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.member.join-form .container .join .section-header {padding:40px 0 20px 0; }
+.member.join-form .container .join .section-header h3 {text-align:center; color:#e9193a !important; background-position:50% 0;}
+.member.join-form .container .join .section-header p {text-align:center; color:#444; font-size:13px; }
+.member.join-form .container .join .section-content .join-write table .user-id td {overflow:hidden; }
+.member.join-form .container .join .section-content .join-write table .user-id td input {width:54%; float:left; }
+.member.join-form .container .join .section-content .join-write table .user-id td .btn-area p a {min-width:70px !important; height:34px; margin-left:10px; }
+.member.join-form .container > .btn-area {float:right; margin-top:30px; padding-right:10px; }
+.member.join-form .container > .btn-area p a {min-width:70px !important; height:34px; }
+
+
+/* edit-form */
+.member.edit-form .container-wrap {
+	background-image:url("/mobile/images/member/form_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.member.edit-form .container {
+	overflow:hidden; 
+	padding:40px 0 60px 0;  
+}
+.member.edit-form .container .edit {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.member.edit-form .container .edit .section-header {padding:40px 0 20px 0; }
+.member.edit-form .container .edit .section-header h3 {text-align:center; color:#e9193a !important; background-position:50% 0;}
+.member.edit-form .container .edit .section-header p {text-align:center; color:#444; font-size:13px; }
+.member.edit-form .container > .btn-area {float:right; margin-top:30px; padding-right:10px; }
+.member.edit-form .container > .btn-area p a {min-width:70px !important; height:34px; }

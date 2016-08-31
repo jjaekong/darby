@@ -1,0 +1,278 @@
+.page-path {
+  height: 50px;
+  background-color: #e9193a; }
+  .page-path .container .breadcrumb {
+    margin-bottom: 0;
+    padding: 0;
+    background-color: transparent; }
+    .page-path .container .breadcrumb li {
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: -1px;
+      line-height: 50px;
+      white-space: nowrap; }
+      .page-path .container .breadcrumb li a {
+        color: #fff; }
+      .page-path .container .breadcrumb li:before {
+        padding-left: 15px;
+        padding-right: 15px;
+        content: "\203A";
+        color: #fff;
+        font-size: 20px; }
+      .page-path .container .breadcrumb li:first-child {
+        font-size: 14px; }
+        .page-path .container .breadcrumb li:first-child:before {
+          padding-left: 0;
+          padding-right: 0;
+          content: ''; }
+
+.page-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 60px;
+  height: 200px;
+  text-align: center;
+  border-bottom-color: #dfdfdf; }
+  .page-header h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 38px;
+    color: #333;
+    letter-spacing: -3px; }
+  .page-header small {
+    font-size: 24px;
+    color: #777;
+    font-weight: 100; }
+
+.table th, .table td {
+  height: 50px;
+  border-top: 0;
+  border-bottom: 1px solid #ccc !important;
+  vertical-align: middle !important;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -1px; }
+.table th {
+  color: #333;
+  background-color: #f9f9f9;
+  font-weight: normal; }
+.table td {
+  color: #666; }
+  .table td a {
+    color: #666; }
+.table tbody tr:nth-of-type(1) th, .table tbody tr:nth-of-type(1) td {
+  border-top: 2px solid #444; }
+.table thead th {
+  border-top: 2px solid #444 !important; }
+.table thead + tbody td {
+  border-top: 0 !important; }
+
+.nav.nav-pills.nav-justified li {
+  font-size: 16px;
+  color: #444;
+  line-height: 28px;
+  letter-spacing: -1px; }
+  .nav.nav-pills.nav-justified li a {
+    height: 50px;
+    color: #444;
+    border-radius: 0;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+  .nav.nav-pills.nav-justified li:first-child a {
+    border-left: 1px solid #ccc; }
+  .nav.nav-pills.nav-justified li.active a {
+    background-color: #444;
+    color: #fff;
+    border-top: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444; }
+
+.paging {
+  text-align: center; }
+  .paging .pagination li a {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 30px;
+    height: 30px;
+    border: 0;
+    font-size: 15px;
+    color: #666;
+    line-height: 30px; }
+  .paging .pagination li:first-child a, .paging .pagination li:last-child a {
+    border-radius: 0; }
+  .paging .pagination li.active a {
+    background-color: #555;
+    color: #f9f9f9; }
+  .paging .pagination li.ellipsis span {
+    border: 0;
+    color: #666; }
+    .paging .pagination li.ellipsis span:focus, .paging .pagination li.ellipsis span:hover {
+      background-color: transparent; }
+
+.search-form {
+  position: relative;
+  width: 340px;
+  height: 40px;
+  padding-right: 40px; }
+  .search-form form .form-group {
+    overflow: hidden;
+    margin-bottom: 0; }
+    .search-form form .form-group .form-control {
+      height: 40px; }
+    .search-form form .form-group select {
+      float: left;
+      width: 80px;
+      border: 0;
+      box-shadow: none; }
+    .search-form form .form-group input {
+      margin-left: 100px;
+      width: 201px;
+      box-shadow: none;
+      border-radius: 0; }
+      .search-form form .form-group input:focus, .search-form form .form-group input:hover {
+        border-color: #ccc; }
+  .search-form form .btn {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #444; }
+
+.filter-dropdown .btn-group .btn {
+  padding-right: 40px;
+  width: 220px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #666;
+  box-shadow: none; }
+  .filter-dropdown .btn-group .btn span {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-left: 1px solid #ccc; }
+  .filter-dropdown .btn-group .btn:active span {
+    border-left-color: #ccc; }
+.filter-dropdown .btn-group .dropdown-menu {
+  margin-top: -1px;
+  width: 100%;
+  border-radius: 0; }
+  .filter-dropdown .btn-group .dropdown-menu li a {
+    line-height: 30px; }
+.filter-dropdown .btn-group.open .btn {
+  background-color: #eee;
+  box-shadow: none;
+  border-color: #ccc; }
+  .filter-dropdown .btn-group.open .btn span {
+    border-left-color: #ccc; }
+
+.filter-bar .search-form {
+  float: right; }
+.arrow-list li {
+    background-image: url(/images/sub/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 0px 12px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding-left: 15px
+}
+.panel-group {
+    margin: 0;
+}
+.panel-group .panel {
+    border-radius: 0px;
+    border: 0;
+    margin-top: 0 !important;
+    box-shadow: none;
+}
+.panel-group .panel .panel-heading {
+    background-image: url(/images/sub/look_img.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-color: #fff;
+    padding: 24px 30px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.panel-group > .panel > .panel-heading > h4 a {
+    font-size: 19px;
+    color: #333;
+    font-weight: 300;
+    margin: 0;
+}
+.panel-group .panel .panel-body {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    padding: 40px 0;
+    border-top: 0 !important;
+    border-bottom: 1px solid #ccc;
+}
+.panel-group > .panel > .panel-collapse h5 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.panel-group .panel .panel-body > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+}
+.panel-group .panel .panel-body > p img {
+    margin-top: 30px;
+}
+#content > .container section .section-header h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-top: 28px;
+    color: #e9193a;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1px;
+    background: url(/images/icon_title.png) no-repeat;
+}
+.inline-dl dt {
+    display: inline;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.inline-dl dd {
+    display: inline;
+    font-size: 16px;
+    color: #666;
+    letter-spacing: -1px;
+}
+.inline-dl dd:before {
+    content: ":";
+}
+.btn-area .btn-pink {
+    width: 180px;
+    height: 50px; 
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    padding-left: 18px;
+    background-color: #e9193a;
+    background-image: url(/images/inpatient/cafe_btn.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+.btn-area .btn-pink:hover {
+    opacity: 0.8;
+}
+/*# sourceMappingURL=sub.css.map */

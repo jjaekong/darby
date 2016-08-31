@@ -1,0 +1,208 @@
+#content {
+  padding-bottom: 20px;
+  background-color: #eef0f4; }
+  #content .visual {
+    height: 220px;
+    border-bottom: 1px solid #e3e4e8; }
+    #content .visual li {
+      height: 220px;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      color: #fff; }
+      #content .visual li h3 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 28px; }
+      #content .visual li hr {
+        border-top: 2px solid #c2c2c2;
+        margin: 0 auto;
+        width: 120px;
+        text-align: center; }
+      #content .visual li p {
+        margin-top: 15px;
+        font-size: 11px;
+        line-height: 16px; }
+      #content .visual li a {
+        display: block;
+        margin: 15px auto 0;
+        width: 100px;
+        height: 25px;
+        border: 1px solid #fff;
+        background-color: rgba(255, 255, 255, 0.15);
+        line-height: 23px;
+        color: #fff;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.36); }
+    #content .visual .bx-wrapper {
+      position: relative; }
+      #content .visual .bx-wrapper .bx-controls {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        height: 12px; }
+        #content .visual .bx-wrapper .bx-controls .bx-pager {
+          text-align: center; }
+          #content .visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+            display: inline-block;
+            margin-left: 3px;
+            margin-right: 3px;
+            width: 12px;
+            height: 12px; }
+            #content .visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+              display: block;
+              width: 12px;
+              height: 12px;
+              border: 1px solid #fff;
+              border-radius: 50%;
+              text-indent: -9999px; }
+              #content .visual .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+                background-color: #e9193a;
+                border-color: #e9193a; }
+  #content .contact {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    #content .contact a {
+      display: block;
+      width: 100%;
+      height: 35px;
+      text-align: center;
+      background-color: #e9193a;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 4px; }
+      #content .contact a h4 {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 35px;
+        background-image: url(/mobile/images/main/ico_phone_circle.png);
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        background-size: 15px 15px;
+        vertical-align: top; }
+      #content .contact a p {
+        display: inline-block;
+        color: #fff83b;
+        font-size: 15px;
+        line-height: 35px;
+        font-family: 'Lato', sans-serif; }
+  #content .banners .row {
+    margin-left: -5px;
+    margin-right: -5px; }
+    #content .banners .row > li {
+      padding-left: 5px;
+      padding-right: 5px; }
+      #content .banners .row > li a {
+        display: block;
+        margin-bottom: 10px;
+        padding-top: 65px;
+        height: 90px;
+        border-radius: 4px;
+        font-size: 11px;
+        text-align: center;
+        color: #333;
+        background-color: #fff;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        background-repeat: no-repeat; }
+      #content .banners .row > li:nth-of-type(1) a {
+        background-image: url(/mobile/images/main/ico_chart.png);
+        background-size: 36px auto;
+        background-position: 50% 14px; }
+      #content .banners .row > li:nth-of-type(2) a {
+        background-image: url(/mobile/images/main/ico_pc.png);
+        background-size: 45px auto;
+        background-position: 50% 18px; }
+      #content .banners .row > li:nth-of-type(3) a {
+        background-image: url(/mobile/images/main/ico_hospital.png);
+        background-size: 45px auto;
+        background-position: 50% 18px; }
+      #content .banners .row > li:nth-of-type(4) a {
+        background-image: url(/mobile/images/main/ico_bus.png);
+        background-size: 46px auto;
+        background-position: 50% 17px; }
+  #content .doctors {
+    margin-bottom: 10px;
+    padding-top: 15px;
+    height: 155px;
+    background-image: url(/mobile/images/main/bg_doctors.jpg);
+    border-radius: 4px;
+    background-position: 50% 70%;
+    background-size: cover;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); }
+    #content .doctors h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 18px; }
+    #content .doctors p {
+      font-size: 11px;
+      font-weight: 100; }
+  #content .news, #content .review {
+    margin-bottom: 10px; }
+    #content .news a, #content .review a {
+      position: relative;
+      display: block;
+      padding-left: 70px;
+      padding-right: 15px;
+      height: 35px;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+      #content .news a h4, #content .review a h4 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 70px;
+        height: 100%;
+        font-size: 12px;
+        color: #333;
+        line-height: 35px;
+        text-align: center; }
+      #content .news a p, #content .review a p {
+        overflow: hidden;
+        display: block;
+        color: #555;
+        line-height: 35px;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+  #content .quick {
+    margin-top: 20px; }
+    #content .quick ul {
+      overflow: hidden; }
+      #content .quick ul li {
+        float: left;
+        width: 25%;
+        padding-left: 0;
+        padding-left: 0; }
+        #content .quick ul li a {
+          display: block;
+          padding-top: 35px;
+          height: 50px;
+          text-align: center;
+          color: #333;
+          background-repeat: no-repeat;
+          background-position: 50% 0; }
+        #content .quick ul li:nth-of-type(1) a {
+          background-image: url(/mobile/images/main/ico_balloon.png);
+          background-size: 36.5px auto; }
+        #content .quick ul li:nth-of-type(2) a {
+          background-image: url(/mobile/images/main/ico_notebook.png);
+          background-size: 35px auto; }
+        #content .quick ul li:nth-of-type(3) a {
+          background-image: url(/mobile/images/main/ico_cert.png);
+          background-size: 30px auto; }
+        #content .quick ul li:nth-of-type(4) a {
+          background-image: url(/mobile/images/main/ico_scope.png);
+          background-size: 33.3px auto; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,34 @@
+.policy .page-header {
+  padding-top: 80px; }
+.policy .terms {
+  padding-top: 80px;
+  padding-bottom: 150px; }
+  .policy .terms .section-header {
+    margin-bottom: 20px;
+    padding-top: 35px;
+    background-image: url(/images/ico_section_header.png);
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+    .policy .terms .section-header h1, .policy .terms .section-header h2, .policy .terms .section-header h3, .policy .terms .section-header h4, .policy .terms .section-header h5, .policy .terms .section-header h6, .policy .terms .section-header h7 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #e9193a;
+      letter-spacing: -2px; }
+      .policy .terms .section-header h1 small, .policy .terms .section-header h2 small, .policy .terms .section-header h3 small, .policy .terms .section-header h4 small, .policy .terms .section-header h5 small, .policy .terms .section-header h6 small, .policy .terms .section-header h7 small {
+        font-size: 15px;
+        color: #666; }
+    .policy .terms .section-header p {
+      font-size: 17px;
+      color: #333;
+      letter-spacing: -1px;
+      font-weight: normal; }
+    .policy .terms .section-header.text-center {
+      background-position: 50% 0; }
+  .policy .terms .terms-content {
+    font-size: 16px;
+    line-height: 28px;
+    color: #999;
+    font-weight: 300; }
+
+/*# sourceMappingURL=policy.css.map */

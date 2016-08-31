@@ -1,0 +1,609 @@
+.font-lato, .customer.faq .faq-list > ul > li .icon {
+  font-family: 'Lato', sans-serif; }
+
+.customer .page-header {
+  padding-top: 80px; }
+.customer .section-header {
+  padding-top: 35px;
+  background-image: url(/images/ico_section_header.png);
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+  .customer .section-header h1, .customer .section-header h2, .customer .section-header h3, .customer .section-header h4, .customer .section-header h5, .customer .section-header h6, .customer .section-header h7 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #e9193a;
+    letter-spacing: -2px; }
+    .customer .section-header h1 small, .customer .section-header h2 small, .customer .section-header h3 small, .customer .section-header h4 small, .customer .section-header h5 small, .customer .section-header h6 small, .customer .section-header h7 small {
+      font-size: 15px;
+      color: #666; }
+  .customer .section-header p {
+    font-size: 17px;
+    color: #333;
+    letter-spacing: -1px;
+    font-weight: normal; }
+  .customer .section-header.text-center {
+    background-position: 50% 0; }
+
+.customer.faq .search-bar {
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 20px; }
+  .customer.faq .search-bar .search-form {
+    float: right; }
+.customer.faq .faq-list {
+  margin-bottom: 150px; }
+  .customer.faq .faq-list > ul > li {
+    border-bottom: 1px solid #ccc; }
+    .customer.faq .faq-list > ul > li .icon {
+      position: absolute;
+      top: 0;
+      left: 30px;
+      font-style: normal;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 50px;
+      color: #e9193a; }
+    .customer.faq .faq-list > ul > li .question {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      padding-left: 75px;
+      height: 50px;
+      color: #333;
+      font-size: 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 50px; }
+    .customer.faq .faq-list > ul > li .answer {
+      position: relative;
+      display: none;
+      padding: 20px 20px 20px 75px;
+      font-size: 13px;
+      line-height: 20px;
+      color: #777; }
+    .customer.faq .faq-list > ul > li:first-child {
+      border-top: 1px solid #ccc; }
+    .customer.faq .faq-list > ul > li.active .question {
+      background-color: #444;
+      color: #fff; }
+      .customer.faq .faq-list > ul > li.active .question .icon {
+        color: #fff; }
+    .customer.faq .faq-list > ul > li.active .answer {
+      display: block; }
+
+.customer.certificate section {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+.customer.certificate hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px dashed #ccc; }
+.customer.certificate .docs > p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666; }
+.customer.certificate .docs > .table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-top: 0;
+  table-layout: fixed; }
+  .customer.certificate .docs > .table caption {
+    background-color: #4f4f4f;
+    color: #fff;
+    height: 52px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px; }
+  .customer.certificate .docs > .table thead tr th {
+    border-top: 0 !important;
+    background-color: #e9e9e9;
+    border-color: #ccc; }
+  .customer.certificate .docs > .table tbody tr th {
+    border-top: 0;
+    color: #666;
+    border-color: #ccc;
+    font-size: 16px;
+    line-height: 28px; }
+  .customer.certificate .docs > .table tbody tr td {
+    color: #666;
+    border-color: #ccc;
+    font-size: 16px;
+    line-height: 28px; }
+    .customer.certificate .docs > .table tbody tr td ol {
+      list-style-type: decimal;
+      list-style-position: inside; }
+    .customer.certificate .docs > .table tbody tr td .help:before {
+      content: '*'; }
+.customer.certificate .docs > .btn-area p {
+  text-align: right; }
+  .customer.certificate .docs > .btn-area p .btn {
+    margin-left: 10px;
+    padding-left: 45px;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    background-image: url(/images/customer/ico_download.png);
+    background-position: 20px 50%;
+    background-repeat: no-repeat; }
+    .customer.certificate .docs > .btn-area p .btn:nth-of-type(1) {
+      background-color: #e9193a; }
+      .customer.certificate .docs > .btn-area p .btn:nth-of-type(1):hover, .customer.certificate .docs > .btn-area p .btn:nth-of-type(1):focus {
+        opacity: .9; }
+.customer.certificate .steps > ul {
+  margin-top: 50px;
+  text-align: center; }
+  .customer.certificate .steps > ul > li {
+    display: inline-block;
+    padding-right: 75px;
+    background-image: url(/images/customer/ico_arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 190px 70px; }
+    .customer.certificate .steps > ul > li figure {
+      float: left;
+      width: 160px;
+      height: 230px; }
+      .customer.certificate .steps > ul > li figure figcaption {
+        margin-top: 15px;
+        font-size: 16px;
+        color: #666; }
+    .customer.certificate .steps > ul > li:last-child {
+      padding-right: 0; }
+.customer.certificate .steps > .section-header:nth-of-type(2) {
+  margin-top: 40px; }
+.customer.certificate .cost {
+  margin-bottom: 90px; }
+  .customer.certificate .cost .table {
+    margin-top: 40px;
+    table-layout: fixed; }
+    .customer.certificate .cost .table thead th {
+      background-color: #4f4f4f;
+      border-color: #4f4f4f !important;
+      color: #fff; }
+    .customer.certificate .cost .table tbody th, .customer.certificate .cost .table tbody td {
+      border-color: #ccc; }
+    .customer.certificate .cost .table tbody th {
+      background-color: #f9f9f9; }
+    .customer.certificate .cost .table tbody tr:nth-of-type(1) th {
+      border-top-color: #4f4f4f; }
+
+.customer.contact .section-header {
+  margin-bottom: 30px; }
+  .customer.contact .section-header a {
+    color: #e9193a; }
+  .customer.contact .section-header:first-child {
+    margin-top: 60px; }
+.customer.contact .table {
+  margin-bottom: 60px;
+  table-layout: fixed; }
+  .customer.contact .table:last-child {
+    margin-bottom: 140px; }
+
+.customer.appoint .steps {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf; }
+  .customer.appoint .steps ol {
+    text-align: center; }
+    .customer.appoint .steps ol li {
+      display: inline-block;
+      padding-right: 50px;
+      width: 210px;
+      font-size: 16px;
+      line-height: 26px;
+      vertical-align: top;
+      background-image: url(/images/customer/ico_appoint_arrow.png);
+      background-repeat: no-repeat;
+      background-position: 180px 60px; }
+      .customer.appoint .steps ol li p {
+        padding-top: 170px;
+        background-position: 50% 0;
+        background-repeat: no-repeat; }
+        .customer.appoint .steps ol li p small {
+          display: inline-block;
+          font-size: 14px;
+          line-height: 20px;
+          color: #666; }
+      .customer.appoint .steps ol li:last-child {
+        padding-right: 0;
+        width: 160px;
+        background-image: none; }
+      .customer.appoint .steps ol li:nth-of-type(1) p {
+        background-image: url(/images/customer/ico_appoint_step1.png); }
+      .customer.appoint .steps ol li:nth-of-type(1).active p {
+        background-image: url(/images/customer/ico_appoint_step1_on.png); }
+      .customer.appoint .steps ol li:nth-of-type(2) p {
+        background-image: url(/images/customer/ico_appoint_step2.png); }
+      .customer.appoint .steps ol li:nth-of-type(2).active p {
+        background-image: url(/images/customer/ico_appoint_step2_on.png); }
+      .customer.appoint .steps ol li:nth-of-type(3) p {
+        background-image: url(/images/customer/ico_appoint_step3.png); }
+      .customer.appoint .steps ol li:nth-of-type(3).active p {
+        background-image: url(/images/customer/ico_appoint_step3_on.png); }
+      .customer.appoint .steps ol li:nth-of-type(4) p {
+        background-image: url(/images/customer/ico_appoint_step4.png); }
+      .customer.appoint .steps ol li:nth-of-type(4).active p {
+        background-image: url(/images/customer/ico_appoint_step4_on.png); }
+
+.customer.appoint.login .login-section {
+  margin: 0 auto 140px;
+  padding-top: 60px;
+  background-color: #fff; }
+  .customer.appoint.login .login-section .section-header {
+    margin-bottom: 35px; }
+  .customer.appoint.login .login-section .login-form {
+    margin: 0 auto;
+    width: 380px; }
+    .customer.appoint.login .login-section .login-form .form-control {
+      height: 45px;
+      margin-bottom: 20px;
+      box-shadow: none;
+      border-radius: 0; }
+      .customer.appoint.login .login-section .login-form .form-control:focus {
+        border-color: #e9193a; }
+    .customer.appoint.login .login-section .login-form .btn {
+      height: 45px;
+      background-color: #e9193a;
+      font-size: 18px; }
+    .customer.appoint.login .login-section .login-form .help-member {
+      margin-top: 15px; }
+      .customer.appoint.login .login-section .login-form .help-member ul li {
+        display: inline-block; }
+        .customer.appoint.login .login-section .login-form .help-member ul li a {
+          font-size: 14px;
+          color: #666; }
+        .customer.appoint.login .login-section .login-form .help-member ul li:first-child:after {
+          padding-left: 7px;
+          padding-right: 5px;
+          content: '/';
+          color: #999; }
+
+.customer.appoint.step1 .schedule {
+  margin-bottom: 70px; }
+  .customer.appoint.step1 .schedule header {
+    position: relative;
+    margin: 60px auto;
+    width: 300px;
+    height: 30px; }
+    .customer.appoint.step1 .schedule header h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 29px;
+      text-align: center;
+      line-height: 1em; }
+    .customer.appoint.step1 .schedule header a {
+      position: absolute;
+      top: 6px; }
+      .customer.appoint.step1 .schedule header a img {
+        display: block;
+        vertical-align: top; }
+      .customer.appoint.step1 .schedule header a.prev {
+        left: 0; }
+      .customer.appoint.step1 .schedule header a.next {
+        right: 0; }
+  .customer.appoint.step1 .schedule .calendar {
+    width: 100%;
+    table-layout: fixed; }
+    .customer.appoint.step1 .schedule .calendar thead th {
+      height: 60px;
+      text-align: center;
+      vertical-align: middel;
+      color: #fff;
+      background-color: #4f4f4f;
+      font-size: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-weight: normal; }
+      .customer.appoint.step1 .schedule .calendar thead th:nth-of-type(1) {
+        background-color: #e9193a; }
+      .customer.appoint.step1 .schedule .calendar thead th:nth-of-type(7) {
+        background-color: #5481d5; }
+    .customer.appoint.step1 .schedule .calendar tbody td {
+      position: relative;
+      padding: 15px;
+      height: 157px;
+      border: 1px solid rgba(171, 171, 171, 0.3);
+      vertical-align: top; }
+      .customer.appoint.step1 .schedule .calendar tbody td .day {
+        font-size: 21px;
+        color: #666;
+        letter-spacing: -1px; }
+      .customer.appoint.step1 .schedule .calendar tbody td .status {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        background-color: rgba(171, 171, 171, 0.12);
+        color: #333;
+        font-size: 16px; }
+        .customer.appoint.step1 .schedule .calendar tbody td .status:before {
+          display: inline-block;
+          margin-right: 5px;
+          content: '';
+          width: 12px;
+          height: 12px;
+          background-repeat: no-repeat; }
+      .customer.appoint.step1 .schedule .calendar tbody td:nth-of-type(1) .day {
+        color: #e9193a; }
+      .customer.appoint.step1 .schedule .calendar tbody td:nth-of-type(7) .day {
+        color: #3270e3; }
+      .customer.appoint.step1 .schedule .calendar tbody td.available {
+        cursor: pointer; }
+        .customer.appoint.step1 .schedule .calendar tbody td.available .status:before {
+          background-image: url(/images/customer/ico_dot_green.png); }
+      .customer.appoint.step1 .schedule .calendar tbody td.impossible .status {
+        color: #e9193a; }
+        .customer.appoint.step1 .schedule .calendar tbody td.impossible .status:before {
+          background-image: url(/images/customer/ico_dot_red.png); }
+      .customer.appoint.step1 .schedule .calendar tbody td.checked {
+        cursor: auto; }
+        .customer.appoint.step1 .schedule .calendar tbody td.checked .cover {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 157px;
+          background-color: rgba(0, 0, 0, 0.85);
+          text-align: center;
+          color: #fff;
+          font-size: 16px; }
+          .customer.appoint.step1 .schedule .calendar tbody td.checked .cover:before {
+            display: block;
+            content: '';
+            margin: 25px auto 10px;
+            width: 79px;
+            height: 79px;
+            background-image: url(/images/customer/ico_check_circle.png);
+            background-repeat: no-repeat; }
+      .customer.appoint.step1 .schedule .calendar tbody td.past {
+        cursor: auto; }
+        .customer.appoint.step1 .schedule .calendar tbody td.past .status {
+          color: #e9193a; }
+          .customer.appoint.step1 .schedule .calendar tbody td.past .status:before {
+            background-image: url(/images/customer/ico_dot_red.png); }
+  .customer.appoint.step1 .schedule .notice {
+    margin-top: 30px; }
+    .customer.appoint.step1 .schedule .notice li {
+      padding-left: 15px;
+      color: #666;
+      font-size: 16px;
+      line-height: 36px;
+      background-image: url(/images/customer/ico_notice_arrow.png);
+      background-repeat: no-repeat;
+      background-position: 0 50%; }
+.customer.appoint.step1 .doctors .section-header {
+  margin-bottom: 60px; }
+.customer.appoint.step1 .doctors .departments {
+  margin-bottom: 50px; }
+  .customer.appoint.step1 .doctors .departments .form-control {
+    width: 400px;
+    height: 40px;
+    border-radius: 0;
+    font-size: 16px;
+    color: #333;
+    box-shadow: none; }
+    .customer.appoint.step1 .doctors .departments .form-control:focus {
+      border-color: #e9193a; }
+.customer.appoint.step1 .doctors .doctor-list ul {
+  overflow: hidden; }
+  .customer.appoint.step1 .doctors .doctor-list ul li {
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 55px;
+    width: 190px;
+    height: 315px;
+    text-align: center; }
+    .customer.appoint.step1 .doctors .doctor-list ul li figure img {
+      width: 190px;
+      height: 190p;
+      border-radius: 50%; }
+    .customer.appoint.step1 .doctors .doctor-list ul li figure figcaption {
+      margin-top: 10px; }
+      .customer.appoint.step1 .doctors .doctor-list ul li figure figcaption strong {
+        display: block;
+        font-size: 16px;
+        font-weight: normal; }
+      .customer.appoint.step1 .doctors .doctor-list ul li figure figcaption small {
+        font-size: 15px;
+        color: #666; }
+    .customer.appoint.step1 .doctors .doctor-list ul li .btn-group {
+      margin-top: 15px; }
+      .customer.appoint.step1 .doctors .doctor-list ul li .btn-group .btn {
+        margin: 0 5px;
+        width: 80px;
+        height: 47px;
+        background-color: #fff;
+        color: #666;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        line-height: 33px; }
+        .customer.appoint.step1 .doctors .doctor-list ul li .btn-group .btn input[type="radio"] {
+          position: absolute;
+          clip: rect(0, 0, 0, 0);
+          pointer-events: none; }
+        .customer.appoint.step1 .doctors .doctor-list ul li .btn-group .btn.active {
+          box-shadow: none;
+          background-color: #e9193a;
+          border-color: #e9193a;
+          color: #fff; }
+        .customer.appoint.step1 .doctors .doctor-list ul li .btn-group .btn:active {
+          box-shadow: none; }
+    .customer.appoint.step1 .doctors .doctor-list ul li:nth-of-type(5n) {
+      margin-right: 0; }
+.customer.appoint.step1 .doctors .btn-area {
+  margin-bottom: 150px; }
+  .customer.appoint.step1 .doctors .btn-area p {
+    text-align: center; }
+    .customer.appoint.step1 .doctors .btn-area p .btn {
+      margin: 0 5px;
+      width: 225px;
+      height: 85px;
+      font-size: 23px;
+      color: #fff;
+      font-weight: 300; }
+      .customer.appoint.step1 .doctors .btn-area p .btn:before {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        content: '';
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        vertical-align: top; }
+      .customer.appoint.step1 .doctors .btn-area p .btn.btn-cancel:before {
+        margin-right: 3px;
+        background-image: url(/images/customer/ico_cancel.png); }
+      .customer.appoint.step1 .doctors .btn-area p .btn.btn-appoint {
+        background-color: #e9193a; }
+        .customer.appoint.step1 .doctors .btn-area p .btn.btn-appoint:hover, .customer.appoint.step1 .doctors .btn-area p .btn.btn-appoint:focus {
+          opacity: .9; }
+        .customer.appoint.step1 .doctors .btn-area p .btn.btn-appoint:before {
+          margin-right: 7px;
+          background-image: url(/images/customer/ico_watch.png); }
+
+.customer.appoint.step2 .confirm {
+  margin-top: 60px;
+  margin-bottom: 140px; }
+  .customer.appoint.step2 .confirm .section-header {
+    margin-bottom: 30px; }
+  .customer.appoint.step2 .confirm .table tbody th {
+    padding-left: 30px;
+    border-right: 1px solid #ccc;
+    text-align: left; }
+  .customer.appoint.step2 .confirm .table tbody td {
+    padding-left: 30px;
+    text-align: left; }
+  .customer.appoint.step2 .confirm .notice {
+    margin-top: 30px; }
+    .customer.appoint.step2 .confirm .notice li {
+      padding-left: 15px;
+      color: #666;
+      font-size: 16px;
+      line-height: 36px;
+      background-image: url(/images/customer/ico_notice_arrow.png);
+      background-repeat: no-repeat;
+      background-position: 0 50%; }
+
+.customer.appoint.list .appoint-list .section-header {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+.customer.appoint.list .appoint-list .table th, .customer.appoint.list .appoint-list .table td {
+  height: 60px; }
+.customer.appoint.list .appoint-list .table thead th {
+  border-top: 0 !important;
+  background-color: #4f4f4f;
+  color: #fff;
+  border-color: rgba(241, 241, 241, 0.2) !important; }
+.customer.appoint.list .appoint-list .table tbody td {
+  border-color: rgba(171, 171, 171, 0.3) !important; }
+.customer.appoint.list .appoint-list .table .btn {
+  width: 130px;
+  height: 38px;
+  color: #fff;
+  line-height: 26px; }
+  .customer.appoint.list .appoint-list .table .btn.btn-cancel {
+    background-color: #c9c9c9; }
+    .customer.appoint.list .appoint-list .table .btn.btn-cancel:hover, .customer.appoint.list .appoint-list .table .btn.btn-cancel:focus {
+      background-color: #aaa; }
+  .customer.appoint.list .appoint-list .table .btn.btn-confirmed {
+    background-color: #e9193a; }
+    .customer.appoint.list .appoint-list .table .btn.btn-confirmed:hover, .customer.appoint.list .appoint-list .table .btn.btn-confirmed:focus {
+      opacity: .9; }
+.customer.appoint.list .appoint-list .paging {
+  margin-top: 55px;
+  margin-bottom: 130px; }
+
+
+
+/* contact */
+.customer.contact .section-header {
+    position: relative;
+}
+.customer.contact .section-header > .btn-area {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.customer.contact .section-header > .btn-area > p > .btn-pink {
+    color: #fff;
+    line-height: 37px;
+}
+
+
+/* sum-list */
+.customer.sum-list .container {
+    padding:60px 15px 140px 15px !important;
+}
+.customer.sum-list .section-header {
+    padding: 0;
+    background: none;
+}
+.customer.sum-list .section-header h2 {
+    margin-bottom: 0 !important;
+}
+.customer.sum-list .table-wrap {
+    position: relative;
+    padding-top: 40px;
+}
+.customer.sum-list .table-wrap .inline-dl {
+    position: absolute;
+    top: 0x;
+    right: 0;
+}
+.customer.sum-list .table-wrap .inline-dl > dt {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+.customer.sum-list .table-wrap .inline-dl > dd {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+.customer.sum-list .table-wrap .inline-dl > .attention:before {
+    content: "※";
+    padding-right: 5px;
+}
+.customer.sum-list .table-wrap .table {
+    margin-bottom: 120px;
+}
+.customer.sum-list .table-wrap:last-child .table {
+    margin-bottom: 0;
+}
+.customer.sum-list .table-wrap .table thead tr th {
+    background-color: #4f4f4f;
+    color: #fff;
+    font-size: 16px;
+    border-right: 1px solid #4f4f4f;
+    border-left: 1px solid #4f4f4f;
+}
+.customer.sum-list .table-wrap .table tbody tr td {
+    background-color: #f9f9f9;
+    color: #666;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+}
+.customer.sum-list .table-wrap .table tbody tr td:last-child {
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=customer.css.map */

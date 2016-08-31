@@ -1,0 +1,34 @@
+/* sevice-terms */
+.policy.sevice-terms .container-wrap {
+	height:634px;
+	background-image:url("/mobile/images/policy/policy_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.policy.sevice-terms .container {
+	padding:40px 0 60px 0;  
+}
+.policy.sevice-terms .container .terms {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.policy.sevice-terms .container .terms .section-header {padding:40px 0 20px 0; }
+.policy.sevice-terms .container .terms .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.policy.sevice-terms .container .terms .section-content {border:1px solid #dbdbdb; max-height:366px; overflow:scroll; padding:11px; }
+.policy.sevice-terms .container .terms .section-content p {font-size:11px; color:#666; line-height:16px; }
+
+
+/* privacy-statsment */
+.policy.privacy-statsment .container-wrap {
+	height:634px;
+	background-image:url("/mobile/images/policy/policy_bg.gif");
+	background-size:100% 100%;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.policy.privacy-statsment .container {
+	padding:40px 0 60px 0;  
+}
+.policy.privacy-statsment .container .privacy {background-color:#fff; margin:0 10px; padding:0 10px 40px 10px; }
+.policy.privacy-statsment .container .privacy .section-header {padding:40px 0 20px 0; }
+.policy.privacy-statsment .container .privacy .section-header h3 {text-align:center; color:#333 !important; background-position:50% 0;}
+.policy.privacy-statsment .container .privacy .section-content {border:1px solid #dbdbdb; max-height:366px; overflow:scroll; padding:11px; }
+.policy.privacy-statsment .container .privacy .section-content p {font-size:11px; color:#666; line-height:16px; }

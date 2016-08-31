@@ -1,0 +1,100 @@
+/* opening */
+.opening {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+.opening > .gwangju-center {
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 1200px;
+    margin-right: -100px;
+    background-image: url(/images/opening/left_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.opening > .gwangju-center .center-info {
+    position: absolute;
+    top: 24%;
+    right: 0;
+    opacity: .85;
+    background-color: #fff;
+}
+.opening > .gwangju-center .center-info > p {
+    color: #444;
+}
+.opening > .gwangju-center .center-info > .btn-area > p > .btn {
+    padding-left: 15px;
+}
+.opening > .gwangju-center .center-info > .btn-area > p > .btn:before {
+    position: absolute;
+    top: 4px;
+    left: 27px;
+    content: url(/images/opening/left_arrow.png);
+}
+.opening > .seoul-center {
+    position: relative;
+    float: right;
+    width: 50%;
+    min-height: 1200px;
+    background-image: url(/images/opening/right_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.opening > .seoul-center .center-info {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    opacity: .85;
+    background-color: #e9193a;
+}
+.opening > .seoul-center .center-info > p {
+    color: #fff;    
+}
+.opening > .seoul-center .center-info > .btn-area > p > .btn {
+    border-color: #fff;
+    padding-right: 15px;
+}
+.opening > .seoul-center .center-info > .btn-area > p > .btn:after {
+    position: absolute;
+    top: 4px;
+    right: 27px;
+    content: url(/images/opening/right_arrow.png);
+    
+}
+.opening .center-info {
+    width: 365px;
+    height: 365px;
+    text-align: center;
+}
+.opening .center-info > h1 {
+    margin: 51px 0 35px 0;
+}
+.opening .center-info > p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+.opening .center-info .btn {
+    position: relative;
+    width: 263px;
+    height: 58px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 56px;
+    padding: 0;
+    border: 1px solid #e9193a;
+    background-color: #e9193a;
+    border-radius: 0;
+    opacity: 1;
+    margin-top: 49px;
+    margin-bottom: 0;
+}
+.opening .center-info .btn:hover,
+.opening .center-info .btn:focus {
+    opacity: .8;
+}
