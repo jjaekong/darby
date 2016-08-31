@@ -88,42 +88,73 @@
                     </div>
 				</div>
 				<div class="palability">
-                    <h5>기호성 테스트</h5>
+                    <h5>얼룩도야지(YBD) 육질검사 결과</h5>
                     <div class="table-wrap">
                         <table class="table table-border">
                             <thead>
                                 <tr>
-                                    <th>구분</th>
-                                    <th>일반 돼지고기</th>
-                                    <th>얼룩도야지</th>
+                                    <th></th>
+                                    <th>일반 돼지고기 (YLD)</th>
+                                    <th>얼룩도야지 (YBD)</th>
+                                    <th>비고</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td><sup>pH</sup></td>
                                     <td>연도</td>
                                     <td>2.43</td>
                                     <td>3.34</td>
                                 </tr>
                                 <tr>
+                                    <td>drip loss (보수력)</td>
                                     <td>다즙성</td>
                                     <td>2.06</td>
                                     <td>3.37</td>
                                 </tr>
                                 <tr>
+                                    <td>마블링 (marbling)</td>
                                     <td>풍미</td>
                                     <td>2.68</td>
                                     <td>3.12</td>
                                 </tr>
                                 <tr>
+                                    <td>Meat color (L<sup>*</sup> 값)</td>
                                     <td>전체기호도</td>
                                     <td>2.43</td>
                                     <td>3.37</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="account">충북대학교 기호성테스트</p>
+                        <p class="account">경상대학교 주선태 교수</p>
 				    </div>
 				</div>
+			</section>
+			<section class="tocopherol">
+			    <h5>얼룩도야지 토코페롤 실험 분석결과</h5>
+			    <p>
+                    항산화 성분으로 피부미용에 좋은 토코페롤<br>
+                    얼룩도야지의YBD 품종에서 <i>생물학적 활성이 가장 큰 알파토코페롤(α-tocopherol)</i>의 등심 근육축적량이 가장 높게 나타났습니다.
+                </p>
+			    <div class="table-wrap">
+                        <table class="table table-border">
+                            <thead>
+                                <tr>
+                                    <th>구분</th>
+                                    <th>일반 돼지고기 (YLD)</th>
+                                    <th>얼룩도야지 (YBD)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Vit E (mg/100g)</td>
+                                    <td>0.59</td>
+                                    <td>0.77</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="account">충북대학교 식육연구실 최양일 교수팀</p>
+				    </div>
 			</section>
 			<section class="han-don">
 			    <div class="section-header">

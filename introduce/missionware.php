@@ -78,9 +78,9 @@
 							전체적인 타원모양은 씨앗형태로 유전자원을 상징하고, 태극모양은 한돈의 대표주자로서 다비육종이 세계시장에 도전하겠다는 의지를 담고 있습니다.
 						</p>
 					</div>
-					<div class="darby-color row">
+					<div class="darby-color">
 						<h4>다비육종의 색상</h4>
-						<div class="green col-xs-6">
+						<div class="green">
 							<span></span>
 							<dl>
 								<dt>녹색</dt>
@@ -89,7 +89,7 @@
 								</dd>
 							</dl>
 						</div>
-						<div class="yellow col-xs-6">
+						<div class="yellow">
 							<span></span>
 							<dl>
 								<dt>노란색</dt>

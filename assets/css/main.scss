@@ -7,10 +7,17 @@
         li {
             width: 100%;
             height: 700px;
-            img {
-                display: block;
-                margin: 0 auto;
-            }
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+        }
+        .fist {
+            background-image: url(/assets/images/main/img_campaign_1.jpg);
+        }
+        .second {
+            background-image: url(/assets/images/main/img_campaign_2.jpg);
+        }
+        .third {
+            background-image: url(/assets/images/main/img_campaign_3.jpg);
         }
     }
     .bx-controls {

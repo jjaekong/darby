@@ -66,12 +66,6 @@
                         <li><a href="/recruit/education.php">교육제도</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">오시는 길</a>
-                    <ul>
-                        <li><a href="/introduce/location.php">오시는 길</a></li>
-                    </ul>
-                </li>
             </ul>
         </div>
     </div>

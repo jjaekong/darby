@@ -1,10 +1,8 @@
 /* 공통 */
-#content p,dt,dd { 
-	font-size: 16px;
-	color: #4e4e4e;
-	line-height: 26px;
+#content p {
+    font-size: 18px;
+    line-height: 28px;
 }
-
 #content .container section .section-header h3 {
 	font-size: 28px;
 	color: #222;
@@ -71,7 +69,7 @@
 	margin-bottom: 15px;
 }
 .circle-list li:last-child {
-	margin-bottom: 0;
+	margin-bottom: 0; 
 }
 .circle-list > li:before {
 	position: absolute;
@@ -116,7 +114,7 @@
     font-weight: 400;
 	color: #222;
 	text-align: center;
-	padding: 25px 0;
+	padding: 15px 0;
 }
 #content .container .table-wrap .table thead tr th:last-child {
 	border-right: 0;
@@ -127,7 +125,7 @@
 	font-size: 16px;
 	color: #4e4e4e;
 	text-align: center;
-	padding: 25px 0;
+	padding: 20px 0;
     vertical-align: middle;
 }
 #content .container .table-wrap .table tbody tr td:last-child {

@@ -115,7 +115,7 @@
 				    </p>
 				    <div class="btn-area">
 				        <p>
-				            <a href="#" class="btn btn-green">종돈, 정액 배송절차안내</a>
+				            <a href="#" class="btn btn-green btn-width">다비육종 종돈,엑스펌 운송절차 안내</a>
 				        </p>
 				    </div>
 				    <h4><span>7</span>사후관리 및 고객만족 서비스</h4>

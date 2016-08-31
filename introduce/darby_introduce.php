@@ -22,10 +22,8 @@
 				<div class="section-header">
 					<h2><img src="/assets/images/introduce/intro_subject.jpg" alt="한국 양돈의 역사, 여기서 시작된다!"></h2>
 					<p>
-						1983년 설립된 다비육종은<br>
-						국내 한돈산업의 발전을 선도해왔으며,<br>
-						미래 한돈산업의 영원한 동반자로써<br>
-						고객 여러분과 함께 하겠습니다.
+						1983년 설립된 다비육종은 국내 한돈산업의 발전을 선도해왔으며,<br>
+						미래 한돈산업의 영원한 동반자로써 고객 여러분과 함께 하겠습니다.
 					</p>
 				</div>
 				<div class="section-content">

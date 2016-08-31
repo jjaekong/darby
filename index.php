@@ -6,15 +6,9 @@
     <main id="content" tabindex="-1">
         <div id="campaign">
             <ul>
-                <li>
-                    <img src="/assets/images/main/img_campaign_1.jpg" alt="">
-                </li>
-                <li>
-                    <img src="/assets/images/main/img_campaign_2.jpg" alt="">
-                </li>
-                <li>
-                    <img src="/assets/images/main/img_campaign_3.jpg" alt="">
-                </li>
+                <li class="fist"></li>
+                <li class="second"></li>
+                <li class="third"></li>
             </ul>
         </div>
         <div id="products">

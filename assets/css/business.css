@@ -93,21 +93,19 @@
 .business.breeding-pig .container .pietrains h4:nth-of-type(2) {
 	margin-top: 90px;
 }
-.business.breeding-pig .container .pietrains > p {
-	letter-spacing: -1px;
-}
 .business.breeding-pig .container .pietrains .table-wrap .table {
     table-layout: fixed;
 }
 .business.breeding-pig .container .pietrains .table-wrap .table thead tr th {
+    padding: 15px 0 !important;
 	font-weight: 300;
 }
 .business.breeding-pig .container .pietrains .table-wrap .table tbody tr td {
 	font-size: 16px;
-    padding: 35px 0 !important;
+    padding: 20px 0 !important;
 }
 .business.breeding-pig .container .pietrains .table-wrap .table tbody tr td:first-child {
-    font-size: 18px !important;
+    font-size: 17px !important;
     color: #222 !important;
 	background-color: #fafafa;
 }
@@ -164,9 +162,6 @@
 }
 .business.xperm .container {
 	padding: 80px 15px 150px;
-}
-.business.xperm .container .sperm > p {
-	letter-spacing: -1px;
 }
 .business.xperm .container .sperm .graph {
 	display: block;
@@ -238,15 +233,24 @@
     margin-left: 80px;
 }
 .business.stain-pig .container > .stain-pig > .breeding > .table-wrap > .table > tbody > tr > td {
-    padding: 30px 0 !important;
 }
 
 .business.stain-pig .container > .stain-pig > .palability > .table-wrap > .table > tbody > tr > td {
-    padding: 30px 0 !important;
 }
 .business.stain-pig .container > .stain-pig > .palability > .table-wrap > .table > tbody > tr > td:first-child {
     background-color: #fafafa;
 }
+.business.stain-pig .container .tocopherol h5 {
+    margin-bottom: 20px;
+}
+.business.stain-pig .container .tocopherol p { 
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.business.stain-pig .container .tocopherol .table tr td:first-child {
+    background-color: #f9f9f9;
+}
+
 .business.stain-pig .container > .han-don > .section-header > h3 {
     padding-top: 140px !important;
 }
@@ -396,7 +400,7 @@
     margin-bottom: 30px;
 }
 .business.business .effort > ul > li > div > .details {
-    font-size: 16px;
+    font-size: 16px !important;
     color: #4e4e4e;
     line-height: 26px;
     margin-top: 18px;
@@ -887,7 +891,7 @@
     margin-top: 35px;
 }
 .business.sale-system .sale-system > .section-content > .btn-area > p > .btn-green {
-    width: 236px !important;
+    width: 245px !important;
     height: 45px !important;
     font-size: 15px !important;
     line-height: 35px !important;
@@ -905,6 +909,9 @@
 }
 .business.sale-system .sale-system > .section-content > .btn-area:nth-of-type(3) > p > .btn-green {
     background-position: 39px 50%;
+}
+.business.sale-system .sale-system > .section-content > .btn-area:nth-of-type(3) > p > .btn-width {
+    width: 310px !important; 
 }
 .business.sale-system .sale-system > .section-content > .dot-list {
     text-align: left;
@@ -998,12 +1005,11 @@
     padding-bottom: 150px;
 }
 .business.fodder-business .fodder-business > .section-content {
-    height: 145px;
     border-left: 6px solid #249250;
     padding-left: 13px;
 }
-.business.fodder-business .fodder-business > .section-content > h4 {
-    font-size: 21px;
+.business.fodder-business .fodder-business > h4 {
+    font-size: 23px;
     color: #4e4e4e;
     font-weight: 400;
     margin: 0;
@@ -1025,9 +1031,6 @@
     font-weight: bold;
     margin: 15px 0;
 }
-.business.fodder-business .breeding-fodder > .dot-list > li {
-    letter-spacing: -1px;
-}
 .business.fodder-business .breeding-fodder > p > img {
     position: absolute;
     top: 138px;
@@ -1045,9 +1048,6 @@
     color: #222;
     font-weight: bold;
     margin: 15px 0;
-}
-.business.fodder-business .brand-fodder > .dot-list > li {
-    letter-spacing: -1px;
 }
 .business.fodder-business .brand-fodder > p > img {
     position: absolute;
@@ -1126,7 +1126,7 @@
     width: 570px !important;
     height: 49px !important;
     font-size: 18px !important;
-    margin: 29px 0 0 0 !important;
+    margin-top: 63px !important;
 }
 .business.overseas-biz .addr > .section-header > h3 {
     padding-top: 95px !important;
