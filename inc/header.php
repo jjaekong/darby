@@ -1,104 +1,78 @@
-<a href="#gnb" class="skip-nav-item sr-only sr-only-focusable">주메뉴로 건너뛰기</a>
-<a href="#content" class="skip-nav-item sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
+<a href="#gnb" class="skip-nav sr-only sr-only-focusable">주메뉴로 건너뛰기</a>
+<a href="#content" class="skip-nav sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
 <header id="header">
-    <nav class="top">
+    <div class="container">
+        <h1 class="logo"><a href="/"><img src="/assets/images/logo.png" alt="다비육종"></a></h1>
+        <ul class="lang">
+            <li><a href="#">한국어</a></li>
+            <li><a href="#">ENGLISH</a></li>
+            <li><a href="#">VIETNAMESE</a></li>
+        </ul>
+        <ul class="help">
+            <li><a href="/">홈으로</a></li>
+            <li><a href="/introduce/location.php">오시는 길</a></li>
+            <li><a href="http://darby.aninet21.com/" target="_blank">인트라넷</a></li>
+        </ul>
+    </div>
+</header>
+<nav id="gnb" tabindex="-1">
+    <div class="wrapper">
         <div class="container">
-            <h1><a href="/"><img src="/images/logo.png" alt="사회복지법인 SRC 병원"></a></h1>
-            <ul class="branch">
-                <li><a href="#" class="btn">경기광주점</a></li>
-                <li><a href="#" class="btn">서울점</a></li>
-            </ul>
-            <ul class="member">
-                <li><a href="/member/login.php">로그인</a></li>
-                <li><a href="/member/join_terms.php">회원가입</a></li>
-                <li><a href="/site_map.php">사이트맵</a></li>
-            </ul>
-            <ul class="lang">
-                <li><a href="#"><img src="/images/ico_flag_us.png" alt="영문"></a></li>
-                <li><a href="#"><img src="/images/ico_flag_cn.png" alt="중문"></a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="gnb" tabindex="-1">
-        <div>
             <ul>
                 <li>
-                    <a href="#">병원소개</a>
+                    <a href="#">회사소개</a>
                     <ul>
-                        <li><a href="/introduce/greetings.php">인사말</a></li>
-                        <li><a href="/introduce/about.php">병원소개</a></li>
-                        <li><a href="/introduce/history.php">연혁</a></li>
-                        <li><a href="/introduce/medical_team.php">의료진 소개</a></li>
-                        <li><a href="/introduce/look_round.php">병원 둘러보기</a></li>
-                        <li><a href="/introduce/bus.php">오시는 길</a></li>
-                        <li><a href="/introduce/partners.php">협력기관</a></li>
+                        <li><a href="/introduce/darby_introduce.php">다비육종은</a></li>
+                        <li><a href="/introduce/greeting.php">CEO</a></li>
+                        <li><a href="/introduce/history_tab4.php">연혁</a></li>
+                        <li><a href="/introduce/missionware.php">사훈/CI</a></li>
+                        <li><a href="/introduce/ability.php">핵심 역량</a></li>
+                        <li><a href="/introduce/location.php">오시는 길</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">진료과목</a>
+                    <a href="#">사업소개</a>
                     <ul>
-                        <li><a href="/departments/rehabilitation.php">재활의학과</a></li>
-                        <li><a href="/departments/internal.php">내과</a></li>
-                        <li><a href="/departments/pediatric.php">가정의학과</a></li>
-                        <li><a href="/departments/oriental.php">한의과</a></li>
-                        <li><a href="/departments/treatment/adult_exercise.php">SRC치료법</a></li>
+                        <li><a href="/business/product/breeding_pig.php">제품소개</a></li>
+                        <li><a href="/business/heredity/production.php">유전사업</a></li>
+                        <li><a href="/business/pork_business.php">돈육사업</a></li>
+                        <li><a href="/business/fodder_business.php">사료사업</a></li>
+                        <li><a href="/business/overseas_biz.php">해외사업</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">외래센터</a>
+                    <a href="#">홍보센터</a>
                     <ul>
-                        <li><a href="/outpatient/rehabilitation/spine.php">재활의학과</a></li>
-                        <li><a href="/outpatient/internal/digestion.php">내과/가정의학과</a></li>
-                        <li><a href="/outpatient/oriental_medicine.php">한의과</a></li>
-                        <li><a href="#">언어심리상담센터</a></li>
-                        <li role="presentation"><span class="bar"></span></li>
-                        <li><a href="/outpatient/information.php">진료안내</a></li>
+                        <li><a href="/promotional/data_list.php">보도자료</a></li>
+                        <li><a href="/promotional/promote/advertise.php">홍보자료</a></li>
+                        <li><a href="/promotional/notice_list.php">공지사항</a></li>
+                        <li><a href="/promotional/qna.php">Q&amp;A</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">입원(재활센터)</a>
+                    <a href="#">CSR</a>
                     <ul>
-                        <li><a href="/inpatient/stroke.php">뇌신경 재활센터</a></li>
-                        <li><a href="/inpatient/spine.php">척수손상재활센터</a></li>
-                        <li><a href="/inpatient/breath.php">호흡 재활센터</a></li>
-                        <li><a href="/inpatient/young.php">소아 재활센터</a></li>
-                        <li><a href="/inpatient/joint.php">근골격 재활센터</a></li>
-                        <li role="presentation"><span class="bar"></span></li>
-                        <li><a href="/inpatient/rehab_guide.php">재활병원 입원안내</a></li>
-                        <li><a href="/inpatient/vip.php">VIP병동 입원안내</a></li>
-                        <li><a href="/inpatient/menu_guide.php">입원 식단 안내</a></li>
-                        <li><a href="/inpatient/business_team.php">환자지원 프로그램</a></li>
-                        <li><a href="/inpatient/rehabilitation.php">재활요양 입원안내</a></li>
-                        <li><a href="/inpatient/carcinoma.php">암요양병원</a></li>
+                        <li><a href="/csr/precede.php">다비육종의 선행</a></li>
+                        <li><a href="/csr/activity/activity_all.php">활동내역</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">고객서비스</a>
+                    <a href="#">채용정보</a>
                     <ul>
-                        <li><a href="/customer/faq.php">자주하는 질문</a></li>
-                        <li><a href="/customer/certificate.php">제증명서 발급안내</a></li>
-                        <li><a href="/customer/appoint_login.php">온라인 예약</a></li>
-                        <li><a href="/customer/appoint_step2.php">예약확인</a></li>
-                        <li><a href="/customer/contact.php">부서 전화번호</a></li>
-                        <li><a href="/customer/sum_list.php">비급여 항목</a></li>
+                        <li><a href="/recruit/recruit_info.php">채용안내</a></li>
+                        <li><a href="/recruit/recruit_notice.php">채용공지</a></li>
+                        <li><a href="/recruit/talented.php">인재상</a></li>
+                        <li><a href="/recruit/welfare.php">복지제도</a></li>
+                        <li><a href="/recruit/education.php">교육제도</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">커뮤니티</a>
+                    <a href="#">오시는 길</a>
                     <ul>
-                        <li><a href="/community/news_list.php">병원소식</a></li>
-                        <li><a href="/community/review_list.php">치료후기</a></li>
-                        <li><a href="/community/photo_list.php">전/후 사진</a></li>
-                        <li><a href="/community/health_list.php">건강정보</a></li>
-                        <li><a href="/community/video.php">영상게시판</a></li>
-                        <li><a href="/community/social_contribution.php">사회공헌 사업</a></li>
-                        <li><a href="/community/recruit_list.php">채용정보</a></li>
+                        <li><a href="/introduce/location.php">오시는 길</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div class="backface">
-            <div></div>
-        </div>
-    </nav>
-</header>
+    </div>
+</nav>

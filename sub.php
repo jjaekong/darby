@@ -1,190 +1,180 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-<!-- 스타일 추가 -->
-<style>
-    #content h3 {
-        margin-top: 100px;
-    }
-</style>
-<!-- //스타일 추가 -->
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link href="/assets/css/sub.css" rel="stylesheet" />
 </head>
 <body>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <div class="page-path">
-        <div class="container">
-            <ol class="breadcrumb">
-                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">병원소개</a></li>
-                <li class="active">병원소개</li>
-            </ol>
-        </div>
-    </div>
-    <main id="content" class="introduce about"><!-- 클래스명은 대메뉴 > 서브메뉴명의 방식으로 -->
-        <div class="page-header"><!-- 배경은 위의 클래스명을 이용하여 -->
-            <h2>병원소개</h2>
-            <small>About SRC Hospital</small>
-        </div>
-        
-        <!-- 실제 작업 영역 -->
-        <div class="container">
-            
-            <h3>버튼</h3>
-            <div class="btn-area">
-                <p>
-                    <a href="#" class="btn">a 태그 버튼</a>
-                    <button type="button" class="btn">button 태그 버튼</button>
-                </p>
-            </div>
-            
-            <h3>테이블(헤더가 위쪽에 있는 경우)</h3>
-            <table class="table">
-                <colgroup>
-                    <col style="width: 200px;">
-                    <col>
-                    <col>
-                    <col>
-                    <col>
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th>헤더셀#1</th>
-                        <th>헤더셀#2</th>
-                        <th>헤더셀#3</th>
-                        <th>헤더셀#4</th>
-                        <th>헤더셀#5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="#">내용셀#1</a></td>
-                        <td>내용셀#2</td>
-                        <td>내용셀#3</td>
-                        <td>내용셀#4</td>
-                        <td>내용셀#5</td>
-                    </tr>
-                    <tr>
-                        <td>내용셀#1</td>
-                        <td>내용셀#2</td>
-                        <td>내용셀#3</td>
-                        <td>내용셀#4</td>
-                        <td>내용셀#5</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <h3>테이블(헤더가 좌측에 있는 경우)</h3>
-            <table class="table">
-                <colgroup>
-                    <col style="width: 100px;">
-                    <col>
-                    <col>
-                    <col>
-                    <col>
-                </colgroup>
-                <tbody>
-                    <tr>
-                        <th>내용셀#1</th>
-                        <td>내용셀#2</td>
-                        <td>내용셀#3</td>
-                        <td>내용셀#4</td>
-                        <td>내용셀#5</td>
-                    </tr>
-                    <tr>
-                        <th>내용셀#1</th>
-                        <td>내용셀#2</td>
-                        <td>내용셀#3</td>
-                        <td>내용셀#4</td>
-                        <td>내용셀#5</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <h3>탭(링크 이동)</h3>
-            <ul class="nav nav-pills nav-justified">
-                <li role="presentation"><a href="#">탭 #1</a></li>
-                <li role="presentation" class="active"><a href="#">탭 #2</a></li>
-                <li role="presentation"><a href="#">탭 #3</a></li>
-            </ul>
-            
-            <h3>탭(컨텐츠 변경용, 작동하기 위해서 아이디를 세군데 맞춰줘야 함)</h3>
-            <ul class="nav nav-pills nav-justified" role="tablist">
-                <li role="presentation"><a href="#nav-content-1" aria-controls="nav-content-1" role="tab" data-toggle="tab">탭 #1</a></li>
-                <li role="presentation" class="active"><a href="#nav-content-2" aria-controls="nav-content-2" role="tab" data-toggle="tab">탭 #2</a></li>
-                <li role="presentation"><a href="#nav-content-3" aria-controls="nav-content-3" role="tab" data-toggle="tab">탭 #3</a></li>
-            </ul>
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane" id="nav-content-1">탭 컨텐츠 #1</div>
-                <div role="tabpanel" class="tab-pane active" id="nav-content-2">탭 컨텐츠 #2</div>
-                <div role="tabpanel" class="tab-pane" id="nav-content-3">탭 컨텐츠 #3</div>
-            </div>
-            
-            <h3>페이지네이션</h3>
-            <nav class="paging">
-                <ul class="pagination">
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li class="ellipsis"><span class="glyphicon glyphicon-option-horizontal"></span></li>
-                    <li><a href="#">10</a></li>
-                </ul>
-            </nav>
-            
-            <h3>검색영역(단독)</h3>
-            <div class="search-bar">
-                <div class="search-form">
-                    <form>
-                        <div class="form-group">
-                            <select class="form-control">
-                                <option value="">전체</option>
-                            </select>
-                            <label for="search-keyword" class="sr-only">검색어</label>
-                            <input id="search-keyword" type="text" class="form-control">
-                        </div>
-                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
-                    </form>
-                </div>
-            </div>
-            
-            <h3>필터영역(with 검색영역)</h3>
-            <div class="filter-bar" style="margin-bottom: 100px;">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="filter-dropdown">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    분류별 보기 <span class="glyphicon glyphicon-menu-down"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">분류 #1</a></li>
-                                    <li><a href="#">분류 #2</a></li>
-                                    <li><a href="#">분류 #3</a></li>
-                                    <li><a href="#">분류 #4</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <div class="search-form">
-                            <form>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option value="">전체</option>
-                                    </select>
-                                    <label for="search-keyword" class="sr-only">검색어</label>
-                                    <input id="search-keyword" type="text" class="form-control">
-                                </div>
-                                <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        <!-- // 실제 작업 영역 -->
-    </main>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer_sub.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+	<div class="page-header page-header-1">
+		<div class="container">
+			<ol class="breadcrumb">
+				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="#">회사소개</a></li>
+				<li class="active">다비육종은</li>
+			</ol>
+			<hr>
+			<h1>다비육종은</h1>
+			<p>다비육종을 소개합니다.</p>
+		</div>
+	</div>
+	<main id="content" tabindex="-1" class="sub">
+		<div class="container">
+			<section>
+				<div class="section-header">
+					<h3>복지제도</h3>
+					<hr>
+				</div>
+
+				<div style="margin:30px 0;">
+					<nav class="navbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">종동</a></li>
+							<li><a href="#">F1</a></li>
+							<li><a href="#">엑스펌</a></li>
+							<li><a href="#">한돈</a></li>
+							<li><a href="#">구입문의</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div style="margin:30px 0;">
+					<ul class="dot-list">
+						<li>주 40시간 근무제 실시</li>
+						<li>장기근속자 포상금픔 지급 및 국내 또는 해외여행기회부여 (부부동반)</li>
+						<li>본인 및 배우자의 매년 정기적인 건강검진실시 (보험수가 이외의 추가 검진항목 설계)</li>
+						<li>본인생일 및 자녀출산시 축하금-품 제공</li>
+						<li>퇴직자 기념금품 제공</li>
+					</ul>
+				</div>
+
+				<div style="margin:30px 0;">
+					<ul class="circle-list">
+						<li>content</li>
+						<li>content</li>
+						<li>content</li>
+						<li>content</li>
+						<li>content</li>
+					</ul>
+				</div>
+
+				<div style="margin:30px 0;">
+					<ul class="arrow-list">
+						<li>중부고속국도 일죽IC 진입</li>
+						<li>삼거리에서 좌회전</li>
+						<li>장호원, 충주 방향으로 1.7km 주행</li>
+						<li>일죽IC타운 직전 교통신호에서 U턴</li>
+						<li>현대오일뱅크 끼고 우회전</li>
+						<li>도착</li>
+					</ul>
+				</div>
+
+				<div class="table-wrap">
+					<table class="table table-border">
+						<colgroup>
+							<col style="width:100px;"/>
+							<col style="width:100px;"/>
+							<col style="width:100px;"/>
+							<col style="width:100px;"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th>subject</th>
+								<th>subject</th>
+								<th>subject</th>
+								<th>subject</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+							</tr>
+							<tr>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+							</tr>
+							<tr>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+							</tr>
+							<tr>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+								<td>content</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="search-area" style="margin:30px 0;">
+					<form>
+						<div class="form-group">
+							<select class="form-control">
+								<option value="title">제목</option>
+								<option value="content">내용</option>
+								<option value="username">작성자</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="search-keyword" class="sr-only">검색어</label>
+							<input id="search-keyword" type="text" class="form-control">
+						</div>
+						<button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+				</div>
+
+				<div style="margin:30px 0;">
+					<nav class="paging">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="first-Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" aria-label="Previous">
+									<span aria-hidden="true">&lsaquo;</span>
+								</a>
+							</li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="Next" >
+									<span aria-hidden="true">&rsaquo;</span>
+								</a> 
+							</li>
+							<li>
+								<a href="#" aria-label="end-Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="btn-area" style="margin:30px 0;">
+					<p>
+						<a href="#" class="btn btn-green" role="button">목록보기</a>
+						<a href="#" class="btn btn-gray" role="button">삭제하기</a>
+					</p>
+				</div>
+				<div class="btn-area" style="margin:30px 0;">
+					<p>
+						<button type="submit" class="btn btn-green">확인</button>
+					</p>
+				</div>
+				
+			</section>
+		</div>
+	</main>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
 </html>

@@ -1,0 +1,1137 @@
+.page-header-1 {
+    background-image: url(/assets/images/bg_page_header_2.jpg) !important;
+}
+/* 그래프 공통 */
+.business .graph { 
+    margin-top: 60px;
+	display: inline-block;
+}
+.business .graph > p {
+	text-align: left;
+    font-size: 15px !important;
+}
+.business .graph > p:nth-of-type(1) {
+	margin-top: 25px;
+}
+.business .graph > p:nth-of-type(1):before {
+	content: "●";
+	color: #249250;
+	padding-right: 5px;
+}
+.business .graph > p:nth-of-type(2):before {
+	content: "●";
+	color: #97b74e;
+	padding-right: 5px;
+}
+.business figure {
+	text-align: center;
+}
+.business figure figcaption {
+	font-size: 15px;
+	color: #666;
+	text-align: center;
+	margin-top: 16px;
+}
+.business h4 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+	margin: 40px 0 20px;
+}
+.business .dot-list li {
+	line-height: 29px !important;
+	background-position: 0 12px !important;
+}
+.business i {
+    font-style: normal;
+    color: #33995c;
+    font-weight: 400;
+}
+
+/* breeding-pig */
+.business.breeding-pig .container {
+	padding: 80px 15px 150px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort {
+	text-align: center;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort figure {
+	display: inline-block;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort figure:nth-of-type(1) {
+	margin-right: 68px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort figure:nth-of-type(1) figcaption {
+	margin-right: 70px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .dot-list {
+    margin-bottom: 10px;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .account {
+    text-align: left;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > h4 {
+    font-size: 18px;
+    color: #222;
+    text-align: left;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .dot-list {
+    text-align: left;
+}
+.business.breeding-pig .container .yorkshire-landrace .sort > .graph:nth-of-type(1) {
+	margin-right: 38px;
+}
+.business.breeding-pig .container .marblur .section-header {
+	margin-top: 50px;
+}
+.business.breeding-pig .container .marblur .graph:last-child {
+	margin-left: 30px;
+}
+.business.breeding-pig .container .pietrains .section-header {
+	margin-top: 50px;
+}
+.business.breeding-pig .container .pietrains h4:nth-of-type(2) {
+	margin-top: 90px;
+}
+.business.breeding-pig .container .pietrains > p {
+	letter-spacing: -1px;
+}
+.business.breeding-pig .container .pietrains .table-wrap .table {
+    table-layout: fixed;
+}
+.business.breeding-pig .container .pietrains .table-wrap .table thead tr th {
+	font-weight: 300;
+}
+.business.breeding-pig .container .pietrains .table-wrap .table tbody tr td {
+	font-size: 16px;
+    padding: 35px 0 !important;
+}
+.business.breeding-pig .container .pietrains .table-wrap .table tbody tr td:first-child {
+    font-size: 18px !important;
+    color: #222 !important;
+	background-color: #fafafa;
+}
+.business.breeding-pig .container .pietrains dl dt {
+	display: inline;
+	font-size: 15px;
+	color: #666;
+	font-weight: 400;
+}
+.business.breeding-pig .container .pietrains dl dt:before {
+	content: "※";
+	padding-right: 5px;
+}
+.business.breeding-pig .container .pietrains dl dd {
+	display: inline-block;
+	font-size: 15px;
+	color: #666;
+}
+.business.breeding-pig .container .pietrains dl dd:before {
+	content: ":";
+	padding-right: 10px;
+}
+
+
+/* darbyqueen */
+.business.darbyqueen .container {
+	padding: 80px 15px 150px;
+}
+.business.darbyqueen .container .darbyqueen-s > .dot-list {
+    margin-bottom: 60px;
+}
+.business.darbyqueen .container .darbyqueen-s .graph {
+	display: block;
+	width: 640px;
+	margin: 0 auto;
+}
+.business.darbyqueen .container .darbyqueen-s .graph p {
+	margin-left: 74px;
+}
+.business.darbyqueen .container .darbyqueen-g .section-header {
+	margin-top: 50px;
+}
+.business.darbyqueen .container .darbyqueen-g .dot-list {
+	margin-bottom: 0;
+}
+
+
+/* xperm */
+.business.xperm h4 {
+	margin: 0 0 20px 0;
+}
+.business.xperm .dot-list {
+	width: 700px;
+}
+.business.xperm .container {
+	padding: 80px 15px 150px;
+}
+.business.xperm .container .sperm > p {
+	letter-spacing: -1px;
+}
+.business.xperm .container .sperm .graph {
+	display: block;
+	width: 997px;
+	margin: 60px auto 0;
+}
+.business.xperm .container .sperm .graph p {
+	text-align: center;
+}
+.business.xperm .container .sperm .graph p:before {
+	content: "";
+}
+.business.xperm .container .xperm-v {
+	position: relative;
+	margin: 50px 0 120px 0;
+}
+.business.xperm .container .xperm-v .xperm-img img {
+	display: block;
+	width: 340px;
+	margin: 39px auto;
+}
+.business.xperm .container .xperm-s {
+	position: relative;
+	margin: 50px 0 120px 0;
+}
+.business.xperm .container .xperm-s .xperm-img img {
+	display: block;
+	width: 169px;
+	margin: 53px auto;
+}
+.business.xperm .container .xperm-p {
+	position: relative;
+	margin-top: 50px;
+}
+.business.xperm .container section .xperm-img {
+	position: absolute;
+	top: 70px;
+	right: 0;
+	width: 402px;
+	height: 240px;
+	border: 1px solid #f3f3f3;
+	background-color: #f9f9f9
+}
+.business.xperm .container .xperm-p .xperm-img img {
+	display: block;
+	width: 169px;
+	margin: 39px auto;
+}
+
+
+/* stain-pig */
+.business.stain-pig .container {
+    padding: 80px 15px 150px;
+}
+.business.stain-pig .container h5 {
+    font-size: 20px;
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 90px 0 40px;
+}
+.business.stain-pig .container > .stain-pig .table-wrap > .account {
+	font-size: 15px !important;
+	line-height: 26px !important;
+}
+.business.stain-pig .container > .stain-pig .table-wrap > .table {
+    table-layout: fixed;
+}
+.business.stain-pig .container > .stain-pig > .breeding > p > img {
+    margin-left: 80px;
+}
+.business.stain-pig .container > .stain-pig > .breeding > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 0 !important;
+}
+
+.business.stain-pig .container > .stain-pig > .palability > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 0 !important;
+}
+.business.stain-pig .container > .stain-pig > .palability > .table-wrap > .table > tbody > tr > td:first-child {
+    background-color: #fafafa;
+}
+.business.stain-pig .container > .han-don > .section-header > h3 {
+    padding-top: 140px !important;
+}
+.business.stain-pig .container > .han-don > h5 {
+    margin: 50px 0 20px !important;
+}
+
+
+/* purchase */
+.business.purchase .container {
+    padding: 80px 15px 150px;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td {
+    padding: 30px 34px !important;
+    vertical-align: middle;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl {
+    overflow: hidden;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl > dt {
+    float: left;
+    clear: both;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl > dd {
+    float: left;
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .purchase > .table-wrap > .table > tbody > tr > td > dl > dt:after {
+    content: ":";
+    padding: 0 5px;
+}
+.business.purchase .container > .purchase > .table-wrap > p > img {
+    margin-top: 10px;
+}
+.business.purchase .container > .brand > .section-header > h3 {
+    padding-top: 90px !important;
+}
+.business.purchase .container > .brand > .section-content > p {
+    margin-bottom: 40px;
+}
+.business.purchase .container > .brand > .section-content > ul > li > a > .detail {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin: 20px 0 40px;
+}
+.business.purchase .container > .brand > .section-content > .contact > h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e4e4e;
+    margin: 50px 0 27px !important;
+
+}
+.business.purchase .container > .brand > .section-content > .contact > ul {
+    background-image: url(/assets/images/business/contact_img01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 13px;
+    padding-left: 210px;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl {
+    overflow: hidden;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dt {
+    float: left;
+    clear: both;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dd {
+    float: left;
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dd > a {
+    color: #666;
+}
+.business.purchase .container > .brand > .section-content > .contact > ul > li > dl > dt:after {
+    content: ":";
+    padding: 0 5px;
+}
+
+
+/* heredity 공통 */
+.business.heredity > .container {
+    padding: 80px 15px 150px;
+}
+.business.heredity > .container > .navbar > .nav > li:nth-of-type(3) > a {
+    padding: 10px 0 !important;
+}
+
+
+/* production */
+.business.production .map > .section-content {
+    overflow: hidden;
+}
+.business.production .map > .section-content > p {
+    float: left;
+    margin-right: 16px;
+}
+.business.production .map > .section-content > p > img {
+    margin: 30px 50px 0 0;
+}
+.business.production .map > .section-content > .table-wrap {
+    float: left;
+    width: 540px;
+    height: 709px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #dadada;
+}
+.business.production .map > .section-content > .table-wrap > .table {
+    margin-bottom: 0;
+}
+.business.production .map > .section-content > .table-wrap > .table > thead > tr > th {
+
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > td {
+    padding: 17px 0 !important;
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > td:last-child {
+    padding-left: 20px !important;
+    text-align: left !important;
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > .ggp {
+    color: #58beec !important;
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > .gp {
+    color: #9ebb00 !important;
+}
+.business.production .map > .section-content > .table-wrap > .table > tbody > tr > .sp {
+    color: #e30000 !important;
+}
+
+/* business */
+.business.business .effort > ul > li > div {
+    height: 160px;
+    text-align: center;
+    border: 1px solid #ededed;
+    margin-bottom: 30px;
+}
+.business.business .effort > ul > li > div > .details {
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 26px;
+    margin-top: 18px;
+}
+.business.business .effort > ul > li:nth-of-type(1) > div {
+    padding-top: 32px;
+}
+.business.business .effort > ul > li:nth-of-type(2) > div {
+    padding-top: 34px;
+}
+.business.business .effort > ul > li:nth-of-type(3) > div {
+    padding-top: 36px;
+}
+.business.business .effort > ul > li:nth-of-type(4) > div {
+    padding-top: 34px;
+}
+.business.business .effort > ul > li:nth-of-type(5) > div {
+    padding-top: 34px;
+}
+.business.business .effort > ul > li:nth-of-type(6) > div {
+    padding-top: 38px;
+}
+.business.business .effort > ul > li:nth-of-type(7) > div {
+    padding-top: 34px;
+    margin-bottom: 20px;
+}
+.business.business .effort > ul > li:nth-of-type(8) > div {
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.business.business .effort > ul > li:nth-of-type(9) > div {
+    padding-top: 36px;
+    margin-bottom: 20px;
+}
+.business.business  .pyramid > .section-header > h3 {
+    padding-top: 100px !important;
+}
+.business.business  .pyramid > p > img {
+    width: 1026px;
+    margin: 0 auto !important;
+    display: block;
+}
+.business.business .system > .section-content {
+    text-align: center;
+}
+.business.business .system > .section-content > .system-list {
+    overflow: hidden;
+    display: inline-block;
+    padding-top: 20px;
+}
+.business.business .system > .section-content > .system-list > li {
+    position: relative;
+    float: left;
+}
+.business.business .system > .section-content > .system-list > li:before {
+    position: absolute;
+    top: 28px;
+    left: -19px;
+    content: url(/assets/images/business/circle_list_bg.png);
+    z-index: 999;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(1):before {
+    content: "";
+}
+.business.business .system > .section-content > .system-list > li > p {
+    display: inline-block;
+    width: 170px;
+    height: 70px;
+    margin: 0 30px 30px 0;
+    border: 1px solid #d9d9d9;
+    padding: 21px 0;
+}
+
+.business.business .system > .section-content > .system-list > li:nth-of-type(5) > p {
+    margin-right: 0px !important;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(6) {
+    clear: both;
+    margin-left: 105px;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(6) > p {
+    margin-bottom: 0;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(7) > p {
+    margin-bottom: 0;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(8) > p {
+    margin-bottom: 0;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(9) > p {
+    margin-bottom: 0;
+}
+.business.business .system > .section-content > .system-list > li:nth-of-type(9) > p {
+    margin-right: 0;
+}
+.business.business .system > .section-content > .system-list > li > p > .circle-number {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #249250;
+    line-height: 30px;
+    margin-right: 6px;
+}
+.business.business .system > .section-content > .system-list > li > p .emphasis {
+    position: absolute;
+    top: -13px;
+    left: 52px;
+    width: 68px;
+    height: 25px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-image: url(/assets/images/business/bubble_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    text-align: center;
+}
+
+
+/* purpose */
+.business.purpose .illness > .section-header > h3 {
+    padding-top: 120px !important;
+}
+.business.purpose .illness > ul {
+    margin-bottom: 26px;
+}
+.business.purpose .illness > ul > li > div {
+    width: 370px;
+    height: 336px;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.business.purpose .illness > ul > li > div > h4 {
+    font-size: 20px;
+    font-weight: 400 !important;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.business.purpose .illness > ul > li:nth-of-type(1) > div {
+    padding-top: 108px;
+    background-image: url(/assets/images/business/illness_bg01.jpg);
+    background-repeat: no-repeat;
+}
+.business.purpose .illness > ul > li:nth-of-type(2) > div {
+    padding-top: 88px;
+    background-image: url(/assets/images/business/illness_bg02.jpg);
+    background-repeat: no-repeat;
+}
+.business.purpose .illness > ul > li:nth-of-type(3) > div {
+    padding-top: 111px;
+    background-image: url(/assets/images/business/illness_bg03.jpg);
+    background-repeat: no-repeat;
+}
+.business.purpose .illness > ul > li > div > ul > li {
+    display: inline;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+}
+.business.purpose .illness > ul > li > div > ul > li:after {
+    content: "|";
+    padding: 0 3px 0 4px;
+}
+.business.purpose .illness > ul > li > div > ul > li:last-child:after {
+    content: "";
+}
+.business.purpose .illness > .account {
+    position: relative;
+    font-size: 15px !important;
+    padding-left: 20px;
+}
+.business.purpose .illness > .account:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.business.purpose .method > .section-header > h3 {
+    padding-top: 57px !important;
+}
+
+.business.purpose .biosecurity > .section-header > h3 {
+    padding-top: 123px !important;
+}
+.business.purpose .biosecurity > .section-content > .dot-list {
+    margin-bottom: 45px;
+}
+.business.purpose .biosecurity > .section-content > p > img {
+    margin-bottom: 10px;
+}
+.business.purpose .biosecurity > .section-content > p > img:last-child {
+    margin-bottom: 0;
+}
+.business.purpose .biosecurity > .section-content > .dot-list > li > b {
+    font-style: normal;
+    color: #e63535;
+}
+.business.purpose .mooring > .section-header > h3 {
+    padding-top: 126px !important;
+}
+.business.purpose .mooring > .table-wrap > .table > tbody > tr > td > i {
+    font-style: normal;
+    color: #e11b1b;
+}
+.business.purpose .mooring > .table-wrap > .table > tbody > tr > .td-bg {
+    background-color: #fafafa;
+    font-size: 18px !important;
+}
+
+
+/* sperm */
+.business.sperm .system > ol {
+    overflow: hidden;
+}
+.business.sperm .system > ol > li {
+    float: left;
+    width: 390px;
+    height: 285px;
+    text-align: center;
+    padding-top: 75px;
+}
+.business.sperm .system > ol > li > h4 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.business.sperm .system > ol > li > h4 > i {
+    color: #fff !important;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.business.sperm .system > ol > li > hr {
+    width: 22px;
+    border-top-color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 5px 0;
+}
+.business.sperm .system > ol > li:nth-of-type(1) {
+    background-image: url(/assets/images/business/sperm_menu01.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(2) {
+    background-image: url(/assets/images/business/sperm_menu02.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(3) {
+    background-image: url(/assets/images/business/sperm_menu03.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(4) {
+    background-image: url(/assets/images/business/sperm_menu04.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(5) {
+    background-image: url(/assets/images/business/sperm_menu05.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(6) {
+    background-image: url(/assets/images/business/sperm_menu06.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(7) {
+    background-image: url(/assets/images/business/sperm_menu07.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(8) {
+    background-image: url(/assets/images/business/sperm_menu08.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li:nth-of-type(9) {
+    background-image: url(/assets/images/business/sperm_menu09.jpg);
+    background-repeat: no-repeat;
+}
+.business.sperm .system > ol > li > .btn-area > p > .btn-green {
+    width: 130 !important;
+    height: 40px !important;
+    font-size: 15px !important;
+    line-height: 27px !important;
+    margin: 0 !important;
+}
+.business.sperm .system > ol > li > .btn-area > p > .btn-green:hover {
+    text-decoration: underline;
+    opacity: 1 !important;
+}
+
+
+/************ Modal ************/
+/* 공통 */
+.modal {
+    padding: 165px 0;
+}
+.modal > .modal-dialog {
+    width: 970px;
+    margin: 0 auto;
+}
+.modal > .modal-dialog > .modal-content {
+    box-shadow: none;
+    position: relative;
+    border-radius: 0;
+    width: 970px;
+    background-color: #fff;
+    padding: 50px 70px;
+}
+.modal > .modal-dialog > .modal-content > .close {
+    position: absolute;
+    top: -55px;
+    right: 0;
+    opacity: 1;
+}
+.modal > .modal-dialog > .modal-content > section > .section-header > h3 {
+	font-size: 28px;
+	color: #222;
+}
+.modal > .modal-dialog > .modal-content > section > .section-header > hr {
+	width:  27px;
+	border-top-color: #000;
+	text-align: left;
+	display: inline-block;
+    margin: 19px 0 50px;
+}
+.modal > .modal-dialog > .modal-content > section > h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin: 30px 0 20px 0;
+}
+.modal > .modal-dialog > .modal-content > section > h4:nth-of-type(1) {
+    margin-top: 0;
+}
+.modal > .modal-dialog > .modal-content > section > h5 {
+    font-size: 16px;
+    color: #222;
+    font-weight: 400;
+    margin: 30px 0 13px 0;
+    padding-left: 15px;
+}
+.modal > .modal-dialog > .modal-content > section > h5:nth-of-type(1) {
+    margin-top: 0;
+}
+.modal > .modal-dialog > .modal-content > section > .circle-list > li > p:before {
+    content: "-";
+    padding-right: 5px;
+}
+/* modal system-content-1 */
+#system-content-1 > .modal-dialog > .modal-content > section > .dot-list {
+    padding-left: 20px;
+}
+
+/* modal system-content-2 */
+#system-content-2 {
+
+}
+#system-content-2 > .modal-dialog > .modal-content > section > .circle-list {
+    margin-top: 30px;
+}
+
+/* modal system-content-3 */
+#system-content-3 > .modal-dialog > .modal-content > section {
+    overflow: hidden;
+}
+#system-content-3 > .modal-dialog > .modal-content > section > p {
+    float: left;
+    margin-right: 27px;
+}
+#system-content-3 > .modal-dialog > .modal-content > section > .dot-list > li {
+    padding-left: 225px;
+    background-position: 214px 9px;
+}
+
+/* modal system-content-4 */
+#system-content-4 > .modal-dialog > .modal-content > section > .circle-list {
+    margin-top: 30px;
+}
+
+/* modal system-content-5 */
+#system-content-5 > .modal-dialog > .modal-content > section > .circle-list {
+    margin-top: 30px;
+}
+
+/* modal system-content-6 */
+#system-content-6 > .modal-dialog > .modal-content > section > .circle-list {
+    margin-top: 30px;
+}
+
+/* modal system-content-7 */
+#system-content-7 > .modal-dialog > .modal-content > section > .dot-list:nth-of-type(2) {
+    padding-left: 20px;
+}
+#system-content-7 > .modal-dialog > .modal-content > section > .circle-list {
+    padding-left: 20px;
+}
+
+/* modal system-content-8 */
+#system-content-8 > .modal-dialog > .modal-content > section > .circle-list {
+    margin-top: 30px;
+}
+
+/* sale-system */
+.business.sale-system .sale-system > .section-content {
+    text-align: center;
+}
+.business.sale-system .sale-system > .section-content > h4 {
+    position: relative;
+    padding-left: 40px;
+}
+.business.sale-system .sale-system > .section-content > h4 > span {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50%;
+    background-color: #249250;
+}
+.business.sale-system .sale-system > .section-content > h4:nth-of-type(2n+ 2) > span {
+    background-color: #97b74e;
+}
+.business.sale-system .sale-system > .section-content > .sale-list {
+    overflow: hidden;
+    display: inline-block;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li {
+    position: relative;
+    float: left;
+    padding-right: 50px;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li:before {
+    position: absolute;
+    top: 78px;
+    left: -35px;
+    content: url(/assets/images/business/right_arrow.png);
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li:nth-of-type(1):before {
+    content: "";
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li > .icon {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding-top: 58px;
+    border-radius: 50%;
+    background-color: #249250;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li:nth-of-type(2n+ 2) > .icon {
+    background-color: #97b74e;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li > .details {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    line-height: 24px !important;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li:nth-of-type(4) {
+    padding-right: 0;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li:nth-of-type(5) {
+    clear: both;
+    margin-left: 133px;
+}
+.business.sale-system .sale-system > .section-content > .sale-list > li:nth-of-type(7) {
+    padding-right: 0;
+}
+.business.sale-system .sale-system > .section-content > h4 {
+    font-size: 20px !important;
+    margin: 90px 0 25px;
+    text-align: left;
+}
+.business.sale-system .sale-system > .section-content > p {
+    text-align: left;
+}
+.business.sale-system .sale-system > .section-content > .btn-area {
+    text-align: left;
+    margin-top: 35px;
+}
+.business.sale-system .sale-system > .section-content > .btn-area > p > .btn-green {
+    width: 236px !important;
+    height: 45px !important;
+    font-size: 15px !important;
+    line-height: 35px !important;
+    margin: 0 !important;
+    padding-left: 30px;
+    background-image: url(/assets/images/business/white_arrow.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+}
+.business.sale-system .sale-system > .section-content > .btn-area:nth-of-type(1) > p > .btn-green {
+    background-position: 70px 50%;
+}
+.business.sale-system .sale-system > .section-content > .btn-area:nth-of-type(2) > p > .btn-green {
+    background-position: 27px 50%;
+}
+.business.sale-system .sale-system > .section-content > .btn-area:nth-of-type(3) > p > .btn-green {
+    background-position: 39px 50%;
+}
+.business.sale-system .sale-system > .section-content > .dot-list {
+    text-align: left;
+    margin-top: 30px;
+}
+.business.sale-system .sale-system > .section-content > dl {
+    text-align: left;
+    overflow: hidden;
+    margin-top: 22px;
+    padding-left: 10px;
+}
+.business.sale-system .sale-system > .section-content > dl > dt {
+    float: left;
+    clear: both;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 26px;
+}
+.business.sale-system .sale-system > .section-content > dl > dt:before {
+    content: "-";
+    padding-right: 5px;
+}
+.business.sale-system .sale-system > .section-content > dl > dt:after {
+    content: ":";
+}
+.business.sale-system .sale-system > .section-content > dl > dd {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 26px;
+}
+
+/* pork-business */
+.business.pork-business .container {
+    padding-bottom: 150px;
+}
+.business.pork-business .pork-business > .section-content {
+    text-align: center;
+}
+.business.pork-business .pork-business > .section-content > ul {
+    overflow: hidden;
+    display: inline-block;
+}
+.business.pork-business .pork-business > .section-content > ul > li {
+    position: relative;
+    float: left;
+    margin-right: 50px;
+}
+.business.pork-business .pork-business > .section-content > ul > li:after {
+    position: absolute;
+    top: 47%;
+    right: -35px;
+    content: url(/assets/images/business/right_arrow.png);
+}
+.business.pork-business .pork-business > .section-content > ul > li:last-child:after {
+    content: "";
+}
+.business.pork-business .pork-business > .section-content > ul > li > .icon {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.business.pork-business .pork-business > .section-content > p {
+    text-align: left;
+    margin-top: 40px;
+}
+.business.pork-business .welfare {
+    position: relative;
+}
+.business.pork-business .welfare > .section-header > h3 {
+    padding-top: 120px !important;
+}
+.business.pork-business .welfare > p {
+    width: 770px;
+    margin: 0 0 38px 0;
+}
+.business.pork-business .welfare > p:last-child {
+    margin: 0;
+}
+.business.pork-business .welfare > .welfare-img > img {
+    position: absolute;
+    top: 137px;
+    right: 0;
+}
+
+/* fodder-business */
+.business.fodder-business .container {
+    padding-bottom: 150px;
+}
+.business.fodder-business .fodder-business > .section-content {
+    height: 145px;
+    border-left: 6px solid #249250;
+    padding-left: 13px;
+}
+.business.fodder-business .fodder-business > .section-content > h4 {
+    font-size: 21px;
+    color: #4e4e4e;
+    font-weight: 400;
+    margin: 0;
+}
+.business.fodder-business .fodder-business > .section-content > p {
+    margin-top: 18px;
+}
+
+.business.fodder-business .breeding-fodder {
+    position: relative;
+    height: 638px;
+}
+.business.fodder-business .breeding-fodder > .section-header > h3 {
+    padding-top: 138px !important;
+}
+.business.fodder-business .breeding-fodder > h4 {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.business.fodder-business .breeding-fodder > .dot-list > li {
+    letter-spacing: -1px;
+}
+.business.fodder-business .breeding-fodder > p > img {
+    position: absolute;
+    top: 138px;
+    right: 0;
+}
+.business.fodder-business .brand-fodder {
+    position: relative;
+    height: 638px;
+}
+.business.fodder-business .brand-fodder > .section-header > h3 {
+    padding-top: 138px !important;
+}
+.business.fodder-business .brand-fodder > h4 {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.business.fodder-business .brand-fodder > .dot-list > li {
+    letter-spacing: -1px;
+}
+.business.fodder-business .brand-fodder > p > img {
+    position: absolute;
+    top: 138px;
+    right: 0;
+}
+
+/* overseas-biz */
+.business.overseas-biz .container {
+    padding-bottom: 150px;
+}
+.business.overseas-biz .overseas-biz > .section-content {
+    overflow: hidden;
+}
+.business.overseas-biz .overseas-biz > .section-content > .biz-text {
+    display: inline-block;
+    border-left: 6px solid #249250;
+    margin: 20px 0 77px 0;
+    padding-left: 14px;
+}
+.business.overseas-biz .overseas-biz > .section-content > .darby-cj {
+    position: relative;
+    margin-bottom: 39px;
+}
+.business.overseas-biz .overseas-biz > .section-content > .darby-cj > span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 185px;
+    height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    background-color: #aeaeae;
+}
+.business.overseas-biz .overseas-biz > .section-content > div {
+    float: left;
+    width: 570px;
+    margin-right: 30px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:last-child {
+    margin-right: 0;
+}
+.business.overseas-biz .overseas-biz > .section-content > div > .biz-img > span {
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    background-color: #aeaeae;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(1) > .biz-img {
+    position: relative;
+    margin-top: 39px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(1) > .biz-img > span {
+    left: 0;
+    width: 185px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(2) > .biz-img {
+    position: relative;
+    margin-bottom: 39px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(2) > .biz-img > span {
+    right: 0;
+    width: 125px;
+}
+.business.overseas-biz .overseas-biz > .section-content > div:nth-of-type(2) > .btn-area > p > .btn-green {
+    width: 570px !important;
+    height: 49px !important;
+    font-size: 18px !important;
+    margin: 29px 0 0 0 !important;
+}
+.business.overseas-biz .addr > .section-header > h3 {
+    padding-top: 95px !important;
+}
+.business.overseas-biz .addr > .table-wrap > .table > tbody > tr > td:last-child {
+    padding: 44px 0 44px 56px !important;
+    text-align: left !important;
+}

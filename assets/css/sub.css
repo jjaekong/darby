@@ -1,0 +1,260 @@
+/* 공통 */
+#content p,dt,dd { 
+	font-size: 16px;
+	color: #4e4e4e;
+	line-height: 26px;
+}
+
+#content .container section .section-header h3 {
+	font-size: 28px;
+	color: #222;
+	padding-top: 70px;
+}
+#content .container section .section-header hr {
+	width:  27px;
+	border-top-color: #000;
+	text-align: left;
+	display: inline-block;
+    margin-bottom: 40px;
+}
+/* navbar */
+#content .container .navbar {
+	text-align: center;
+	margin-bottom: 0;
+}
+#content .container .navbar .nav {
+	display: inline-block;
+	float: none;
+}
+#content .container .navbar .nav li {
+	width: 150px;
+	border: 1px solid #dcdcdc;
+	font-size: 20px;
+	margin-right: 25px;
+}
+#content .container .navbar .nav li:last-child {
+	margin-right: 0;
+}
+#content .container .navbar .nav li a {
+	text-align: center;
+	padding: 20px 0;
+	color: #888;
+}
+#content .container .navbar .nav .active {
+	background-color: #249250;
+	border-color: #249250;
+}
+#content .container .navbar .nav .active a {
+	color: #fff;
+	background: none;
+}
+#content .container .navbar .nav li a:hover {
+	background: none;
+}
+/* dot-list */
+.dot-list li {
+	background-image: url(/assets/images/sub/dot_img.gif);
+	background-size: 4px auto;
+	background-repeat: no-repeat;
+	background-position: 0 9px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #666;
+	padding-left: 10px;
+}
+/* circle-list */
+.circle-list li {
+	position: relative;
+	font-size: 16px;
+	padding-left: 35px;
+	counter-increment: my-list-index;
+	margin-bottom: 15px;
+}
+.circle-list li:last-child {
+	margin-bottom: 0;
+}
+.circle-list > li:before {
+	position: absolute;
+	left: 0;
+	top: -2px;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 50%;
+	content: counter(my-list-index);
+	background-color: #249250;
+	line-height: 30px;
+}
+/* arrow-list */
+#content .container .arrow-list li {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	color: #4e4e4e;
+	margin: 0 60px 20px 0;
+}
+#content .container .arrow-list li:before {
+	position: absolute;
+	top: 2px;
+	left: -40px;
+	content: url(/assets/images/sub/right_arrow.png);
+}
+#content .container .arrow-list li:nth-of-type(1):before {
+	content: "";
+}
+/* table-wrap */
+#content .container .table-wrap .table-border { 
+	border-top: 2px solid #249250;
+}
+#content .container .table-wrap .table thead tr th {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 18px;
+    font-weight: 400;
+	color: #222;
+	text-align: center;
+	padding: 25px 0;
+}
+#content .container .table-wrap .table thead tr th:last-child {
+	border-right: 0;
+}
+#content .container .table-wrap .table tbody tr td {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 16px;
+	color: #4e4e4e;
+	text-align: center;
+	padding: 25px 0;
+    vertical-align: middle;
+}
+#content .container .table-wrap .table tbody tr td:last-child {
+	border-right: 0;
+}
+/* search-area */
+#content .container .search-area {
+	overflow: hidden;
+	position: relative;
+}
+#content .container .search-area form {
+	float: right;
+}
+#content .container .search-area .form-group {
+	float: left;
+	margin: 0;
+}
+#content .container .search-area .form-group select {
+	width: 123px;
+	height: 52px;
+	font-size: 16px;
+}
+#content .container .search-area .form-group .form-control {
+	border-radius: 0;
+}
+#content .container .search-area .form-group input {
+	width: 370px;
+	height: 52px;
+	padding-right: 60px;
+}
+#content .container .search-area .form-group:nth-of-type(2) {
+	margin-left: 7px;
+	width: 370px;
+	height: 52px;
+}
+#content .container .search-area button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70px;
+	height: 52px;
+	background: none;
+	border-left: 1px solid #ccc;
+	border-radius: 0;
+}
+
+/* paging */
+#content .container .paging {
+	text-align: center;
+}
+#content .container .paging .pagination li a {
+	display: inline-block;
+	font-size: 16px;
+	color: #555;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	line-height: 32px;
+	float: none;
+	margin-right: 10px !important;
+	border-radius: 0;
+	/*padding: 10px 15px;*/
+}
+#content .container .paging .pagination .active a {
+	border: 0;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background-color: #249250;
+	color: #fff;
+	border-radius: 0;
+}
+#content .container .paging .pagination li:nth-of-type(2) a {
+	margin-right: 30px !important;
+}
+#content .container .paging .pagination li:nth-of-type(7) a {
+	margin-right: 30px !important;
+}
+#content .container .paging .pagination li:nth-of-type(9) a {
+	margin-right: 0 !important;
+}
+
+/* btn-area */
+#content .container .btn-area .btn {
+	width: 140px;
+	height: 52px;
+	color: #fff;
+	border-radius: 0;
+	font-size: 20px;
+	line-height: 41px;
+	margin-right: 10px;
+}
+#content .container .btn-area .btn:hover {
+    opacity: 0.8;
+}
+#content .container .btn-area .btn-green {
+	background-color: #249250;
+}
+#content .container .btn-area .btn-gray {
+	background-color: #535353;
+}
+#content .container .account {
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+    line-height: 20px;
+}
+#content .container .account:before {
+    content: "※";
+    padding-right: 5px;
+}
+
+.form-control {
+    box-shadow: none
+}
+input, select, textarea {
+    border: 1px solid #dbdbdb;
+}
+input:focus {
+    outline: 0;
+    border-color: #dbdbdb;
+}
+textarea:focus {
+    outline: 0;
+    border-color: #dbdbdb;
+}
+select:focus {
+    outline: 0;
+    border-color: #dbdbdb;
+}
