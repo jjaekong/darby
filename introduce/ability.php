@@ -112,7 +112,7 @@
                                     <img src="/assets/images/introduce/ability_img09.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    	국내 종돈업계 최초<br>태국, 캄보디아에 종돈 수출
+                                    국내 종돈업계 최초<br>태국, 캄보디아에 종돈 수출
                                 </p>
                             </div>
                         </li>
@@ -167,7 +167,6 @@
 				</p>
 				<p>
 					<img src="/assets/images/introduce/guest_img01.jpg" alt="">
-					<img src="/assets/images/introduce/guest_img02.jpg" alt="">
 				</p>
 				<ul class="circle-list">
 					<li>매년 가을 최신 양돈기술을 공유하는 <i>다비퀸 세미나</i></li>

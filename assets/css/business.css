@@ -208,7 +208,7 @@
 .business.xperm .container .xperm-p .xperm-img img {
 	display: block;
 	width: 169px;
-	margin: 39px auto;
+	margin: 53px auto;
 }
 
 
@@ -365,8 +365,6 @@
 .business.production .map > .section-content > .table-wrap {
     float: left;
     width: 540px;
-    height: 709px;
-    overflow-y: scroll;
     border-bottom: 1px solid #dadada;
 }
 .business.production .map > .section-content > .table-wrap > .table {
@@ -376,11 +374,7 @@
 
 }
 .business.production .map > .section-content > .table-wrap > .table > tbody > tr > td {
-    padding: 17px 0 !important;
-}
-.business.production .map > .section-content > .table-wrap > .table > tbody > tr > td:last-child {
-    padding-left: 20px !important;
-    text-align: left !important;
+    padding: 15px 0 !important;
 }
 .business.production .map > .section-content > .table-wrap > .table > tbody > tr > .ggp {
     color: #58beec !important;

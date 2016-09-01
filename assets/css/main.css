@@ -17,8 +17,8 @@
     position: absolute;
     bottom: 40px;
     left: 50%;
-    margin-left: -640px;
-    width: 1280px;
+    margin-left: -600px;
+    width: 1200px;
     height: 21px;
     text-align: center; }
     #campaign .bx-controls .bx-pager .bx-pager-item {
@@ -40,8 +40,8 @@
     top: 50%;
     left: 50%;
     margin-top: -39px;
-    margin-left: -640px;
-    width: 1280px;
+    margin-left: -600px;
+    width: 1200px;
     height: 78px; }
     #campaign .bx-controls .bx-controls-direction a {
       position: absolute;

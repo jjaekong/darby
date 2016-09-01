@@ -90,7 +90,7 @@
 .introduce.greeting .container .intro .section-header p {
     position: absolute;
     top: 84px;
-    left: 24%;
+    left: 319px;
 }
 .introduce.greeting .container .intro .section-header h2 {
 	text-align: center;
@@ -150,8 +150,8 @@
 }
 .introduce.ceo-yoon .container .ceo-info .section-header img {
     position: absolute;
-    top: 67px;
-    left: 84px;
+    top: 87px;
+    left: 105px;
 }
 .introduce.ceo-yoon .container .ceo-info .section-header h2 {
 	font-size: 45px;
@@ -216,7 +216,7 @@
 .introduce.ceo-min .container .ceo-info .ceo-header img {
 	position: absolute;
     top: 57px;
-    left: 84px;
+    left: 128px;
 }
 .introduce.ceo-min .container .ceo-info .ceo-header h2 {
 	font-size: 45px;
@@ -554,15 +554,13 @@
 .introduce.ability .guest p:nth-of-type(2) {
 	margin-bottom: 30px;
 }
-.introduce.ability .guest p:nth-of-type(2) img:nth-of-type(1) {
-	margin-right: 4px;
-}
 .introduce.ability .guest > .circle-list > li > i {
     font-weight: bold;
 }
 .introduce.ability .invest .section-header {
 	margin-top: 50px;
 }
+
 .introduce.ability .invest > p {
 	margin-bottom: 40px;
 }

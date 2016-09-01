@@ -8,7 +8,8 @@
             <ul>
                 <li class="fist"></li>
                 <li class="second"></li>
-                <li class="third"></li>            </ul>
+                <li class="third"></li>
+            </ul>
         </div>
         <div id="products">
             <div class="container">
