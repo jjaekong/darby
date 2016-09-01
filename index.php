@@ -8,8 +8,7 @@
             <ul>
                 <li class="fist"></li>
                 <li class="second"></li>
-                <li class="third"></li>
-            </ul>
+                <li class="third"></li>            </ul>
         </div>
         <div id="products">
             <div class="container">
@@ -18,41 +17,41 @@
                         <figure>
                             <p><img src="/assets/images/main/img_product_1.jpg" alt=""></p>
                             <figcaption>
-                                <h4>종돈</h4>
-                                <p>자체 육종 프로그램으로<br>최대두수 검정, BLUP, 계통별 분리 육종</p>
+                                <h4>순종</h4>
+                                <p>체계적인 육종프로그램을 활용한<br>고품질의 모계, 부계 순종돈</p>
                             </figcaption>
                         </figure>
-                        <a href="#">자세히 보기</a>
+                        <a href="/business/product/breeding_pig.php">자세히 보기</a>
                     </li>
                     <li class="col-xs-3">
                         <figure>
                             <p><img src="/assets/images/main/img_product_2.jpg" alt=""></p>
                             <figcaption>
                                 <h4>F1</h4>
-                                <p>강건성과 육질 향상 두마리 토끼를 잡는<br>균일성이 뛰어난 고능력 청정돈</p>
+                                <p>높은 번식성적과 우수한 육질을<br>자랑하는 고능력 청정돈</p>
                             </figcaption>
                         </figure>
-                        <a href="#">자세히 보기</a>
+                        <a href="/business/product/darbyqueen.php">자세히 보기</a>
                     </li>
                     <li class="col-xs-3">
                         <figure>
                             <p><img src="/assets/images/main/img_product_3.jpg" alt=""></p>
                             <figcaption>
                                 <h4>엑스펌</h4>
-                                <p>최고급 육질을 보장하는 웅돈과<br>고급육 생산의 분만율과 산자수 증가를 위한<br>인공수정용 액상 정액</p>
+                                <p>비육돈 품질향상을 위한<br>인공수정용 액상정액</p>
                             </figcaption>
                         </figure>
-                        <a href="#">자세히 보기</a>
+                        <a href="/business/product/xperm.php">자세히 보기</a>
                     </li>
                     <li class="col-xs-3">
                         <figure>
                             <p><img src="/assets/images/main/img_product_4.jpg" alt=""></p>
                             <figcaption>
-                                <h4>웰팜포크</h4>
-                                <p>육질혁명! 맛의 차별화 선언!<br>마블링, 보수성 및 연도가 뛰어난 최고급육</p>
+                                <h4>얼룩도야지</h4>
+                                <p>육질혁명! 맛의 차별화 선언!<br>안전하고 맛있는 한돈</p>
                             </figcaption>
                         </figure>
-                        <a href="#">자세히 보기</a>
+                        <a href="/business/product/stain_pig.php">자세히 보기</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +67,7 @@
                                 발전을 선도해온 기업으로서 그 행보 하나 하나가 <br>
                                 한국 돼지의 표준을 제시하여 왔습니다.
                             </p>
-                            <a href="#">자세히 보기</a>
+                            <a href="/introduce/darby_introduce.php">자세히 보기</a>
                         </div>
                     </section>
                     <section class="col-xs-6 business">
@@ -78,7 +77,7 @@
                                 다비육종의 육종 개량 시스템은 한국 돼지 개량을 위한<br>
                                 이정표를 제시하는 선도적 역할을 해 나가고 있습니다.
                             </p>
-                            <a href="#">자세히 보기</a>
+                            <a href="/business/product/breeding_pig.php">자세히 보기</a>
                         </div>
                     </section>
                 </div>

@@ -29,7 +29,7 @@
 			</nav>
 			<section class="sperm">
 				<div class="section-header">
-					<h3>엑스펌 (X-perm, 액상 정액)</h3>
+					<h3>엑스펌 (Xperm, 돼지 액상정액)</h3>
 					<hr>
 				</div>
 				<p>
@@ -37,7 +37,7 @@
 				</p>
 				<div class="graph">
 					<img src="/assets/images/business/graph06.jpg" alt="연간 정액 판매량 그래프">
-					<p>연간 정액 판매량 추세</p>
+					<p>연간 엑스펌 판매량 추세</p>
 				</div>
 			</section>
 			<section class="xperm-v">

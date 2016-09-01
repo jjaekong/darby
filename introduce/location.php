@@ -27,6 +27,20 @@
 					<img src="/assets/images/introduce/map.jpg" alt="약도">
 				</p>
 			</section>
+			<section class="location-info">
+				<div class="section-header">
+					<h3>오시는길</h3>
+					<hr>
+				</div>
+				<ul class="arrow-list">
+					<li>중부고속국도 일죽IC 진입</li>
+					<li>삼거리에서 좌회전</li>
+					<li>장호원, 충주 방향으로 1.7km 주행</li>
+					<li>일죽IC타운 직전 교통신호에서 U턴</li>
+					<li>현대오일뱅크 끼고 우회전</li>
+					<li>도착</li>
+				</ul>
+			</section>
 			<section class="company">
 				<div class="section-header">
 					<h3>다비육종 본사</h3>
@@ -51,20 +65,6 @@
 							<dd>031-672-5566</dd>
 						</dl>
 					</li>
-				</ul>
-			</section>
-			<section class="location-info">
-				<div class="section-header">
-					<h3>오시는길</h3>
-					<hr>
-				</div>
-				<ul class="arrow-list">
-					<li>중부고속국도 일죽IC 진입</li>
-					<li>삼거리에서 좌회전</li>
-					<li>장호원, 충주 방향으로 1.7km 주행</li>
-					<li>일죽IC타운 직전 교통신호에서 U턴</li>
-					<li>현대오일뱅크 끼고 우회전</li>
-					<li>도착</li>
 				</ul>
 			</section>
 		</div>

@@ -83,7 +83,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="account">자료 : npcc (미국돈육생산자협회)</p>
+                        <p class="account">자료: nppc (미국돈육생산자협회)</p>
                         <p class="account">얼룩도야지는 육질 위주로 개량된 버크셔와 듀록 두 품종이 교배되어 우수한 육질을 자랑합니다.</p>
                     </div>
 				</div>

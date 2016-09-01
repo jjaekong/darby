@@ -81,11 +81,11 @@
 				</ul>
 				<div class="graph">
 					<img src="/assets/images/business/graph04.jpg" alt="90kg 도달일령 그래프">
-					<p>90kg 도달일령</p>
+					<p>90kg 도달일령 육종가</p>
 				</div>
 				<div class="graph">
 					<img src="/assets/images/business/graph03.jpg" alt="등지방 그래프">
-					<p>등지방</p>
+					<p>등지방 육종가</p>
 				</div>
 			</section>
 			<section class="pietrains">
@@ -95,7 +95,7 @@
 				</div>
 				<figure>
 					<img src="/assets/images/business/pig_img04.gif" alt="피어트레인">
-					<figcaption>피어트레인-PP</figcaption>
+					<figcaption>피어트레인</figcaption>
 				</figure>
 				<h4>저지방 돈육 생산을 위한 부계 웅돈 “피어트레인”</h4>
 				<ul class="dot-list">
@@ -124,13 +124,13 @@
 							<tr>
 								<td>100kg 등지방 두께(mm)</td>
 								<td>8.2</td>
-								<td>&lsaquo;&lsaquo;</td>
+								<td>&rsaquo;&rsaquo;</td>
 								<td>11.7</td>
 							</tr>
 							<tr>
 								<td>정육률(%)</td>
 								<td>67.5</td>
-								<td>&lsaquo;&lsaquo;&lsaquo;</td>
+								<td>&rsaquo;&rsaquo;&rsaquo;</td>
 								<td>59.3</td>
 							</tr>
 							<tr>

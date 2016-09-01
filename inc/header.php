@@ -6,12 +6,12 @@
         <ul class="lang">
             <li><a href="#">한국어</a></li>
             <li><a href="#">ENGLISH</a></li>
-            <li><a href="#">VIETNAM</a></li>
+            <li><a href="#">VIETNAMESE</a></li>
         </ul>
         <ul class="help">
-            <li><a href="#">홈으로</a></li>
-            <li><a href="#">오시는 길</a></li>
-            <li><a href="#">인트라넷</a></li>
+            <li><a href="/">홈으로</a></li>
+            <li><a href="/introduce/location.php">오시는 길</a></li>
+            <li><a href="http://darby.aninet21.com/" target="_blank">인트라넷</a></li>
         </ul>
     </div>
 </header>

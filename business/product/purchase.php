@@ -173,7 +173,7 @@
 			        <p>구입처 (오프라인 및 온라인)</p>
 			        <ul class="row">
                         <li class="col-xs-3">
-                            <a href="http://www.wellfarmhandon.com/main/" target="_blank">
+                            <a href="http://www.ulookdoyage.com/main/" target="_blank">
                                 <p class="icon">
                                     <img src="/assets/images/business/brand_img11.jpg" alt="얼룩도야지 로고">
                                 </p>
@@ -181,38 +181,14 @@
 			                </a>
 			            </li>
 			            <li class="col-xs-3">
-                            <a href="http://company.lottemart.com/vc/main.do" target="_blank">
-                                <p class="icon">
-                                    <img src="/assets/images/business/brand_img02.jpg" alt="빅마켓 로고">
-                                </p>
-                                <p class="detail">빅마켓</p>
-			                </a>
-			            </li>
-			            <li class="col-xs-3">
-                            <a href="http://www.shinsegae.com" target="_blank">
+                            <a href="http://shinsegaemall.ssg.com/" target="_blank">
                                 <p class="icon">
                                     <img src="/assets/images/business/brand_img03.jpg" alt="신세계백화점 로고">
                                 </p>
-                                <p class="detail">신세계백화점</p>
+                                <p class="detail">신세계몰</p>
 			                </a>
 			            </li>
-			            <li class="col-xs-3">
-                            <a href="http://www.icoop.or.kr/coopmall" target="_blank">
-                                <p class="icon">
-                                    <img src="/assets/images/business/brand_img04.jpg" alt="현대그린푸드 로고">
-                                </p>
-                                <p class="detail">현대그린푸드</p>
-			                </a>
-			            </li>
-			            <li class="col-xs-3">
-                            <a href="http://www.icoop.or.kr/coopmall/" target="_blank">
-                                <p class="icon">
-                                    <img src="/assets/images/business/brand_img05.jpg" alt="icoop생협 로고">
-                                </p>
-                                <p class="detail">icoop생협</p>
-			                </a>
-			            </li>
-			            <li class="col-xs-3">
+						<li class="col-xs-3">
                             <a href="http://www.gsshop.com/index.gs" target="_blank">
                                 <p class="icon">
                                     <img src="/assets/images/business/brand_img06.jpg" alt="GS SHOP 로고">
@@ -236,6 +212,30 @@
                                 <p class="detail">롯데닷컴</p>
 			                </a>
 			            </li>
+						<li class="col-xs-3">
+                            <a href="#" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img02.jpg" alt="빅마켓 로고">
+                                </p>
+                                <p class="detail">빅마켓</p>
+			                </a>
+			            </li>
+			            <li class="col-xs-3">
+                            <a href="#" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img04.jpg" alt="현대그린푸드 로고">
+                                </p>
+                                <p class="detail">현대그린푸드</p>
+			                </a>
+			            </li>
+			            <li class="col-xs-3">
+                            <a href="#" target="_blank">
+                                <p class="icon">
+                                    <img src="/assets/images/business/brand_img05.jpg" alt="icoop생협 로고">
+                                </p>
+                                <p class="detail">icoop생협</p>
+			                </a>
+			            </li>
 			        </ul>
 			        <div class="contact">
 			            <h4>문의전화</h4>
@@ -247,7 +247,7 @@
                                     <dt>고객지원상담</dt>
                                     <dd>031-674-3361</dd>
                                     <dt>홈페이지</dt>
-                                    <dd><a href="http://www.wellfarmhandon.com" target="_blank">http://www.wellfarmhandon.com</a></dd>
+                                    <dd><a href="http://www.ulookdoyage.com/main/" target="_blank">http://www.ulookdoyage.com/main/</a></dd>
                                  </dl>
 			                </li>
 			            </ul>

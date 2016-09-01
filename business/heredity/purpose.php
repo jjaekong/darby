@@ -33,7 +33,7 @@
 					<hr>
 				</div>
 				<p>
-				    다비육종 돈군에서 병원체를 제거하거나 감소시키고, 돈군의 면역력을 증가시킴으로써 유전자원을 보호하고, 전염성 질병의 전파를 최소화하여 다비육종은 물론, 고객농가의 소득증대와 대한민국 양돈산업의 위생 안전에 기여하기 위함입니다.
+				    다비육종 돈군에서 병원체를 제거하거나 감소시키고, 돈군의 면역력을 증가시킴으로써 유전자원을 보호하고, 전염성 질병의 전파를 최소화하는 것을 목표로 한다. 이는 다비육종은 물론, 고객농가의 소득증대와 대한민국 양돈산업의 위생도 향상에 기여하기 위함이다.
 				</p>
 			</section>
 			<section class="illness">
@@ -46,9 +46,10 @@
                         <div>
                             <h4>종돈장 검사</h4>
                             <ul>
-                                <li>(FMD<sup>1</sup>)</li>
+                                <li>FMD<sup>1</sup></li>
                                 <li>돼지열병</li>
-                                <li>돼지오제스키병, 돼지생식기호흡기증후군(RPPS)</li>
+                                <li>돼지오제스키병</li><br>
+								<li>돼지생식기호흡기증후군</li>
                                 <li>돼지브루셀라병</li>
                             </ul>
                         </div>
@@ -57,13 +58,13 @@
                         <div>
                             <h4>호흡기 소화기</h4>
                             <ul>
-                                <li>돼지유행성설사병(PED<sup>2</sup>)</li>
-                                <li>전염성 위장염(TGE<sup>3</sup>) 살모넬라</li>
+                                <li>돼지유행성설사병</li>
+                                <li>전염성 위장염<br>살모넬라</li>
                                 <li>회장염</li>
                                 <li>돈적리</li>
-                                <li>흉막폐렴 유행성폐렴</li>
+                                <li>흉막폐렴<br>유행성폐렴</li>
                                 <li>위축성비염</li>
-                                <li>돼지인플루엔자 글래써병</li>
+                                <li>돼지인플루엔자<br>글래써병</li>
                                 <li>흉막염</li>
                             </ul>
                         </div>
@@ -72,9 +73,9 @@
                         <div>
                             <h4>번식 그 외</h4>
                             <ul>
-                                <li>돼지써코바이러스(PCVAD<sup>4</sup>)</li>
+                                <li>돼지써코바이러스</li>
                                 <li>돼지파보</li>
-                                <li>일본뇌염옴</li>
+                                <li>일본뇌염<br>옴</li>
                                 <li>톡소플라즈마</li>
                                 <li>뇌막염</li>
                                 <li>콕시듐증</li>
@@ -83,8 +84,7 @@
                     </li>
                 </ul>
                 <p class="account">
-                    FMD<sup>1</sup> (Foot-and-Mouth Disease), PED<sup>2</sup> (Porcine Epidemic Diarrhea, 돼지유행성설사병), TGE<sup>3</sup>(Transmissible Gastroenteritis, 전염성 위장염),<br>
-                    PCVAD<sup>4</sup> (Prince Circovirus Associated Disease, 돼지써코바이러스)
+                    FMD<sup>1</sup> (Foot-and-Mouth Disease)
                 </p>
 			</section>
 			<section class="method">
@@ -106,7 +106,7 @@
 				        <li>돈군은 악성전염병(FMD,돈열,PRRS,PED 등)으로부터 <i>최우선적으로 보호</i>되어야 한다.</li>
 				        <li>모든 농장은 <i>1일 1농장 방문을 원칙</i>으로 한다.</li>
 				        <li>
-				            GGP, GP, SP 모든 농장 및 센터는 필요한 업무수행을 위한 경우가 아니면 방문을 가급적 자제한다.<br>
+				            모든 농장 및 센터는 필요한 업무수행을 위한 경우가 아니면 방문을 가급적 자제한다.<br>
 				            <b>(성진, 대덕GGP는 방문 전 반드시 생산본부장의 방문 허가를 득해야 한다.)</b>
 				        </li>
 				        <li>모든 방문객 및 운송차량은 <i>다운타임 규정 준수</i> 등 방역위생상 문제가 없어야 하며, 사전에 농장장의 허가를 받아야 한다.</li>
@@ -114,11 +114,11 @@
 				        <li>업무 목적 외 모든 차량의 농장 내부 진입은 허용하지 않으며, 모든 작업은 농장 외부에서 수행할 수 있도록 한다.</li>
 				        <li>질병상황 발생 시 <i>동물병원에 해당사실을 통보하고 조치권고 사항에 따라 행동</i>한다.</li>
 				    </ul>
-				    <p>
+				    <!-- <p>
 				        <img src="/assets/images/business/no_image.jpg" alt="">
 				        <img src="/assets/images/business/no_image.jpg" alt="">
 				        <img src="/assets/images/business/no_image.jpg" alt="">
-				    </p>
+				    </p> -->
 				</div>
 			</section>
 			<section class="mooring">
@@ -136,106 +136,106 @@
 			            <thead>
 			                <tr>
 			                    <th>구분</th>
-			                    <th>풀발지 &gt; 목적지</th>
+			                    <th>출발지 → 목적지</th>
 			                    <th>계류기간</th>
 			                </tr>
 			            </thead>
 			             <tbody>
 			                 <tr>
 			                     <td class="td-bg">다비육종본사</td>
-			                     <td>다비육종 본사 &gt; GGP/GP</td>
+			                     <td>다비육종 본사 → GGP/GP</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
 			                     <td class="td-bg" rowspan="8">농장</td>
-			                     <td>GGP농장 &gt; GP</td>
+			                     <td>GGP농장 → GP</td>
 			                     <td>1 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>GGP농장 &gt; 타 GGP농장</td>
+			                     <td>GGP농장 → 타 GGP농장</td>
 			                     <td>1 night</td>
 			                 </tr>
                              <tr>
-			                     <td>GP농장 &gt; GGP</td>
+			                     <td>GP농장 → GGP</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>GP농장 &gt; 타 GP농장</td>
+			                     <td>GP농장 → 타 GP농장</td>
 			                     <td>1 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>일반농장 방문 &gt; GGP/GP농장</td>
+			                     <td>일반농장 방문 → GGP/GP농장</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>일반농장 방문 &gt; 다비육종 본사</td>
+			                     <td>일반농장 방문 → 다비육종 본사</td>
 			                     <td>1 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 발생 농장</i> &gt; GGP/GP농장</td>
+			                     <td><i>FMD 발생 농장</i> → GGP/GP농장</td>
 			                     <td>5 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 발생 농장</i> &gt; 다비육종 본사</td>
+			                     <td><i>FMD 발생 농장</i> → 다비육종 본사</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
 			                     <td class="td-bg" rowspan="6">인력 접촉</td>
-			                     <td>GP농장 임직원 접촉 &gt; GGP/GP농장</td>
+			                     <td>GP농장 임직원 접촉 → GGP/GP농장</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>일반농장 임직원 접촉 &gt; GGP/GP농장</td>
+			                     <td>일반농장 임직원 접촉 → GGP/GP농장</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>일반농장 임직원 접촉 &gt; 다비육종 본사</td>
+			                     <td>일반농장 임직원 접촉 → 다비육종 본사</td>
 			                     <td>1 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>기자재 업체 임직원 접촉 &gt; GGP/GP농장</td>
-			                     <td>2 nigh</td>
+			                     <td>기자재 업체 임직원 접촉 → GGP/GP농장</td>
+			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 발생 농장</i> &gt; GGP/GP농장</td>
+			                     <td><i>FMD 발생 농장 임직원 접촉</i> → GGP/GP농장</td>
 			                     <td>5 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 발생 농장</i> &gt; GGP/GP농장</td>
+			                     <td><i>FMD 발생 농장 임직원 접촉 </i> → 다비육종 본사</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
                                  <td class="td-bg" rowspan="4">해외 방문</td>
-			                     <td>FMD 비발생 국가 방문  &gt;  GGP/GP농장</td>
+			                     <td>FMD 비발생 국가 방문  →  GGP/GP농장</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>FMD 비발생 국가 방문  &gt;  다비육종 본사</td>
+			                     <td>FMD 비발생 국가 방문  →  다비육종 본사</td>
 			                     <td>1 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 발생국가 방문</i> &gt; GGP/GP농장</td>
+			                     <td><i>FMD 발생국가 방문</i> → GGP/GP농장</td>
 			                     <td>5 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 발생국가 방문</i> &gt; 다비육종 본사</td>
+			                     <td><i>FMD 발생국가 방문</i> → 다비육종 본사</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
                                  <td class="td-bg" rowspan="4">도축장</td>
-			                     <td>도축장/육가공장  &gt;  GGP/GP농장</td>
+			                     <td>도축장/육가공장  →  GGP/GP농장</td>
 			                     <td>2 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td>도축장/육가공장  &gt;  다비육종 본사</td>
+			                     <td>도축장/육가공장  →  다비육종 본사</td>
 			                     <td>1 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 지정 도축장</i> &gt; GGP/GP농장</td>
+			                     <td><i>FMD 지정 도축장</i> → GGP/GP농장</td>
 			                     <td>5 night</td>
 			                 </tr>
 			                 <tr>
-			                     <td><i>FMD 지정 도축장</i> &gt; 다비육종 본사</td>
+			                     <td><i>FMD 지정 도축장</i> → 다비육종 본사</td>
 			                     <td>2 night</td>
 			                 </tr>
 			             </tbody>

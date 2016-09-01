@@ -79,8 +79,7 @@
                                 <img src="/assets/images/business/business_img05.png" alt="">
                             </p>
                             <p class="details">
-                                근내지방도가 우수한 개체 선발을 위한<br>
-                                BLUP의 이용
+                                근내지방도가 우수한 개체 선발을 위한<br>지속적인 육질검사
                             </p>
                         </div>
 				    </li>
@@ -101,7 +100,7 @@
                                 <img src="/assets/images/business/business_img07.png" alt="">
                             </p>
                             <p class="details">
-                                개량 가속화를 위한<br>종돈 수퇘지별 교배복수 제한 시스템
+                                유전적 다양성 확보를 위한<br>종돈 수퇘지별 교배복수 제한 시스템
                             </p>
                         </div>
 				    </li>
@@ -129,7 +128,10 @@
 				    </li>
 				</ul>
 				<p class="account">
-				    PSE<sup>1</sup> (Pale, Soft, Exudative의 약자), PSS2(porcine stress syndrome, 돼지스트레스증후군)
+				    PSE<sup>1</sup> (Pale, Soft, Exudative의 약자)
+				</p>
+				<p class="account">
+					PSS<sup>2</sup> (Porcine Stress Syndrome, 돼지스트레스증후군)
 				</p>
 			</section>
 			<section class="pyramid">

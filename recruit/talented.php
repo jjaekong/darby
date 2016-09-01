@@ -9,11 +9,11 @@
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 				<li><a href="#">채용정보</a></li>
-				<li class="active">교육제도</li>
+				<li class="active">인재상</li>
 			</ol>
 			<hr>
 			<h1>인재상</h1>
-			<p>다비육종과 함께 걸어나갈 인재를 찾습니다.</p>
+			<p>다비육종과 함께 할 인재를 찾습니다.</p>
 		</div>
 	</div>
 	<main id="content" tabindex="-1" class="recruit talented">

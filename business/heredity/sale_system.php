@@ -84,7 +84,7 @@
 				    </P>
 				    <div class="btn-area">
 				        <p>
-				            <a href="#" class="btn btn-green">구입문의 안내</a>
+				            <a href="/business/product/purchase.php" class="btn btn-green">구입문의 안내</a>
 				        </p>
 				    </div>
 				    <h4><span>2</span>거래결정 (회사내부 의사결정)</h4>
@@ -105,13 +105,13 @@
 				    </p>
 				    <div class="btn-area">
 				        <p>
-				            <a href="#" class="btn btn-green">종돈, F1, 웅돈 선발기준안내</a>
+				            <a href="/file/darby_standard.docx" class="btn btn-green">다비육종 종돈 선발기준 안내</a>
 				        </p>
 				    </div>
 				    <h4><span>6</span>배송</h4>
 				    <p>
 				        종돈의 경우 특별 제작된 종돈 운송 전용차량으로 철저한 방역절차에 따라 안전하게 고객님의 농장까지 배송해 드립니다. <br>
-				        정액의 경우 전국 5개소(중원, 조치원, 적성, 함평, 상주)에 위치한 물류 사무실을 기점으로 차량용 정액 보관고를 설치한 지역별 배송담당자로 하여금 1일 1~2회 신속, 정확하게 고객님의 농장까지 배송해드리고 있습니다.
+				        정액의 경우 전국 5개소(중원, 조치원, 적성, 함평, 상주)에 위치한 물류 사무실을 기점으로 차량용 정액 보관고를 설치한 지역별 배송담당자로 하여금 1일 1회 신속, 정확하게 고객님의 농장까지 배송해드리고 있습니다.
 				    </p>
 				    <div class="btn-area">
 				        <p>

@@ -50,7 +50,7 @@
 	                    </p>
 	                    <div class="btn-area">
 	                        <p>
-	                            <a href="#" class="btn btn-green" role="button">다비육종 베트남 홈페이지 이동</a>
+	                            <a href="http://www.darbyvn.com/" class="btn btn-green" role="button" target="_blank">다비육종 베트남 홈페이지 이동</a>
 	                        </p>
 	                    </div>
 	                </div>

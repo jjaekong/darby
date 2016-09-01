@@ -42,7 +42,7 @@
                                     <img src="/assets/images/introduce/ability_img02.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초<br>상업 SP (인공수정)센터의 설립
+                                    국내최초<br>상업 SP(인공수정)센터의 설립
                                 </p>
                             </div>
                         </li>
@@ -112,7 +112,7 @@
                                     <img src="/assets/images/introduce/ability_img09.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초 캄보디아에<br>종돈 및 돈사시설 지원
+                                    	국내 종돈업계 최초<br>태국, 캄보디아에 종돈 수출
                                 </p>
                             </div>
                         </li>
@@ -122,7 +122,7 @@
                                     <img src="/assets/images/introduce/ability_img10.gif" alt="">
                                 </p>
                                 <p class="details">
-                                    국내최초 4개 품종(LL,YY,DD,PP)<br>PRRS,MH, APP 음성 돈군 보유
+                                    국내최초 4개 품종(LL,YY,DD,PP)<br>PRRS<sup>5</sup>, MH<sup>6</sup>, APP<sup>7</sup> 음성 돈군 보유
                                 </p>
                             </div>
                         </li>
@@ -152,6 +152,9 @@
 					<p class="account">MEW<sup>2</sup> (Medicated Early Weaning, 투약조기이유)</p>
 					<p class="account">SEW<sup>3</sup> (Segregated Early Weaning, 격리조기이유)</p>
 					<p class="account">CQM<sup>4</sup> (Challenge 27 Quality Management Committee)</p>
+					<p class="account">PRRS<sup>5</sup> (Porcine Reproductive and Respiratory Syndrome, 돼지 생식기 호흡기 증후군)</p>
+					<p class="account">MH<sup>6</sup> (Mycoplasma, 마이코플라즈마)</p>
+					<p class="account">APP<sup>7</sup> (Actinobacillus Pleuropneumoniae, 흉막폐렴)</p>
 				</div>
 			</section>
 			<section class="guest">
@@ -170,7 +173,7 @@
 					<li>매년 가을 최신 양돈기술을 공유하는 <i>다비퀸 세미나</i></li>
 					<li>농가의 생산성 향상을 위한 <i>사랑방 세미나</i></li>
 					<li>분기별 양돈기술과 업계소식을 전하는 <i>다비퀸 기술 정보지 발행</i></li>
-					<li>브랜드 단위의 계열화 농가 및 협업단체에<i>양돈관련 신기술 보급</i></li>
+					<li>브랜드 단위의 계열화 농가 및 협업단체에<i> 양돈관련 신기술 보급</i></li>
 					<li>종돈의 개량부터 돈육의 최종 소비에 이르기까지 고객의 요구 경청, 소비자시민모임에서<i>‘우수축산물 브랜드 인증’</i></li>
 				</ul>
 			</section>
@@ -209,7 +212,7 @@
                                 <img src="/assets/images/introduce/invest_img03.png" alt="">
                             </p>
                             <p class="details">
-                               전 돈군의 <i>PSS<sup>2</sup></i> 유전인자 제거
+                               전 돈군의 <i>PSS<sup>2</sup></i> 유전인자 제거,<br>스트레스로 인한 돈육 품질 저하 방지
                             </p>
                         </div>
                     </li>
@@ -219,7 +222,7 @@
                                 <img src="/assets/images/introduce/invest_img04.png" alt="">
                             </p>
                             <p class="details">
-                                국내최초 BLUP3을 통한 <br>
+                                국내최초 BLUP<sup>3</sup>을 통한 <br>
                                 유전평가 결과를 바탕으로 과학적 선발
                             </p>
                         </div>
@@ -252,7 +255,7 @@
                                 <img src="/assets/images/introduce/invest_img07.png" alt="">
                             </p>
                             <p class="details">
-                                육종연구소 설립
+                                육종연구소 설립,<br>체계적인 육종 시스템 구축
                             </p>
                         </div>
                     </li>
