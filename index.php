@@ -14,7 +14,7 @@
                 </li>
                 <li>
                     <img src="/assets/images/main/img_campaign_3.jpg" alt="">
-                </li>
+                </li> 
             </ul>
         </div>
         <div id="products">
